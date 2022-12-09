@@ -115,6 +115,8 @@ def perform_sizing_intermediate_load(circuit: list):
     return circuit
 
 
+
+
 #NOTE: there must be a final load
 '''
 circ = [inv(), nand2(), nor2(), inv(), load(256.0 * 16.0 / 60.0)]
