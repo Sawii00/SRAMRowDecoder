@@ -1,4 +1,6 @@
 import copy
+
+
 class gate:
     def __init__(self, name, p, g, b, intr, gamma=1):
         self.name = name
@@ -13,7 +15,7 @@ class gate:
         return self.intr * self.gamma
 
     def __str__(self):
-        return f"\n\t{self.name} -> | GAMMA: {self.gamma} | \t\tp: {self.p}, g: {self.g}, b: {self.b}";
+        return f"\n\t{self.name} -> | GAMMA: {self.gamma} | \t\tp: {self.p}, g: {self.g}, b: {self.b}"
 
     def __repr__(self):
         return self.__str__()
@@ -24,7 +26,7 @@ class load:
         self.load = load
 
     def __str__(self):
-        return f"\n\tLoad: {self.load}";
+        return f"\n\tLoad: {self.load}"
 
     def __repr__(self):
         return self.__str__()
@@ -48,12 +50,12 @@ def set_h(circuit_: list, with_sizing=True):
         its output load and its internal load that it presents to the previous gate
     '''
     circuit = copy.deepcopy(circuit_)
-    assert (type(circuit[-1]) == load) # To make sure we have a final load
+    assert (type(circuit[-1]) == load)  # To make sure we have a final load
     post_g = circuit[-1].load
-    for i in range(len(circuit) - 2, -1, -1): # From second-to-last to 0
+    for i in range(len(circuit) - 2, -1, -1):  # From second-to-last to 0
         gate = circuit[i]
-        #NOTE: how do we handle intermediate loads for H computation??
-        if type(gate) == load: # If we have intermediate loads we skip it for now
+        # NOTE: how do we handle intermediate loads for H computation??
+        if type(gate) == load:  # If we have intermediate loads we skip it for now
             continue
         # Optionally we consider the beta of the gate when computing its intrinsic load
         gate.h = post_g / gate.get_effective_intr() if with_sizing else post_g / gate.intr
@@ -68,10 +70,12 @@ def compute_min_delay(circuit_: list):
     G = 1
     B = 1
     circuit = set_h(circuit, with_sizing=False)
-    length = len([g for g in circuit if type(g) != load]) # We compute how many stages we have excluding loads
+    # We compute how many stages we have excluding loads
+    length = len([g for g in circuit if type(g) != load])
     for gate in reversed(circuit[:-1]):
-        #NOTE: how do we handle intermediate load when computing delay?
-        if type(gate) == load: continue
+        # NOTE: how do we handle intermediate load when computing delay?
+        if type(gate) == load:
+            continue
         P += gate.p
         H *= gate.h
         G *= gate.g
@@ -85,16 +89,18 @@ def compute_curr_delay(circuit_: list):
     GHB = 0
     circuit = set_h(circuit, with_sizing=True)
     for gate in reversed(circuit[:-1]):
-        #NOTE: how do we handle intermediate load when computing delay?
-        if type(gate) == load: continue
+        # NOTE: how do we handle intermediate load when computing delay?
+        if type(gate) == load:
+            continue
         P += gate.p
         GHB += (gate.h * gate.b * gate.g)
     return P + GHB
 
 
-def perform_sizing(circuit_: list, clamp_to_1 = False):
+def perform_sizing(circuit_: list, clamp_to_1=False):
     circuit = copy.deepcopy(circuit_)
-    assert len([g for g in circuit if type(g) == load]) == 1 and type(circuit[-1]) == load
+    assert len([g for g in circuit if type(g) == load]
+               ) == 1 and type(circuit[-1]) == load
     P = 0
     H = 1
     G = 1
@@ -111,75 +117,118 @@ def perform_sizing(circuit_: list, clamp_to_1 = False):
     prev_gate = circuit[0]
     for gate in circuit[1:-1]:
         gate.gamma = prev_gate.gamma * f_cap / (prev_gate.b * gate.g)
-        if gate.gamma < 1 and clamp_to_1:gate.gamma = 1.0
+        if gate.gamma < 1 and clamp_to_1:
+            gate.gamma = 1.0
         prev_gate = gate
     return circuit
 
-def perform_sizing_intermediate_load(circuit_: list, clamp_to_1 = False):
+
+def perform_sizing_intermediate_load(circuit_: list, clamp_to_1=False):
     circuit = copy.deepcopy(circuit_)
     count = 0
-    circ_no_int = [] # Contains the entire circuit without intermediate load
+    circ_no_int = []  # Contains the entire circuit without intermediate load
     for g in circuit:
         if type(g) == load:
-            count += 1 # Just to count how many intermediate loads we have 
+            count += 1  # Just to count how many intermediate loads we have
         else:
             circ_no_int.append(g)
-    assert count == 2 and type(circuit[-1]) == load 
+    assert count == 2 and type(circuit[-1]) == load
     circ_no_int.append(circuit[-1])  # We add the final load
-    circ_no_int = perform_sizing(circ_no_int, clamp_to_1) # Sizes as if no intermediate cap was there the entire circuit
+    # Sizes as if no intermediate cap was there the entire circuit
+    circ_no_int = perform_sizing(circ_no_int, clamp_to_1)
     circ_a_b = []  # Contains the first part only until the intermediate load
     temp = 0
     for i in range(len(circuit)):
         if type(circuit[i]) != load:
-            circ_a_b.append(circ_no_int[i]) # We append the gate
-            circ_no_int[i].gamma = 1 # We reset the gamma
+            circ_a_b.append(circ_no_int[i])  # We append the gate
+            circ_no_int[i].gamma = 1  # We reset the gamma
         else:
             # When we reach the intermediate load we stop and we add a load that considers the int. load and branching load
-            circ_a_b.append(load(circuit[i].load + circuit[i - 1].b * circ_no_int[i].get_effective_intr()))
+            circ_a_b.append(
+                load(circuit[i].load + circuit[i - 1].b * circ_no_int[i].get_effective_intr()))
             temp = i
             break
     old_b = circ_a_b[-2].b
-    circ_a_b[-2].b = 1 # We have swapped out the potential branch load and therefore we have branching of 1 now (It will be restored later)
-    circuit = perform_sizing(circ_a_b, clamp_to_1) # We size the first part only
-    circuit.extend(circ_no_int[temp:]) # We add the rest of the circuit that we had sized before
+    # We have swapped out the potential branch load and therefore we have branching of 1 now (It will be restored later)
+    circ_a_b[-2].b = 1
+    # We size the first part only
+    circuit = perform_sizing(circ_a_b, clamp_to_1)
+    # We add the rest of the circuit that we had sized before
+    circuit.extend(circ_no_int[temp:])
     for i in range(len(circuit)):
         if type(circuit[i]) == load:
-            circuit[i-1].b = old_b # I restore the correct branching effort in the final circuit
+            # I restore the correct branching effort in the final circuit
+            circuit[i-1].b = old_b
             break
     return circuit
 
+def compute_curr_delay_intermediate_load(circuit_):
+    circuit = copy.deepcopy(circuit_)
+    intermediate_load_pos = 0
+    for i, gate in enumerate(circuit):
+        if type(gate) == load:
+            intermediate_load_pos = i
+            break
+    first_part = copy.deepcopy(circuit[:intermediate_load_pos])
+    first_part[-1].b = 1
+    second_part = circuit[intermediate_load_pos + 1:]
+    second_delay = compute_curr_delay(second_part)
+    first_part.append(load(circuit[intermediate_load_pos].load + first_part[-1].b * second_part[0].get_effective_intr()))
+    first_delay = compute_curr_delay(first_part)
+    return first_delay + second_delay
+
+def compute_area_cost(circuit_):
+    cost = 0
+    for gate in circuit_:
+        if type(gate) == load:continue
+        cost += gate.p * gate.g * gate.gamma
+    return cost
+
+
 
 print(
-        "------- 4X PREDECODER WITH INTERMEDIATE LOAD------------------------------------------------------------------\n")
-first_part = [inv(), inv(b=2), nand2(), inv(b=4), nand2(), inv(b=16), load(228.72), nand2(), inv(), load(66.06)]
-min_del_first = compute_min_delay(first_part)
-print("MIN_DELAY:", min_del_first) # DONT TRUST THIS VALUE IT HAS NO MEANING
-print()
-print("CURR_DELAY:", compute_curr_delay(first_part))
+    "------- 4X PREDECODER WITH INTERMEDIATE LOAD------------------------------------------------------------------\n")
+first_part = [inv(), inv(b=8), nand2(), inv(), nand2(), inv(b=16), load(228.72), nand2(), inv(), load(66.06)]
+#first_part = [inv(), inv(b=8), nand2(), inv(), nand2(),
+              #inv(b=16), load(233), nand2(), inv(), load(66)]
+#min_del_first = compute_min_delay(first_part)
+#print("MIN_DELAY:", min_del_first)  # DONT TRUST THIS VALUE IT HAS NO MEANING
+#print()
+print("CURR_DELAY:", compute_curr_delay_intermediate_load(first_part))
 first_part_sized = perform_sizing_intermediate_load(first_part, True)
-print("AFTER_SIZING:", compute_curr_delay(first_part_sized))
+print("AFTER_SIZING:", compute_curr_delay_intermediate_load(first_part_sized))
+
+print()
+print("AREA:", compute_area_cost(first_part_sized))
 print("\nCIRCUIT:", first_part_sized)
 
 print(
-        "------- 2X PREDECODER WITH INTERMEDIATE LOAD------------------------------------------------------------------\n")
+    "------- 2X PREDECODER WITH INTERMEDIATE LOAD------------------------------------------------------------------\n")
 first_part = [inv(), inv(b=2), nand2(), inv(b=64), load(228.72), nand2(), inv(), nand2(), inv(), load(66.06)]
-min_del_first = compute_min_delay(first_part)
-print("MIN_DELAY:", min_del_first)
-print()
-print("CURR_DELAY:", compute_curr_delay(first_part))
+#first_part = [inv(), inv(b=2), nand2(), inv(b=64), load(233),
+              #nand2(), inv(), nand2(), inv(), load(66)]
+#min_del_first = compute_min_delay(first_part)
+#print("MIN_DELAY:", min_del_first)
+#print()
+print("CURR_DELAY:", compute_curr_delay_intermediate_load(first_part))
 first_part_sized = perform_sizing_intermediate_load(first_part, True)
-print("AFTER_SIZING:", compute_curr_delay(first_part_sized))
+print("AFTER_SIZING:", compute_curr_delay_intermediate_load(first_part_sized))
+print()
+print("AREA:", compute_area_cost(first_part_sized))
 print("\nCIRCUIT:", first_part_sized)
 
 print(
-        "------- 1X PREDECODER WITH INTERMEDIATE LOAD------------------------------------------------------------------\n")
-first_part = [inv(), inv(b=128), load(228.72), nand2(), inv(), nand2(), inv(), nand2(), inv(), load(66.06)]
-min_del_first = compute_min_delay(first_part)
-print("MIN_DELAY:", min_del_first)
-print()
-print("CURR_DELAY:", compute_curr_delay(first_part))
+    "------- 1X PREDECODER WITH INTERMEDIATE LOAD------------------------------------------------------------------\n")
+first_part = [inv(), inv(b=128), load(228.72), nand2(), inv(),
+              nand2(), inv(), nand2(), inv(), load(66.06)]
+#min_del_first = compute_min_delay(first_part)
+#print("MIN_DELAY:", min_del_first)
+#print()
+print("CURR_DELAY:", compute_curr_delay_intermediate_load(first_part))
 first_part_sized = perform_sizing_intermediate_load(first_part, True)
-print("AFTER_SIZING:", compute_curr_delay(first_part_sized))
+print("AFTER_SIZING:", compute_curr_delay_intermediate_load(first_part_sized))
+print()
+print("AREA:", compute_area_cost(first_part_sized))
 print("\nCIRCUIT:", first_part_sized)
 
 
