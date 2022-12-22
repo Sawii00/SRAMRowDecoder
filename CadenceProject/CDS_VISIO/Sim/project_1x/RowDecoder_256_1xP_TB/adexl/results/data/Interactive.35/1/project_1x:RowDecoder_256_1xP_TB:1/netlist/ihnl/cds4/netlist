@@ -1,0 +1,4 @@
+    I1 (net5 Z) INV gamma=gamma beta=beta
+    I0 (A net5) INV gamma=gamma beta=beta
+ends BUF
+// End of subcircuit definition.

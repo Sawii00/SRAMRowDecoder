@@ -1,0 +1,6 @@
+
+// Library name: project_common
+// Cell name: BitCellLoad_L
+// View name: schematic
+// Inherited view list: spectre cmos_sch schematic veriloga ahdl
+subckt BitCellLoad_L WL

@@ -1,0 +1,7 @@
+
+// Library name: project_common
+// Cell name: INV
+// View name: schematic
+// Inherited view list: spectre cmos_sch schematic veriloga ahdl
+subckt INV A Z
+parameters gamma=1 beta=2

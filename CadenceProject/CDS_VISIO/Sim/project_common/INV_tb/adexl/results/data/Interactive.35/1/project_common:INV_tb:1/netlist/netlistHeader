@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Dec 21 21:40:32 2022
+// Design library name: project_common
+// Design cell name: INV_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0

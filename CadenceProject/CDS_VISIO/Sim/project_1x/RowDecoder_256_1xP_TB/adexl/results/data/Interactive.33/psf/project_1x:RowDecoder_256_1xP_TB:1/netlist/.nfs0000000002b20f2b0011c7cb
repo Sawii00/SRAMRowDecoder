@@ -1,0 +1,22 @@
+Begin Incremental Netlisting Dec 16 17:08:09 2021
+ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview
+'project_1x/Post_L8_256t8/spectreText'. The OSS netlister can only
+process
+cellviews that have a valid .oa file. This file can be created by
+either
+importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+opening
+and writing the text file in the Library Manager.
+
+End netlisting Dec 16 17:08:09 2021
+Begin Incremental Netlisting Dec 16 17:08:09 2021
+ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview
+'project_1x/Post_L8_256t8/spectreText'. The OSS netlister can only
+process
+cellviews that have a valid .oa file. This file can be created by
+either
+importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+opening
+and writing the text file in the Library Manager.
+
+End netlisting Dec 16 17:08:09 2021

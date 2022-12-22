@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      edauser85
+HostName                       selsrv2.epfl.ch
+ProcessIdentifier              28171
+ProcessCreationTime_UTC        1671701483
+ProcessCreationTime_Readable   Thu Dec 22 10:31:23 2022 CET
+AppIdentifier                  /softs/cadence/ic/6.1.7/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Lock file for generating unique number for ICRP command and log file directories.
+FilePathUsedToEditLock         /home/edauser85/2022_project/CDS_VISIO/.tmp_edauser85/.unique_number_0_file
+TimeEditLocked                 Thu Dec 22 10:33:34 2022 CET

@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"I2n" "NOR2"
+"I1n I0n" "NAND2"
+"A<3>v" ":1v"
+"A<2>v" ":2v"
+"A<1>v" ":3v"
+"A<0>v" ":4v"
+"SelOUTv" ":5v"

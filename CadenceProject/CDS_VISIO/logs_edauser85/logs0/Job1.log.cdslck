@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      edauser85
+HostName                       selsrv2.epfl.ch
+ProcessIdentifier              15202
+ProcessCreationTime_UTC        1671655353
+ProcessCreationTime_Readable   Wed Dec 21 21:42:33 2022 CET
+AppIdentifier                  /softs/cadence/ic/6.1.7/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /home/edauser85/2022_project/CDS_VISIO/logs_edauser85/logs0/Job1.log
+TimeEditLocked                 Wed Dec 21 21:43:04 2022 CET

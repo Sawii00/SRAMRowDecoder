@@ -1,0 +1,4 @@
+    I1\<1\> (ADDR\<0\> AOut\<1\>) iprobe
+    I1\<0\> (ADDRb\<0\> AOut\<0\>) iprobe
+ends Pre_L0_1t2_NAND
+// End of subcircuit definition.

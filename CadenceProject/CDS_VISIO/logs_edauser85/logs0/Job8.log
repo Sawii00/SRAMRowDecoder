@@ -1,0 +1,88 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = project_common
+	Cell         = INV_tb
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = project_common:INV_tb:1_none_Interactive.7
+	Results DB   = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl/results/data/Interactive.7.rdb
+	Results Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.7/1/project_common:INV_tb:1
+	Results Loc  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data
+	Project Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim
+	Setup DB loc = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (4 1) on testbench [
+          project_common:INV_tb:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var cap_val = "1f"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.7/1/project_common:INV_tb:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.7/1/project_common:INV_tb:1
+
+
+*Info*    Creating Netlist for Point ID (4 1)
+
+generate netlist...
+Begin Incremental Netlisting Dec 21 16:58:21 2022
+End netlisting Dec 21 16:58:21 2022
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+          for Point ID (4 1).
+
+Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.7/1/project_common:INV_tb:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (4 1) on testbench [
+          project_common:INV_tb:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables8".
+To save future changes, copy variables to cellView before exiting.

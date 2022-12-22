@@ -1,0 +1,8 @@
+    I4 (net05 SelOUT) INV gamma=pre_inv2_gamma beta=2
+    I3 (net7 net06) INV gamma=pre_inv1_gamma beta=2
+    I2 (net6 net04) INV gamma=pre_inv1_gamma beta=2
+    I5 (net04 net06 net05) NAND2 gamma=pre_nand2_gamma beta=2
+    I1 (A\<1\> A\<0\> net7) NAND2 gamma=pre_nand1_gamma beta=2
+    I0 (A\<3\> A\<2\> net6) NAND2 gamma=pre_nand1_gamma beta=2
+ends Pre
+// End of subcircuit definition.

@@ -1,0 +1,6 @@
+
+// Library name: project_common
+// Cell name: BitCellRow
+// View name: schematic
+subckt BitCellRow WL
+parameters Rwire Cwire

@@ -1,0 +1,7 @@
+
+// Library name: project_4x
+// Cell name: Pre_L0_1t2
+// View name: schematic
+subckt Pre_L0_1t2 A\<3\> A\<2\> A\<1\> ADDR\<0\> ADDRb\<0\> AOut\<7\> \
+        AOut\<6\> AOut\<5\> AOut\<4\> AOut\<3\> AOut\<2\> AOut\<1\> \
+        AOut\<0\>

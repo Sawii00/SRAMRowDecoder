@@ -1,0 +1,4 @@
+    R1 (SelOUT\<1\> Sel1) R_1X_LL l=100n w=100n m=1
+    R0 (SelOUT\<0\> Sel0) R_1X_LL l=100n w=100n m=1
+ends Post_L0_1t2
+// End of subcircuit definition.

@@ -1,0 +1,16 @@
+    I1 (ADDRb\<3\> ADDR\<2\> ADDR\<1\> ADDR\<0\> ADDRb\<2\> ADDRb\<1\> \
+        ADDRb\<0\> AOut\<31\> AOut\<30\> AOut\<29\> AOut\<28\> AOut\<27\> \
+        AOut\<26\> AOut\<25\> AOut\<24\> AOut\<23\> AOut\<22\> AOut\<21\> \
+        AOut\<20\> AOut\<19\> AOut\<18\> AOut\<17\> AOut\<16\> AOut\<15\> \
+        AOut\<14\> AOut\<13\> AOut\<12\> AOut\<11\> AOut\<10\> AOut\<9\> \
+        AOut\<8\> AOut\<7\> AOut\<6\> AOut\<5\> AOut\<4\> AOut\<3\> \
+        AOut\<2\> AOut\<1\> AOut\<0\>) Pre_L2_3t8
+    I0 (ADDR\<3\> ADDR\<2\> ADDR\<1\> ADDR\<0\> ADDRb\<2\> ADDRb\<1\> \
+        ADDRb\<0\> AOut\<63\> AOut\<62\> AOut\<61\> AOut\<60\> AOut\<59\> \
+        AOut\<58\> AOut\<57\> AOut\<56\> AOut\<55\> AOut\<54\> AOut\<53\> \
+        AOut\<52\> AOut\<51\> AOut\<50\> AOut\<49\> AOut\<48\> AOut\<47\> \
+        AOut\<46\> AOut\<45\> AOut\<44\> AOut\<43\> AOut\<42\> AOut\<41\> \
+        AOut\<40\> AOut\<39\> AOut\<38\> AOut\<37\> AOut\<36\> AOut\<35\> \
+        AOut\<34\> AOut\<33\> AOut\<32\>) Pre_L2_3t8
+ends Pre_L3_4t16_NAND
+// End of subcircuit definition.

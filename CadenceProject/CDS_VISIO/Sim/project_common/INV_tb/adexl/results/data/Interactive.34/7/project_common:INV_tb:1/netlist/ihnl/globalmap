@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+project_common/INV_tb/schematic INV_tb
+project_common/INV/schematic INV
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+cap_val cap_val
+$endparam

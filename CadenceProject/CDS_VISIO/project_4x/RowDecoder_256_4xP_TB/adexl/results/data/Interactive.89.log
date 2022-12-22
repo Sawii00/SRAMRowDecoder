@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Dec 22 12:04:54 2022 
+Best design point: 1
+Design specs: 
+	project_4x:RowDecoder_256_4xP_TB:1	corner	Nominal - 
+	PropDelay		364.3p
+	PreIO		192.6p
+	PostIO		80.96p
+Design parameters: 
+	pre_nand1_gamma		1
+	pre_inv1_gamma		4
+	pre_nand2_gamma		12
+	pre_inv2_gamma		42
+	post_nand_gamma		8
+	post_inv_gamma		18
+
+Interactive.89
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.89 completed. 
+Current time: Thu Dec 22 12:07:19 2022 

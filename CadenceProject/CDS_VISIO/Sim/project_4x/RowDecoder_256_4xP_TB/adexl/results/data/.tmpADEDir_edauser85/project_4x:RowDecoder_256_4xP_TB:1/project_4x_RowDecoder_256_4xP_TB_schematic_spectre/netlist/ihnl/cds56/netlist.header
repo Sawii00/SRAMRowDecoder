@@ -1,0 +1,12 @@
+
+// Library name: project_4x
+// Cell name: Post_L1_16t2
+// View name: schematic
+subckt Post_L1_16t2 Sel0\<15\> Sel0\<14\> Sel0\<13\> Sel0\<12\> Sel0\<11\> \
+        Sel0\<10\> Sel0\<9\> Sel0\<8\> Sel0\<7\> Sel0\<6\> Sel0\<5\> \
+        Sel0\<4\> Sel0\<3\> Sel0\<2\> Sel0\<1\> Sel0\<0\> Sel1 WL\<31\> \
+        WL\<30\> WL\<29\> WL\<28\> WL\<27\> WL\<26\> WL\<25\> WL\<24\> \
+        WL\<23\> WL\<22\> WL\<21\> WL\<20\> WL\<19\> WL\<18\> WL\<17\> \
+        WL\<16\> WL\<15\> WL\<14\> WL\<13\> WL\<12\> WL\<11\> WL\<10\> \
+        WL\<9\> WL\<8\> WL\<7\> WL\<6\> WL\<5\> WL\<4\> WL\<3\> WL\<2\> \
+        WL\<1\> WL\<0\>

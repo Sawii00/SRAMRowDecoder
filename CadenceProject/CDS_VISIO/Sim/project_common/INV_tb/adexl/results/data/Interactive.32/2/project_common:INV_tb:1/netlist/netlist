@@ -1,0 +1,13 @@
+
+// Library name: project_common
+// Cell name: INV_tb
+// View name: schematic
+V0 (I 0) vsource type=pulse val0=0 val1=1 period=10n
+C0 (O 0) capacitor c=cap_val
+V1 (net06 0) vsource dc=1 type=dc
+PM0 (O I net06 net06) p_12_llrvt l=60n w=200n sa=1.6e-07 sb=1.6e-07 nf=1 \
+        mis_flag=1 sd=0 as=32f ad=32f ps=720n pd=720n sca=76.1905 \
+        scb=34.8763m scc=10.5484m m=1 mf=1
+NM0 (O I 0 0) n_12_llrvt l=60n w=80n sa=175n sb=175n nf=1 mis_flag=1 sd=0 \
+        as=24.8f ad=24.8f ps=690n pd=690n sca=115.942 scb=36.4681m \
+        scc=14.1857m m=1 mf=1

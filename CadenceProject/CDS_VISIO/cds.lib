@@ -1,0 +1,8 @@
+-- including the libraries from the design kit
+INCLUDE environment.lib
+
+-- your libraries
+DEFINE project_common ./project_common
+DEFINE project_4x ./project_4x
+DEFINE project_2x ./project_2x
+DEFINE project_1x ./project_1x

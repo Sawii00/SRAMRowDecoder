@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Dec 17 14:52:37 2021
+// Design library name: project_1x_res
+// Design cell name: RowDecoder_256_1xP_TB
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!

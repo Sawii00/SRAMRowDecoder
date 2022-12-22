@@ -1,0 +1,6 @@
+
+// Library name: project_1x
+// Cell name: AddrBuf
+// View name: schematic
+// Inherited view list: spectre cmos_sch schematic veriloga ahdl
+subckt AddrBuf A Z

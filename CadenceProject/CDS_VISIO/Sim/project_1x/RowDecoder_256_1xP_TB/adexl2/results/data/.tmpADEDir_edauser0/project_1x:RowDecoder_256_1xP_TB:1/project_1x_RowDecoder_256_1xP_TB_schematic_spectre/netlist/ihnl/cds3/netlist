@@ -1,0 +1,10 @@
+    I6 (net09 net08 net010) NAND2 gamma=1 beta=2
+    I5 (A\<5\> A\<4\> net06) NAND2 gamma=1 beta=2
+    I3 (A\<7\> A\<6\> net07) NAND2 gamma=1 beta=2
+    I1 (A\<1\> A\<0\> net4) NAND2 gamma=1 beta=2
+    I0 (A\<3\> A\<2\> net7) NAND2 gamma=1 beta=2
+    I7 (net010 WL) INV gamma=1 beta=2
+    I4 (net07 net06 net09) NOR2 gamma=1 beta=2
+    I2 (net7 net4 net08) NOR2 gamma=1 beta=2
+ends Post
+// End of subcircuit definition.

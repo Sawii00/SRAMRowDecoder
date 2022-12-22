@@ -1,0 +1,113 @@
+
+// Library name: project_4x
+// Cell name: Post_L2_256t2
+// View name: schematic
+subckt Post_L2_256t2 Sel0\<15\> Sel0\<14\> Sel0\<13\> Sel0\<12\> \
+        Sel0\<11\> Sel0\<10\> Sel0\<9\> Sel0\<8\> Sel0\<7\> Sel0\<6\> \
+        Sel0\<5\> Sel0\<4\> Sel0\<3\> Sel0\<2\> Sel0\<1\> Sel0\<0\> \
+        Sel1\<15\> Sel1\<14\> Sel1\<13\> Sel1\<12\> Sel1\<11\> Sel1\<10\> \
+        Sel1\<9\> Sel1\<8\> Sel1\<7\> Sel1\<6\> Sel1\<5\> Sel1\<4\> \
+        Sel1\<3\> Sel1\<2\> Sel1\<1\> Sel1\<0\> WLSel\<511\> WLSel\<510\> \
+        WLSel\<509\> WLSel\<508\> WLSel\<507\> WLSel\<506\> WLSel\<505\> \
+        WLSel\<504\> WLSel\<503\> WLSel\<502\> WLSel\<501\> WLSel\<500\> \
+        WLSel\<499\> WLSel\<498\> WLSel\<497\> WLSel\<496\> WLSel\<495\> \
+        WLSel\<494\> WLSel\<493\> WLSel\<492\> WLSel\<491\> WLSel\<490\> \
+        WLSel\<489\> WLSel\<488\> WLSel\<487\> WLSel\<486\> WLSel\<485\> \
+        WLSel\<484\> WLSel\<483\> WLSel\<482\> WLSel\<481\> WLSel\<480\> \
+        WLSel\<479\> WLSel\<478\> WLSel\<477\> WLSel\<476\> WLSel\<475\> \
+        WLSel\<474\> WLSel\<473\> WLSel\<472\> WLSel\<471\> WLSel\<470\> \
+        WLSel\<469\> WLSel\<468\> WLSel\<467\> WLSel\<466\> WLSel\<465\> \
+        WLSel\<464\> WLSel\<463\> WLSel\<462\> WLSel\<461\> WLSel\<460\> \
+        WLSel\<459\> WLSel\<458\> WLSel\<457\> WLSel\<456\> WLSel\<455\> \
+        WLSel\<454\> WLSel\<453\> WLSel\<452\> WLSel\<451\> WLSel\<450\> \
+        WLSel\<449\> WLSel\<448\> WLSel\<447\> WLSel\<446\> WLSel\<445\> \
+        WLSel\<444\> WLSel\<443\> WLSel\<442\> WLSel\<441\> WLSel\<440\> \
+        WLSel\<439\> WLSel\<438\> WLSel\<437\> WLSel\<436\> WLSel\<435\> \
+        WLSel\<434\> WLSel\<433\> WLSel\<432\> WLSel\<431\> WLSel\<430\> \
+        WLSel\<429\> WLSel\<428\> WLSel\<427\> WLSel\<426\> WLSel\<425\> \
+        WLSel\<424\> WLSel\<423\> WLSel\<422\> WLSel\<421\> WLSel\<420\> \
+        WLSel\<419\> WLSel\<418\> WLSel\<417\> WLSel\<416\> WLSel\<415\> \
+        WLSel\<414\> WLSel\<413\> WLSel\<412\> WLSel\<411\> WLSel\<410\> \
+        WLSel\<409\> WLSel\<408\> WLSel\<407\> WLSel\<406\> WLSel\<405\> \
+        WLSel\<404\> WLSel\<403\> WLSel\<402\> WLSel\<401\> WLSel\<400\> \
+        WLSel\<399\> WLSel\<398\> WLSel\<397\> WLSel\<396\> WLSel\<395\> \
+        WLSel\<394\> WLSel\<393\> WLSel\<392\> WLSel\<391\> WLSel\<390\> \
+        WLSel\<389\> WLSel\<388\> WLSel\<387\> WLSel\<386\> WLSel\<385\> \
+        WLSel\<384\> WLSel\<383\> WLSel\<382\> WLSel\<381\> WLSel\<380\> \
+        WLSel\<379\> WLSel\<378\> WLSel\<377\> WLSel\<376\> WLSel\<375\> \
+        WLSel\<374\> WLSel\<373\> WLSel\<372\> WLSel\<371\> WLSel\<370\> \
+        WLSel\<369\> WLSel\<368\> WLSel\<367\> WLSel\<366\> WLSel\<365\> \
+        WLSel\<364\> WLSel\<363\> WLSel\<362\> WLSel\<361\> WLSel\<360\> \
+        WLSel\<359\> WLSel\<358\> WLSel\<357\> WLSel\<356\> WLSel\<355\> \
+        WLSel\<354\> WLSel\<353\> WLSel\<352\> WLSel\<351\> WLSel\<350\> \
+        WLSel\<349\> WLSel\<348\> WLSel\<347\> WLSel\<346\> WLSel\<345\> \
+        WLSel\<344\> WLSel\<343\> WLSel\<342\> WLSel\<341\> WLSel\<340\> \
+        WLSel\<339\> WLSel\<338\> WLSel\<337\> WLSel\<336\> WLSel\<335\> \
+        WLSel\<334\> WLSel\<333\> WLSel\<332\> WLSel\<331\> WLSel\<330\> \
+        WLSel\<329\> WLSel\<328\> WLSel\<327\> WLSel\<326\> WLSel\<325\> \
+        WLSel\<324\> WLSel\<323\> WLSel\<322\> WLSel\<321\> WLSel\<320\> \
+        WLSel\<319\> WLSel\<318\> WLSel\<317\> WLSel\<316\> WLSel\<315\> \
+        WLSel\<314\> WLSel\<313\> WLSel\<312\> WLSel\<311\> WLSel\<310\> \
+        WLSel\<309\> WLSel\<308\> WLSel\<307\> WLSel\<306\> WLSel\<305\> \
+        WLSel\<304\> WLSel\<303\> WLSel\<302\> WLSel\<301\> WLSel\<300\> \
+        WLSel\<299\> WLSel\<298\> WLSel\<297\> WLSel\<296\> WLSel\<295\> \
+        WLSel\<294\> WLSel\<293\> WLSel\<292\> WLSel\<291\> WLSel\<290\> \
+        WLSel\<289\> WLSel\<288\> WLSel\<287\> WLSel\<286\> WLSel\<285\> \
+        WLSel\<284\> WLSel\<283\> WLSel\<282\> WLSel\<281\> WLSel\<280\> \
+        WLSel\<279\> WLSel\<278\> WLSel\<277\> WLSel\<276\> WLSel\<275\> \
+        WLSel\<274\> WLSel\<273\> WLSel\<272\> WLSel\<271\> WLSel\<270\> \
+        WLSel\<269\> WLSel\<268\> WLSel\<267\> WLSel\<266\> WLSel\<265\> \
+        WLSel\<264\> WLSel\<263\> WLSel\<262\> WLSel\<261\> WLSel\<260\> \
+        WLSel\<259\> WLSel\<258\> WLSel\<257\> WLSel\<256\> WLSel\<255\> \
+        WLSel\<254\> WLSel\<253\> WLSel\<252\> WLSel\<251\> WLSel\<250\> \
+        WLSel\<249\> WLSel\<248\> WLSel\<247\> WLSel\<246\> WLSel\<245\> \
+        WLSel\<244\> WLSel\<243\> WLSel\<242\> WLSel\<241\> WLSel\<240\> \
+        WLSel\<239\> WLSel\<238\> WLSel\<237\> WLSel\<236\> WLSel\<235\> \
+        WLSel\<234\> WLSel\<233\> WLSel\<232\> WLSel\<231\> WLSel\<230\> \
+        WLSel\<229\> WLSel\<228\> WLSel\<227\> WLSel\<226\> WLSel\<225\> \
+        WLSel\<224\> WLSel\<223\> WLSel\<222\> WLSel\<221\> WLSel\<220\> \
+        WLSel\<219\> WLSel\<218\> WLSel\<217\> WLSel\<216\> WLSel\<215\> \
+        WLSel\<214\> WLSel\<213\> WLSel\<212\> WLSel\<211\> WLSel\<210\> \
+        WLSel\<209\> WLSel\<208\> WLSel\<207\> WLSel\<206\> WLSel\<205\> \
+        WLSel\<204\> WLSel\<203\> WLSel\<202\> WLSel\<201\> WLSel\<200\> \
+        WLSel\<199\> WLSel\<198\> WLSel\<197\> WLSel\<196\> WLSel\<195\> \
+        WLSel\<194\> WLSel\<193\> WLSel\<192\> WLSel\<191\> WLSel\<190\> \
+        WLSel\<189\> WLSel\<188\> WLSel\<187\> WLSel\<186\> WLSel\<185\> \
+        WLSel\<184\> WLSel\<183\> WLSel\<182\> WLSel\<181\> WLSel\<180\> \
+        WLSel\<179\> WLSel\<178\> WLSel\<177\> WLSel\<176\> WLSel\<175\> \
+        WLSel\<174\> WLSel\<173\> WLSel\<172\> WLSel\<171\> WLSel\<170\> \
+        WLSel\<169\> WLSel\<168\> WLSel\<167\> WLSel\<166\> WLSel\<165\> \
+        WLSel\<164\> WLSel\<163\> WLSel\<162\> WLSel\<161\> WLSel\<160\> \
+        WLSel\<159\> WLSel\<158\> WLSel\<157\> WLSel\<156\> WLSel\<155\> \
+        WLSel\<154\> WLSel\<153\> WLSel\<152\> WLSel\<151\> WLSel\<150\> \
+        WLSel\<149\> WLSel\<148\> WLSel\<147\> WLSel\<146\> WLSel\<145\> \
+        WLSel\<144\> WLSel\<143\> WLSel\<142\> WLSel\<141\> WLSel\<140\> \
+        WLSel\<139\> WLSel\<138\> WLSel\<137\> WLSel\<136\> WLSel\<135\> \
+        WLSel\<134\> WLSel\<133\> WLSel\<132\> WLSel\<131\> WLSel\<130\> \
+        WLSel\<129\> WLSel\<128\> WLSel\<127\> WLSel\<126\> WLSel\<125\> \
+        WLSel\<124\> WLSel\<123\> WLSel\<122\> WLSel\<121\> WLSel\<120\> \
+        WLSel\<119\> WLSel\<118\> WLSel\<117\> WLSel\<116\> WLSel\<115\> \
+        WLSel\<114\> WLSel\<113\> WLSel\<112\> WLSel\<111\> WLSel\<110\> \
+        WLSel\<109\> WLSel\<108\> WLSel\<107\> WLSel\<106\> WLSel\<105\> \
+        WLSel\<104\> WLSel\<103\> WLSel\<102\> WLSel\<101\> WLSel\<100\> \
+        WLSel\<99\> WLSel\<98\> WLSel\<97\> WLSel\<96\> WLSel\<95\> \
+        WLSel\<94\> WLSel\<93\> WLSel\<92\> WLSel\<91\> WLSel\<90\> \
+        WLSel\<89\> WLSel\<88\> WLSel\<87\> WLSel\<86\> WLSel\<85\> \
+        WLSel\<84\> WLSel\<83\> WLSel\<82\> WLSel\<81\> WLSel\<80\> \
+        WLSel\<79\> WLSel\<78\> WLSel\<77\> WLSel\<76\> WLSel\<75\> \
+        WLSel\<74\> WLSel\<73\> WLSel\<72\> WLSel\<71\> WLSel\<70\> \
+        WLSel\<69\> WLSel\<68\> WLSel\<67\> WLSel\<66\> WLSel\<65\> \
+        WLSel\<64\> WLSel\<63\> WLSel\<62\> WLSel\<61\> WLSel\<60\> \
+        WLSel\<59\> WLSel\<58\> WLSel\<57\> WLSel\<56\> WLSel\<55\> \
+        WLSel\<54\> WLSel\<53\> WLSel\<52\> WLSel\<51\> WLSel\<50\> \
+        WLSel\<49\> WLSel\<48\> WLSel\<47\> WLSel\<46\> WLSel\<45\> \
+        WLSel\<44\> WLSel\<43\> WLSel\<42\> WLSel\<41\> WLSel\<40\> \
+        WLSel\<39\> WLSel\<38\> WLSel\<37\> WLSel\<36\> WLSel\<35\> \
+        WLSel\<34\> WLSel\<33\> WLSel\<32\> WLSel\<31\> WLSel\<30\> \
+        WLSel\<29\> WLSel\<28\> WLSel\<27\> WLSel\<26\> WLSel\<25\> \
+        WLSel\<24\> WLSel\<23\> WLSel\<22\> WLSel\<21\> WLSel\<20\> \
+        WLSel\<19\> WLSel\<18\> WLSel\<17\> WLSel\<16\> WLSel\<15\> \
+        WLSel\<14\> WLSel\<13\> WLSel\<12\> WLSel\<11\> WLSel\<10\> \
+        WLSel\<9\> WLSel\<8\> WLSel\<7\> WLSel\<6\> WLSel\<5\> WLSel\<4\> \
+        WLSel\<3\> WLSel\<2\> WLSel\<1\> WLSel\<0\>
+parameters Rwire Cwire

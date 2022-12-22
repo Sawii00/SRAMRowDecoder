@@ -1,0 +1,6 @@
+
+// Library name: project_common
+// Cell name: BUF
+// View name: schematic
+subckt BUF A Z
+parameters gamma beta

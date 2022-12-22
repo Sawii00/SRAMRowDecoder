@@ -1,0 +1,126 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = project_4x
+	Cell         = RowDecoder_256_4xP_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = project_4x:RowDecoder_256_4xP_TB:1_none_Interactive.90
+	Results DB   = /home/edauser85/2022_project/CDS_VISIO/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.90.rdb
+	Results Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.90/1/project_4x:RowDecoder_256_4xP_TB:1
+	Results Loc  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data
+	Project Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim
+	Setup DB loc = /home/edauser85/2022_project/CDS_VISIO/project_4x/RowDecoder_256_4xP_TB/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (9 1) on testbench [
+          project_4x:RowDecoder_256_4xP_TB:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var post_inv_gamma = "18"
+Setting var post_nand_gamma = "8"
+Setting var pre_inv1_gamma = "4"
+Setting var pre_inv2_gamma = "42"
+Setting var pre_nand1_gamma = "1"
+Setting var pre_nand2_gamma = "12"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.90/1/project_4x:RowDecoder_256_4xP_TB:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.90/1/project_4x:RowDecoder_256_4xP_TB:1
+
+
+*Info*    Creating Netlist for Point ID (9 1)
+
+generate netlist...
+Begin Incremental Netlisting Dec 22 12:10:10 2022
+End netlisting Dec 22 12:10:10 2022
+
+Netlisting Statistics:
+	Number of components:  324
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          project_4x:RowDecoder_256_4xP_TB:1 ] for Point ID (9 1).
+
+Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.90/1/project_4x:RowDecoder_256_4xP_TB:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+*Info*    (ADE-3072): Simulation stopped because you selected the
+          'Stop Simulation' command in ADE.
+
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+WARNING (OCN-6038): Results tranOpTimed are not available for /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.90/1/project_4x:RowDecoder_256_4xP_TB:1/psf. Use results() for a list of available results.
+ERROR (WIA-1006): Unable to plot expression <VT("/A<7:0>")>
+           because it does not evaluate to an object that can be plotted, like a waveform or
+           parametric wave. See the Visualization & Analysis Tool documentation for information
+           about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+           the expressions that evaluate to those objects can be plotted.
+WARNING (OCN-6038): Results tranOpTimed are not available for /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.90/1/project_4x:RowDecoder_256_4xP_TB:1/psf. Use results() for a list of available results.
+ERROR (WIA-1006): Unable to plot expression <VT("/I18/net11<59>")>
+           because it does not evaluate to an object that can be plotted, like a waveform or
+           parametric wave. See the Visualization & Analysis Tool documentation for information
+           about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+           the expressions that evaluate to those objects can be plotted.
+WARNING (OCN-6038): Results tranOpTimed are not available for /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.90/1/project_4x:RowDecoder_256_4xP_TB:1/psf. Use results() for a list of available results.
+ERROR (WIA-1006): Unable to plot expression <VT("/I18/net033<14>")>
+           because it does not evaluate to an object that can be plotted, like a waveform or
+           parametric wave. See the Visualization & Analysis Tool documentation for information
+           about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+           the expressions that evaluate to those objects can be plotted.
+WARNING (OCN-6038): Results tranOpTimed are not available for /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.90/1/project_4x:RowDecoder_256_4xP_TB:1/psf. Use results() for a list of available results.
+ERROR (WIA-1006): Unable to plot expression <VT("/I18/WLSel<2>")>
+           because it does not evaluate to an object that can be plotted, like a waveform or
+           parametric wave. See the Visualization & Analysis Tool documentation for information
+           about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+           the expressions that evaluate to those objects can be plotted.
+WARNING (OCN-6038): Results tranOpTimed are not available for /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.90/1/project_4x:RowDecoder_256_4xP_TB:1/psf. Use results() for a list of available results.
+ERROR (WIA-1006): Unable to plot expression <VT("/WL<1>")>
+           because it does not evaluate to an object that can be plotted, like a waveform or
+           parametric wave. See the Visualization & Analysis Tool documentation for information
+           about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+           the expressions that evaluate to those objects can be plotted.
+
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables8".
+To save future changes, copy variables to cellView before exiting.

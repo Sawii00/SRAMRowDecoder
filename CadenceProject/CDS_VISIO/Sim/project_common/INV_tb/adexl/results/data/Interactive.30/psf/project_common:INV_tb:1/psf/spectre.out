@@ -1,0 +1,1883 @@
+
+Spectre (R) Circuit Simulator
+Version 18.1.0.556.isr13 64bit -- 10 Dec 2019
+Copyright (C) 1989-2019 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: edauser85   Host: selsrv2.epfl.ch   HostID: B28006F2   PID: 2515
+Memory  available: 76.9674 GB  physical: 134.9216 GB
+Linux   : Red Hat Enterprise Linux Server release 7.9 (Maipo)
+CPU Type: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [2577.1] ( 24 ),  2 [2274.7] ( 26 ),  4 [2460.6] ( 28 )
+                 6 [2567.5] ( 30 ),  8 [2517.6] ( 32 ), 10 [2534.6] ( 34 )
+                12 [2386.9] ( 36 ), 14 [1981.1] ( 38 ), 16 [2900.0] ( 40 )
+                18 [1670.7] ( 42 ), 20 [2062.0] ( 44 ), 22 [2687.8] ( 46 )
+        1:       1 [2210.3] ( 25 ),  3 [2876.0] ( 27 ),  5 [2641.9] ( 29 )
+                 7 [2507.0] ( 31 ),  9 [2789.6] ( 33 ), 11 [2261.1] ( 35 )
+                13 [2619.8] ( 37 ), 15 [2322.1] ( 39 ), 17 [2683.8] ( 41 )
+                19 [2591.0] ( 43 ), 21 [2646.7] ( 45 ), 23 [2876.6] ( 47 )
+        
+System load averages (1min, 5min, 15min) : 3.6 %, 2.4 %, 1.7 %
+Hyperthreading is enabled
+
+
+Simulating `input.scs' on selsrv2.epfl.ch at 9:28:30 PM, Wed Dec 21, 2022 (process id: 2515).
+Current working directory: /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/1/project_common:INV_tb:1/netlist
+Command line:
+    /softs/cadence/spectre/18.10/tools/bin/spectre -64 input.scs  \
+        +escchars +log ../psf/spectre.out -format psfxl -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5 -ahdllibdir  \
+        /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/sharedData/Job0/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/1/project_common:INV_tb:1/netlist/input.scs
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_v151.lib.scs
+
+Warning from spectre in `momcaps_symesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13269: The inline subckt definition `momcaps_symesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+Warning from spectre in `momcaps_asmesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13355: The inline subckt definition `momcaps_asmesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_res_v131_s.va
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde_llhvtrfs.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65rflvt101s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_25rf_101_s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65LL_IO33_111.va.scs
+
+Warning from spectre in `p_33_llrf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/L65LL_IO33_V111_RF.mdl.scs" 490: The inline subckt definition `p_33_llrf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/res_poly.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.mdl.scs
+Time for NDB Parsing: CPU = 791.472 ms, elapsed = 4.5164 s.
+Time accumulated: CPU = 832.885 ms, elapsed = 4.51641 s.
+Peak resident memory used = 66.4 Mbytes.
+
+
+Warning from spectre during circuit read-in.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mis_flag', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mf', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mis_flag', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mf', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+
+Time for Elaboration: CPU = 26.138 ms, elapsed = 121.154 ms.
+Time accumulated: CPU = 859.173 ms, elapsed = 4.63771 s.
+Peak resident memory used = 74 Mbytes.
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-17101): The value 'psf' specified using the 'checklimitdest' option will no longer be supported in future releases.
+
+
+Time for EDB Visiting: CPU = 982 us, elapsed = 982.046 us.
+Time accumulated: CPU = 860.282 ms, elapsed = 4.63882 s.
+Peak resident memory used = 74.9 Mbytes.
+
+
+Global user options:
+         psfversion = 1.1.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = allpub
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 3
+              bsim4 2     
+          capacitor 1     
+            vsource 2     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Time for parsing: CPU = 3.772 ms, elapsed = 886.894 ms.
+Time accumulated: CPU = 864.165 ms, elapsed = 5.52582 s.
+Peak resident memory used = 76.5 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ns)
+*************************************************
+DC simulation time: CPU = 504 us, elapsed = 505.209 us.
+
+Opening the PSFXL file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ns
+    step = 100 ps
+    maxstep = 2 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   2       (current)
+                 save   3       (voltage)
+
+
+Notice from spectre at time = 381.456 ps during transient analysis `tran'.
+    Found trapezoidal ringing on node NM0:int_d.
+Notice from spectre at time = 653.934 ps during transient analysis `tran'.
+    Found trapezoidal ringing on node NM0:int_d.
+Notice from spectre at time = 1.19889 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node NM0:int_d.
+Notice from spectre at time = 2.2888 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node NM0:int_d.
+Notice from spectre at time = 3.6444 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node NM0:int_d.
+        Further occurrences of this notice will be suppressed.
+
+    tran: time = 3.644 ns    (3.64 %), step = 1.356 ns     (1.36 %)
+    tran: time = 7.852 ns    (7.85 %), step = 1.366 ns     (1.37 %)
+    tran: time = 12.58 ns    (12.6 %), step = 1.236 ns     (1.24 %)
+    tran: time = 17.85 ns    (17.9 %), step = 1.366 ns     (1.37 %)
+    tran: time = 22.58 ns    (22.6 %), step = 1.236 ns     (1.24 %)
+    tran: time = 27.85 ns    (27.9 %), step = 1.366 ns     (1.37 %)
+    tran: time = 32.58 ns    (32.6 %), step = 1.236 ns     (1.24 %)
+    tran: time = 37.85 ns    (37.9 %), step = 1.366 ns     (1.37 %)
+    tran: time = 42.58 ns    (42.6 %), step = 1.236 ns     (1.24 %)
+    tran: time = 47.85 ns    (47.9 %), step = 1.366 ns     (1.37 %)
+    tran: time = 52.58 ns    (52.6 %), step = 1.236 ns     (1.24 %)
+    tran: time = 57.85 ns    (57.9 %), step = 1.366 ns     (1.37 %)
+    tran: time = 62.58 ns    (62.6 %), step = 1.236 ns     (1.24 %)
+    tran: time = 67.85 ns    (67.9 %), step = 1.366 ns     (1.37 %)
+    tran: time = 72.58 ns    (72.6 %), step = 1.236 ns     (1.24 %)
+    tran: time = 77.85 ns    (77.9 %), step = 1.366 ns     (1.37 %)
+    tran: time = 82.58 ns    (82.6 %), step = 1.236 ns     (1.24 %)
+    tran: time = 87.85 ns    (87.9 %), step = 1.366 ns     (1.37 %)
+    tran: time = 92.58 ns    (92.6 %), step = 1.236 ns     (1.24 %)
+    tran: time = 97.85 ns    (97.9 %), step = 1.366 ns     (1.37 %)
+Number of accepted tran steps =             653
+
+Notice from spectre during transient analysis `tran'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance.
+
+
+Maximum value achieved for any signal of each quantity: 
+V: V(PM0:int_d) = 1.022 V
+I: I(V1:p) = 9.036 uA
+If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (5.3 %)       2 (4.1 %)       3 (2.1 %)       4 (3.4 %)
+                 6 (1.8 %)      10 (3.3 %)      12 (2.9 %)      16 (1.6 %)
+                18 (1.5 %)      20 (3.5 %)      21 (1.1 %)      22 (12.0 %)
+                26 (1.5 %)      
+        Other   
+Initial condition solution time: CPU = 558 us, elapsed = 560.045 us.
+Intrinsic tran analysis time:    CPU = 45.285 ms, elapsed = 343.903 ms.
+Total time required for tran analysis `tran': CPU = 49.038 ms, elapsed = 647.414 ms.
+Time accumulated: CPU = 919.387 ms, elapsed = 6.1866 s.
+Peak resident memory used = 79.2 Mbytes.
+
+
+Notice from spectre.
+    105 notices suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+
+Aggregate audit (9:28:36 PM, Wed Dec 21, 2022):
+Time used: CPU = 941 ms, elapsed = 6.23 s, util. = 15.1%.
+Time spent in licensing: elapsed = 13.3 ms.
+Peak memory used = 80.8 Mbytes.
+Simulation started at: 9:28:30 PM, Wed Dec 21, 2022, ended at: 9:28:36 PM, Wed Dec 21, 2022, with elapsed time (wall clock): 6.23 s.
+spectre completes with 0 errors, 10 warnings, and 8 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 18.1.0.556.isr13 64bit -- 10 Dec 2019
+Copyright (C) 1989-2019 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: edauser85   Host: selsrv2.epfl.ch   HostID: B28006F2   PID: 2670
+Memory  available: 76.9604 GB  physical: 134.9216 GB
+Linux   : Red Hat Enterprise Linux Server release 7.9 (Maipo)
+CPU Type: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [2289.8] ( 24 ),  2 [2823.7] ( 26 ),  4 [2545.9] ( 28 )
+                 6 [2386.8] ( 30 ),  8 [1417.7] ( 32 ), 10 [2521.3] ( 34 )
+                12 [2734.6] ( 36 ), 14 [2586.2] ( 38 ), 16 [2551.1] ( 40 )
+                18 [2497.2] ( 42 ), 20 [2501.9] ( 44 ), 22 [2563.6] ( 46 )
+        1:       1 [2876.5] ( 25 ),  3 [2398.2] ( 27 ),  5 [2506.7] ( 29 )
+                 7 [2653.5] ( 31 ),  9 [2627.0] ( 33 ), 11 [2640.6] ( 35 )
+                13 [2113.5] ( 37 ), 15 [2547.9] ( 39 ), 17 [2502.7] ( 41 )
+                19 [2627.3] ( 43 ), 21 [2556.1] ( 45 ), 23 [2522.7] ( 47 )
+        
+System load averages (1min, 5min, 15min) : 4.3 %, 2.5 %, 1.7 %
+Hyperthreading is enabled
+
+
+Simulating `input.scs' on selsrv2.epfl.ch at 9:28:43 PM, Wed Dec 21, 2022 (process id: 2670).
+Current working directory: /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/2/project_common:INV_tb:1/netlist
+Command line:
+    /softs/cadence/spectre/18.10/tools/bin/spectre -64 input.scs  \
+        +escchars +log ../psf/spectre.out -format psfxl -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5 -ahdllibdir  \
+        /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/sharedData/Job0/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/2/project_common:INV_tb:1/netlist/input.scs
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_v151.lib.scs
+
+Warning from spectre in `momcaps_symesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13269: The inline subckt definition `momcaps_symesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+Warning from spectre in `momcaps_asmesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13355: The inline subckt definition `momcaps_asmesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_res_v131_s.va
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde_llhvtrfs.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65rflvt101s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_25rf_101_s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65LL_IO33_111.va.scs
+
+Warning from spectre in `p_33_llrf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/L65LL_IO33_V111_RF.mdl.scs" 490: The inline subckt definition `p_33_llrf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/res_poly.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.mdl.scs
+Time for NDB Parsing: CPU = 722.971 ms, elapsed = 873.445 ms.
+Time accumulated: CPU = 766.145 ms, elapsed = 873.45 ms.
+Peak resident memory used = 64.4 Mbytes.
+
+
+Warning from spectre during circuit read-in.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mis_flag', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mf', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mis_flag', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mf', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+
+Time for Elaboration: CPU = 24.306 ms, elapsed = 25.2199 ms.
+Time accumulated: CPU = 790.612 ms, elapsed = 898.829 ms.
+Peak resident memory used = 72.1 Mbytes.
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-17101): The value 'psf' specified using the 'checklimitdest' option will no longer be supported in future releases.
+
+
+Time for EDB Visiting: CPU = 1.039 ms, elapsed = 1.03998 ms.
+Time accumulated: CPU = 791.795 ms, elapsed = 900.012 ms.
+Peak resident memory used = 72.9 Mbytes.
+
+
+Global user options:
+         psfversion = 1.1.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = allpub
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 3
+              bsim4 2     
+          capacitor 1     
+            vsource 2     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Time for parsing: CPU = 3.187 ms, elapsed = 5.10788 ms.
+Time accumulated: CPU = 795.083 ms, elapsed = 905.221 ms.
+Peak resident memory used = 74.6 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ns)
+*************************************************
+DC simulation time: CPU = 480 us, elapsed = 479.937 us.
+
+Opening the PSFXL file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ns
+    step = 100 ps
+    maxstep = 2 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   2       (current)
+                 save   3       (voltage)
+
+
+Notice from spectre at time = 2.08267 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node NM0:int_d.
+Notice from spectre at time = 3.54133 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V0:p.
+
+    tran: time = 3.541 ns    (3.54 %), step = 1.459 ns     (1.46 %)
+
+Notice from spectre at time = 5 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V0:p.
+Notice from spectre at time = 5.66203 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+Notice from spectre at time = 6.19804 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+        Further occurrences of this notice will be suppressed.
+
+    tran: time = 8.635 ns    (8.64 %), step = 1.365 ns     (1.36 %)
+    tran: time = 13.53 ns    (13.5 %), step = 1.709 ns     (1.71 %)
+    tran: time = 18.64 ns    (18.6 %), step = 1.365 ns     (1.36 %)
+    tran: time = 23.53 ns    (23.5 %), step = 1.709 ns     (1.71 %)
+    tran: time = 28.64 ns    (28.6 %), step = 1.365 ns     (1.36 %)
+    tran: time = 33.53 ns    (33.5 %), step = 1.709 ns     (1.71 %)
+    tran: time = 38.64 ns    (38.6 %), step = 1.365 ns     (1.36 %)
+    tran: time = 43.53 ns    (43.5 %), step = 1.709 ns     (1.71 %)
+    tran: time = 48.64 ns    (48.6 %), step = 1.365 ns     (1.36 %)
+    tran: time = 53.53 ns    (53.5 %), step = 1.709 ns     (1.71 %)
+    tran: time = 58.64 ns    (58.6 %), step = 1.365 ns     (1.36 %)
+    tran: time = 63.53 ns    (63.5 %), step = 1.709 ns     (1.71 %)
+    tran: time = 68.64 ns    (68.6 %), step = 1.365 ns     (1.36 %)
+    tran: time = 73.53 ns    (73.5 %), step = 1.709 ns     (1.71 %)
+    tran: time = 78.64 ns    (78.6 %), step = 1.365 ns     (1.36 %)
+    tran: time = 83.53 ns    (83.5 %), step = 1.709 ns     (1.71 %)
+    tran: time = 88.64 ns    (88.6 %), step = 1.365 ns     (1.36 %)
+    tran: time = 93.53 ns    (93.5 %), step = 1.709 ns     (1.71 %)
+    tran: time = 98.64 ns    (98.6 %), step = 1.365 ns     (1.36 %)
+Number of accepted tran steps =             594
+
+Notice from spectre during transient analysis `tran'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance.
+
+
+Maximum value achieved for any signal of each quantity: 
+V: V(PM0:int_d) = 1.021 V
+I: I(V1:p) = 11.84 uA
+If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (3.4 %)       2 (54.0 %)      4 (29.2 %)      5 (1.1 %)
+                 6 (1.1 %)       8 (6.8 %)      10 (1.1 %)      11 (11.4 %)
+                12 (1.1 %)      13 (1.1 %)      14 (1.1 %)      17 (1.1 %)
+                18 (2.2 %)      19 (1.1 %)      20 (4.6 %)      21 (1.1 %)
+                22 (3.4 %)      23 (1.1 %)      39 (3.4 %)      
+        Other   
+Initial condition solution time: CPU = 532 us, elapsed = 534.058 us.
+Intrinsic tran analysis time:    CPU = 36.494 ms, elapsed = 43.7191 ms.
+Total time required for tran analysis `tran': CPU = 39.475 ms, elapsed = 49.8829 ms.
+Time accumulated: CPU = 840.819 ms, elapsed = 968.656 ms.
+Peak resident memory used = 77.2 Mbytes.
+
+
+Notice from spectre.
+    84 notices suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+
+Aggregate audit (9:28:44 PM, Wed Dec 21, 2022):
+Time used: CPU = 861 ms, elapsed = 1.01 s, util. = 85.4%.
+Time spent in licensing: elapsed = 13.2 ms.
+Peak memory used = 78.9 Mbytes.
+Simulation started at: 9:28:43 PM, Wed Dec 21, 2022, ended at: 9:28:44 PM, Wed Dec 21, 2022, with elapsed time (wall clock): 1.01 s.
+spectre completes with 0 errors, 10 warnings, and 8 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 18.1.0.556.isr13 64bit -- 10 Dec 2019
+Copyright (C) 1989-2019 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: edauser85   Host: selsrv2.epfl.ch   HostID: B28006F2   PID: 2842
+Memory  available: 76.9612 GB  physical: 134.9216 GB
+Linux   : Red Hat Enterprise Linux Server release 7.9 (Maipo)
+CPU Type: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [2171.8] ( 24 ),  2 [2812.8] ( 26 ),  4 [2705.7] ( 28 )
+                 6 [2177.8] ( 30 ),  8 [2561.5] ( 32 ), 10 [1668.5] ( 34 )
+                12 [2627.4] ( 36 ), 14 [1557.1] ( 38 ), 16 [2534.5] ( 40 )
+                18 [1884.2] ( 42 ), 20 [2531.4] ( 44 ), 22 [1562.7] ( 46 )
+        1:       1 [2450.4] ( 25 ),  3 [2580.1] ( 27 ),  5 [2541.6] ( 29 )
+                 7 [2576.0] ( 31 ),  9 [2500.6] ( 33 ), 11 [2684.1] ( 35 )
+                13 [2889.6] ( 37 ), 15 [2731.3] ( 39 ), 17 [2710.4] ( 41 )
+                19 [2210.7] ( 43 ), 21 [2657.5] ( 45 ), 23 [2600.3] ( 47 )
+        
+System load averages (1min, 5min, 15min) : 4.5 %, 2.6 %, 1.7 %
+Hyperthreading is enabled
+
+
+Simulating `input.scs' on selsrv2.epfl.ch at 9:28:45 PM, Wed Dec 21, 2022 (process id: 2842).
+Current working directory: /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/3/project_common:INV_tb:1/netlist
+Command line:
+    /softs/cadence/spectre/18.10/tools/bin/spectre -64 input.scs  \
+        +escchars +log ../psf/spectre.out -format psfxl -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5 -ahdllibdir  \
+        /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/sharedData/Job0/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/3/project_common:INV_tb:1/netlist/input.scs
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_v151.lib.scs
+
+Warning from spectre in `momcaps_symesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13269: The inline subckt definition `momcaps_symesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+Warning from spectre in `momcaps_asmesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13355: The inline subckt definition `momcaps_asmesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_res_v131_s.va
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde_llhvtrfs.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65rflvt101s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_25rf_101_s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65LL_IO33_111.va.scs
+
+Warning from spectre in `p_33_llrf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/L65LL_IO33_V111_RF.mdl.scs" 490: The inline subckt definition `p_33_llrf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/res_poly.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.mdl.scs
+Time for NDB Parsing: CPU = 721.733 ms, elapsed = 882.075 ms.
+Time accumulated: CPU = 765.831 ms, elapsed = 882.081 ms.
+Peak resident memory used = 64.4 Mbytes.
+
+
+Warning from spectre during circuit read-in.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mis_flag', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mf', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mis_flag', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mf', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+
+Time for Elaboration: CPU = 24.868 ms, elapsed = 25.3401 ms.
+Time accumulated: CPU = 790.817 ms, elapsed = 907.537 ms.
+Peak resident memory used = 72.1 Mbytes.
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-17101): The value 'psf' specified using the 'checklimitdest' option will no longer be supported in future releases.
+
+
+Time for EDB Visiting: CPU = 1.07 ms, elapsed = 1.07217 ms.
+Time accumulated: CPU = 792.016 ms, elapsed = 908.736 ms.
+Peak resident memory used = 72.9 Mbytes.
+
+
+Global user options:
+         psfversion = 1.1.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = allpub
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 3
+              bsim4 2     
+          capacitor 1     
+            vsource 2     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Time for parsing: CPU = 3.38 ms, elapsed = 4.99701 ms.
+Time accumulated: CPU = 795.509 ms, elapsed = 913.846 ms.
+Peak resident memory used = 74.6 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ns)
+*************************************************
+DC simulation time: CPU = 538 us, elapsed = 538.826 us.
+
+Opening the PSFXL file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ns
+    step = 100 ps
+    maxstep = 2 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   2       (current)
+                 save   3       (voltage)
+
+
+Notice from spectre at time = 824.041 ps during transient analysis `tran'.
+    Found trapezoidal ringing on node PM0:int_d.
+Notice from spectre at time = 1.53468 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node PM0:int_d.
+Notice from spectre at time = 2.95597 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node PM0:int_d.
+
+    tran: time = 2.956 ns    (2.96 %), step = 1.421 ns     (1.42 %)
+
+Notice from spectre at time = 3.97798 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node PM0:int_d.
+Notice from spectre at time = 5 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node PM0:int_d.
+        Further occurrences of this notice will be suppressed.
+
+    tran: time = 7.734 ns    (7.73 %), step = 1.299 ns      (1.3 %)
+    tran: time = 13.1 ns     (13.1 %), step = 1.492 ns     (1.49 %)
+    tran: time = 17.73 ns    (17.7 %), step = 1.299 ns      (1.3 %)
+    tran: time = 23.1 ns     (23.1 %), step = 1.492 ns     (1.49 %)
+    tran: time = 27.73 ns    (27.7 %), step = 1.299 ns      (1.3 %)
+    tran: time = 33.1 ns     (33.1 %), step = 1.492 ns     (1.49 %)
+    tran: time = 37.73 ns    (37.7 %), step = 1.299 ns      (1.3 %)
+    tran: time = 43.1 ns     (43.1 %), step = 1.492 ns     (1.49 %)
+    tran: time = 47.73 ns    (47.7 %), step = 1.299 ns      (1.3 %)
+    tran: time = 53.1 ns     (53.1 %), step = 1.492 ns     (1.49 %)
+    tran: time = 57.73 ns    (57.7 %), step = 1.299 ns      (1.3 %)
+    tran: time = 63.1 ns     (63.1 %), step = 1.492 ns     (1.49 %)
+    tran: time = 67.73 ns    (67.7 %), step = 1.299 ns      (1.3 %)
+    tran: time = 73.1 ns     (73.1 %), step = 1.492 ns     (1.49 %)
+    tran: time = 77.73 ns    (77.7 %), step = 1.299 ns      (1.3 %)
+    tran: time = 83.1 ns     (83.1 %), step = 1.492 ns     (1.49 %)
+    tran: time = 87.73 ns    (87.7 %), step = 1.299 ns      (1.3 %)
+    tran: time = 93.1 ns     (93.1 %), step = 1.492 ns     (1.49 %)
+    tran: time = 97.73 ns    (97.7 %), step = 1.299 ns      (1.3 %)
+Number of accepted tran steps =             586
+
+Notice from spectre during transient analysis `tran'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance.
+
+
+Maximum value achieved for any signal of each quantity: 
+V: V(PM0:int_d) = 1.02 V
+I: I(V1:p) = 14.23 uA
+If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (1.1 %)       2 (50.6 %)      4 (16.9 %)      6 (5.6 %)
+                10 (2.2 %)      11 (7.8 %)      13 (7.8 %)      14 (1.1 %)
+                18 (1.1 %)      20 (4.5 %)      22 (21.3 %)     23 (1.1 %)
+                39 (2.2 %)      44 (1.1 %)      
+        Other   
+Initial condition solution time: CPU = 595 us, elapsed = 596.046 us.
+Intrinsic tran analysis time:    CPU = 36.607 ms, elapsed = 43.7191 ms.
+Total time required for tran analysis `tran': CPU = 39.592 ms, elapsed = 49.8888 ms.
+Time accumulated: CPU = 840.758 ms, elapsed = 977.048 ms.
+Peak resident memory used = 77.2 Mbytes.
+
+
+Notice from spectre.
+    96 notices suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+
+Aggregate audit (9:28:46 PM, Wed Dec 21, 2022):
+Time used: CPU = 861 ms, elapsed = 1.02 s, util. = 84.8%.
+Time spent in licensing: elapsed = 12.9 ms.
+Peak memory used = 78.9 Mbytes.
+Simulation started at: 9:28:45 PM, Wed Dec 21, 2022, ended at: 9:28:46 PM, Wed Dec 21, 2022, with elapsed time (wall clock): 1.02 s.
+spectre completes with 0 errors, 10 warnings, and 8 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 18.1.0.556.isr13 64bit -- 10 Dec 2019
+Copyright (C) 1989-2019 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: edauser85   Host: selsrv2.epfl.ch   HostID: B28006F2   PID: 3004
+Memory  available: 76.9543 GB  physical: 134.9216 GB
+Linux   : Red Hat Enterprise Linux Server release 7.9 (Maipo)
+CPU Type: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [2218.5] ( 24 ),  2 [2797.9] ( 26 ),  4 [2623.1] ( 28 )
+                 6 [2654.1] ( 30 ),  8 [2699.9] ( 32 ), 10 [2727.0] ( 34 )
+                12 [2720.2] ( 36 ), 14 [2500.8] ( 38 ), 16 [2580.7] ( 40 )
+                18 [2676.4] ( 42 ), 20 [2537.8] ( 44 ), 22 [2334.4] ( 46 )
+        1:       1 [2700.6] ( 25 ),  3 [2360.9] ( 27 ),  5 [2668.5] ( 29 )
+                 7 [2679.5] ( 31 ),  9 [2287.3] ( 33 ), 11 [2515.3] ( 35 )
+                13 [2710.1] ( 37 ), 15 [2471.1] ( 39 ), 17 [2791.8] ( 41 )
+                19 [2867.1] ( 43 ), 21 [2764.9] ( 45 ), 23 [2618.9] ( 47 )
+        
+System load averages (1min, 5min, 15min) : 4.5 %, 2.6 %, 1.7 %
+Hyperthreading is enabled
+
+
+Simulating `input.scs' on selsrv2.epfl.ch at 9:28:47 PM, Wed Dec 21, 2022 (process id: 3004).
+Current working directory: /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/4/project_common:INV_tb:1/netlist
+Command line:
+    /softs/cadence/spectre/18.10/tools/bin/spectre -64 input.scs  \
+        +escchars +log ../psf/spectre.out -format psfxl -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5 -ahdllibdir  \
+        /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/sharedData/Job0/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/4/project_common:INV_tb:1/netlist/input.scs
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_v151.lib.scs
+
+Warning from spectre in `momcaps_symesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13269: The inline subckt definition `momcaps_symesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+Warning from spectre in `momcaps_asmesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13355: The inline subckt definition `momcaps_asmesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_res_v131_s.va
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde_llhvtrfs.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65rflvt101s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_25rf_101_s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65LL_IO33_111.va.scs
+
+Warning from spectre in `p_33_llrf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/L65LL_IO33_V111_RF.mdl.scs" 490: The inline subckt definition `p_33_llrf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/res_poly.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.mdl.scs
+Time for NDB Parsing: CPU = 737.634 ms, elapsed = 866.596 ms.
+Time accumulated: CPU = 779.655 ms, elapsed = 866.6 ms.
+Peak resident memory used = 64.4 Mbytes.
+
+
+Warning from spectre during circuit read-in.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mis_flag', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mf', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mis_flag', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mf', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+
+Time for Elaboration: CPU = 25.502 ms, elapsed = 36.2601 ms.
+Time accumulated: CPU = 805.292 ms, elapsed = 902.994 ms.
+Peak resident memory used = 72.1 Mbytes.
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-17101): The value 'psf' specified using the 'checklimitdest' option will no longer be supported in future releases.
+
+
+Time for EDB Visiting: CPU = 981 us, elapsed = 981.808 us.
+Time accumulated: CPU = 806.412 ms, elapsed = 904.114 ms.
+Peak resident memory used = 72.9 Mbytes.
+
+
+Global user options:
+         psfversion = 1.1.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = allpub
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 3
+              bsim4 2     
+          capacitor 1     
+            vsource 2     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Time for parsing: CPU = 3.366 ms, elapsed = 5.41806 ms.
+Time accumulated: CPU = 809.885 ms, elapsed = 909.637 ms.
+Peak resident memory used = 74.6 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ns)
+*************************************************
+DC simulation time: CPU = 472 us, elapsed = 473.022 us.
+
+Opening the PSFXL file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ns
+    step = 100 ps
+    maxstep = 2 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   2       (current)
+                 save   3       (voltage)
+
+
+Notice from spectre at time = 1.09514 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node NM0:int_d.
+Notice from spectre at time = 2.07357 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node NM0:int_d.
+Notice from spectre at time = 3.53679 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+
+    tran: time = 3.537 ns    (3.54 %), step = 1.463 ns     (1.46 %)
+
+Notice from spectre at time = 5 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+Notice from spectre at time = 5.37456 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+        Further occurrences of this notice will be suppressed.
+
+    tran: time = 8.494 ns    (8.49 %), step = 1.506 ns     (1.51 %)
+    tran: time = 13.57 ns    (13.6 %), step = 1.425 ns     (1.43 %)
+    tran: time = 18.49 ns    (18.5 %), step = 1.506 ns     (1.51 %)
+    tran: time = 23.57 ns    (23.6 %), step = 1.425 ns     (1.43 %)
+    tran: time = 28.49 ns    (28.5 %), step = 1.506 ns     (1.51 %)
+    tran: time = 33.57 ns    (33.6 %), step = 1.425 ns     (1.43 %)
+    tran: time = 38.49 ns    (38.5 %), step = 1.506 ns     (1.51 %)
+    tran: time = 43.57 ns    (43.6 %), step = 1.425 ns     (1.43 %)
+    tran: time = 48.49 ns    (48.5 %), step = 1.506 ns     (1.51 %)
+    tran: time = 53.57 ns    (53.6 %), step = 1.425 ns     (1.43 %)
+    tran: time = 58.49 ns    (58.5 %), step = 1.506 ns     (1.51 %)
+    tran: time = 63.57 ns    (63.6 %), step = 1.425 ns     (1.43 %)
+    tran: time = 68.49 ns    (68.5 %), step = 1.506 ns     (1.51 %)
+    tran: time = 73.57 ns    (73.6 %), step = 1.425 ns     (1.43 %)
+    tran: time = 78.49 ns    (78.5 %), step = 1.506 ns     (1.51 %)
+    tran: time = 83.57 ns    (83.6 %), step = 1.425 ns     (1.43 %)
+    tran: time = 88.49 ns    (88.5 %), step = 1.506 ns     (1.51 %)
+    tran: time = 93.57 ns    (93.6 %), step = 1.425 ns     (1.43 %)
+    tran: time = 98.49 ns    (98.5 %), step = 1.506 ns     (1.51 %)
+Number of accepted tran steps =             556
+
+Notice from spectre during transient analysis `tran'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance.
+
+
+Maximum value achieved for any signal of each quantity: 
+V: V(PM0:int_d) = 1.019 V
+I: I(V1:p) = 16.35 uA
+If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (17.0 %)      2 (2.2 %)       4 (6.9 %)       7 (2.3 %)
+                10 (2.2 %)      12 (1.1 %)      13 (1.1 %)      14 (4.5 %)
+                17 (25.8 %)     18 (1.1 %)      20 (3.4 %)      22 (68.2 %)
+                27 (1.1 %)      39 (3.4 %)      44 (1.1 %)      
+        Other   
+Initial condition solution time: CPU = 526 us, elapsed = 527.143 us.
+Intrinsic tran analysis time:    CPU = 35.114 ms, elapsed = 43.278 ms.
+Total time required for tran analysis `tran': CPU = 37.809 ms, elapsed = 48.696 ms.
+Time accumulated: CPU = 853.351 ms, elapsed = 971.459 ms.
+Peak resident memory used = 77.2 Mbytes.
+
+
+Notice from spectre.
+    95 notices suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+
+Aggregate audit (9:28:48 PM, Wed Dec 21, 2022):
+Time used: CPU = 874 ms, elapsed = 1.01 s, util. = 86.2%.
+Time spent in licensing: elapsed = 13.1 ms.
+Peak memory used = 78.9 Mbytes.
+Simulation started at: 9:28:47 PM, Wed Dec 21, 2022, ended at: 9:28:48 PM, Wed Dec 21, 2022, with elapsed time (wall clock): 1.01 s.
+spectre completes with 0 errors, 10 warnings, and 8 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 18.1.0.556.isr13 64bit -- 10 Dec 2019
+Copyright (C) 1989-2019 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: edauser85   Host: selsrv2.epfl.ch   HostID: B28006F2   PID: 3312
+Memory  available: 76.8753 GB  physical: 134.9216 GB
+Linux   : Red Hat Enterprise Linux Server release 7.9 (Maipo)
+CPU Type: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [2561.7] ( 24 ),  2 [2565.9] ( 26 ),  4 [2522.4] ( 28 )
+                 6 [2641.8] ( 30 ),  8 [2500.2] ( 32 ), 10 [2520.9] ( 34 )
+                12 [2667.3] ( 36 ), 14 [2521.6] ( 38 ), 16 [2525.2] ( 40 )
+                18 [2696.4] ( 42 ), 20 [2691.9] ( 44 ), 22 [2518.8] ( 46 )
+        1:       1 [2531.4] ( 25 ),  3 [2536.0] ( 27 ),  5 [2566.3] ( 29 )
+                 7 [2556.5] ( 31 ),  9 [2677.2] ( 33 ), 11 [2500.8] ( 35 )
+                13 [2457.3] ( 37 ), 15 [2379.1] ( 39 ), 17 [2786.1] ( 41 )
+                19 [1363.6] ( 43 ), 21 [2683.5] ( 45 ), 23 [2214.6] ( 47 )
+        
+System load averages (1min, 5min, 15min) : 4.3 %, 2.6 %, 1.7 %
+Hyperthreading is enabled
+
+
+Simulating `input.scs' on selsrv2.epfl.ch at 9:28:49 PM, Wed Dec 21, 2022 (process id: 3312).
+Current working directory: /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/5/project_common:INV_tb:1/netlist
+Command line:
+    /softs/cadence/spectre/18.10/tools/bin/spectre -64 input.scs  \
+        +escchars +log ../psf/spectre.out -format psfxl -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5 -ahdllibdir  \
+        /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/sharedData/Job0/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/5/project_common:INV_tb:1/netlist/input.scs
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_v151.lib.scs
+
+Warning from spectre in `momcaps_symesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13269: The inline subckt definition `momcaps_symesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+Warning from spectre in `momcaps_asmesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13355: The inline subckt definition `momcaps_asmesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_res_v131_s.va
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde_llhvtrfs.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65rflvt101s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_25rf_101_s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65LL_IO33_111.va.scs
+
+Warning from spectre in `p_33_llrf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/L65LL_IO33_V111_RF.mdl.scs" 490: The inline subckt definition `p_33_llrf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/res_poly.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.mdl.scs
+Time for NDB Parsing: CPU = 703.249 ms, elapsed = 1.00476 s.
+Time accumulated: CPU = 745.904 ms, elapsed = 1.00477 s.
+Peak resident memory used = 64.4 Mbytes.
+
+
+Warning from spectre during circuit read-in.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mis_flag', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mf', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mis_flag', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mf', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+
+Time for Elaboration: CPU = 25.137 ms, elapsed = 25.722 ms.
+Time accumulated: CPU = 771.186 ms, elapsed = 1.03063 s.
+Peak resident memory used = 72.1 Mbytes.
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-17101): The value 'psf' specified using the 'checklimitdest' option will no longer be supported in future releases.
+
+
+Time for EDB Visiting: CPU = 999 us, elapsed = 999.928 us.
+Time accumulated: CPU = 772.315 ms, elapsed = 1.03176 s.
+Peak resident memory used = 72.9 Mbytes.
+
+
+Global user options:
+         psfversion = 1.1.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = allpub
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 3
+              bsim4 2     
+          capacitor 1     
+            vsource 2     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Time for parsing: CPU = 3.222 ms, elapsed = 5.67508 ms.
+Time accumulated: CPU = 775.648 ms, elapsed = 1.03755 s.
+Peak resident memory used = 74.6 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ns)
+*************************************************
+DC simulation time: CPU = 500 us, elapsed = 501.156 us.
+
+Opening the PSFXL file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ns
+    step = 100 ps
+    maxstep = 2 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   2       (current)
+                 save   3       (voltage)
+
+
+Notice from spectre at time = 1.1771 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node PM0:int_d.
+Notice from spectre at time = 2.23285 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+Notice from spectre at time = 3.61642 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+
+    tran: time = 3.616 ns    (3.62 %), step = 1.384 ns     (1.38 %)
+
+Notice from spectre at time = 5 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+Notice from spectre at time = 5.48698 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+        Further occurrences of this notice will be suppressed.
+
+    tran: time = 7.816 ns    (7.82 %), step = 1.331 ns     (1.33 %)
+    tran: time = 13.49 ns    (13.5 %), step = 1.507 ns     (1.51 %)
+    tran: time = 17.82 ns    (17.8 %), step = 1.331 ns     (1.33 %)
+    tran: time = 23.49 ns    (23.5 %), step = 1.507 ns     (1.51 %)
+    tran: time = 27.82 ns    (27.8 %), step = 1.331 ns     (1.33 %)
+    tran: time = 33.49 ns    (33.5 %), step = 1.507 ns     (1.51 %)
+    tran: time = 37.82 ns    (37.8 %), step = 1.331 ns     (1.33 %)
+    tran: time = 43.49 ns    (43.5 %), step = 1.507 ns     (1.51 %)
+    tran: time = 47.82 ns    (47.8 %), step = 1.331 ns     (1.33 %)
+    tran: time = 53.49 ns    (53.5 %), step = 1.507 ns     (1.51 %)
+    tran: time = 57.82 ns    (57.8 %), step = 1.331 ns     (1.33 %)
+    tran: time = 63.49 ns    (63.5 %), step = 1.507 ns     (1.51 %)
+    tran: time = 67.82 ns    (67.8 %), step = 1.331 ns     (1.33 %)
+    tran: time = 73.49 ns    (73.5 %), step = 1.507 ns     (1.51 %)
+    tran: time = 77.82 ns    (77.8 %), step = 1.331 ns     (1.33 %)
+    tran: time = 83.49 ns    (83.5 %), step = 1.507 ns     (1.51 %)
+    tran: time = 87.82 ns    (87.8 %), step = 1.331 ns     (1.33 %)
+    tran: time = 93.49 ns    (93.5 %), step = 1.507 ns     (1.51 %)
+    tran: time = 97.82 ns    (97.8 %), step = 1.331 ns     (1.33 %)
+Number of accepted tran steps =             565
+
+Notice from spectre during transient analysis `tran'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance.
+
+
+Maximum value achieved for any signal of each quantity: 
+V: V(PM0:int_d) = 1.018 V
+I: I(V1:p) = 18.29 uA
+If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  1 (58.3 %)      4 (2.0 %)       9 (2.0 %)      10 (5.9 %)
+                12 (100.0 %)    20 (4.0 %)      22 (15.8 %)     23 (2.0 %)
+                44 (3.1 %)      
+        Other   
+Initial condition solution time: CPU = 566 us, elapsed = 567.913 us.
+Intrinsic tran analysis time:    CPU = 39.874 ms, elapsed = 47.8652 ms.
+Total time required for tran analysis `tran': CPU = 42.861 ms, elapsed = 54.2779 ms.
+Time accumulated: CPU = 824.527 ms, elapsed = 1.10558 s.
+Peak resident memory used = 77.2 Mbytes.
+
+
+Notice from spectre.
+    95 notices suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+
+Aggregate audit (9:28:51 PM, Wed Dec 21, 2022):
+Time used: CPU = 844 ms, elapsed = 1.15 s, util. = 73.7%.
+Time spent in licensing: elapsed = 13.4 ms.
+Peak memory used = 78.9 Mbytes.
+Simulation started at: 9:28:49 PM, Wed Dec 21, 2022, ended at: 9:28:51 PM, Wed Dec 21, 2022, with elapsed time (wall clock): 1.15 s.
+spectre completes with 0 errors, 10 warnings, and 8 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 18.1.0.556.isr13 64bit -- 10 Dec 2019
+Copyright (C) 1989-2019 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: edauser85   Host: selsrv2.epfl.ch   HostID: B28006F2   PID: 3444
+Memory  available: 76.8140 GB  physical: 134.9216 GB
+Linux   : Red Hat Enterprise Linux Server release 7.9 (Maipo)
+CPU Type: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [2577.2] ( 24 ),  2 [2680.7] ( 26 ),  4 [2556.0] ( 28 )
+                 6 [2595.7] ( 30 ),  8 [2623.4] ( 32 ), 10 [2604.3] ( 34 )
+                12 [2792.2] ( 36 ), 14 [2773.2] ( 38 ), 16 [2640.0] ( 40 )
+                18 [2806.9] ( 42 ), 20 [2645.8] ( 44 ), 22 [2892.3] ( 46 )
+        1:       1 [2857.2] ( 25 ),  3 [2238.4] ( 27 ),  5 [2437.7] ( 29 )
+                 7 [2582.7] ( 31 ),  9 [2873.4] ( 33 ), 11 [1688.7] ( 35 )
+                13 [2573.7] ( 37 ), 15 [2557.3] ( 39 ), 17 [1792.7] ( 41 )
+                19 [2691.3] ( 43 ), 21 [2617.1] ( 45 ), 23 [2645.3] ( 47 )
+        
+System load averages (1min, 5min, 15min) : 4.3 %, 2.6 %, 1.7 %
+Hyperthreading is enabled
+
+
+Simulating `input.scs' on selsrv2.epfl.ch at 9:28:52 PM, Wed Dec 21, 2022 (process id: 3444).
+Current working directory: /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/6/project_common:INV_tb:1/netlist
+Command line:
+    /softs/cadence/spectre/18.10/tools/bin/spectre -64 input.scs  \
+        +escchars +log ../psf/spectre.out -format psfxl -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5 -ahdllibdir  \
+        /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/sharedData/Job0/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /softs/cadence/spectre/18.10/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/6/project_common:INV_tb:1/netlist/input.scs
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_v151.lib.scs
+
+Warning from spectre in `momcaps_symesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13269: The inline subckt definition `momcaps_symesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+Warning from spectre in `momcaps_asmesh_mmkf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/l65ll_v151.lib.scs" 13355: The inline subckt definition `momcaps_asmesh_mmkf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_res_v131_s.va
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /softs/cadence/spectre/18.10/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_HVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde_llhvtrfs.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_LVT12_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65rflvt101s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO18_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO25_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/l65ll_25rf_101_s.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_IO33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/Rde65LL_IO33_111.va.scs
+
+Warning from spectre in `p_33_llrf', during circuit read-in.
+    WARNING (SFE-2296): "/dkits/umc/65nm/lms65ll/pdk_b09pb/umc65ll/../Models/Spectre/L65LL_IO33_V111_RF.mdl.scs" 490: The inline subckt definition `p_33_llrf' does not contain any inline components. The `inline' qualifier will therefore be ignored.
+
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS12_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS18_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS25_V121_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARMIS33_V111_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_VARDIOP_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp3_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp4_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/momcaps_array_vp5_rfvcl_V101.typ.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNPPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/res_poly.va
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNNPO_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65LL_RNHR_V101_RF.mdl.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.lib.scs
+Reading file:  /dkits/umc/65nm/lms65ll/pdk_b09pb/Models/Spectre/L65_pad_rf_V101.mdl.scs
+Time for NDB Parsing: CPU = 707.493 ms, elapsed = 1.07363 s.
+Time accumulated: CPU = 750.57 ms, elapsed = 1.07364 s.
+Peak resident memory used = 64.4 Mbytes.
+
+
+Warning from spectre during circuit read-in.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+    WARNING (SFE-2654): VerilogA module `respoly_va' override primitive/(verilogA module) `respoly_va'.
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mis_flag', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 61: Parameter `mf', specified for model `p_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mis_flag', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+    WARNING (SFE-102): "input.scs" 64: Parameter `mf', specified for model `n_12_llrvt' of primitive `bsim4', has been ignored because it is an invalid model parameter. Specify a valid model parameter and rerun the simulation. Type `spectre -h bsim4' to get more information on valid model parameters.
+
+Time for Elaboration: CPU = 24.919 ms, elapsed = 25.394 ms.
+Time accumulated: CPU = 775.608 ms, elapsed = 1.09915 s.
+Peak resident memory used = 72.1 Mbytes.
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-17101): The value 'psf' specified using the 'checklimitdest' option will no longer be supported in future releases.
+
+
+Time for EDB Visiting: CPU = 1.01 ms, elapsed = 1.00994 ms.
+Time accumulated: CPU = 776.749 ms, elapsed = 1.10029 s.
+Peak resident memory used = 72.9 Mbytes.
+
+
+Global user options:
+         psfversion = 1.1.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = allpub
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 3
+              bsim4 2     
+          capacitor 1     
+            vsource 2     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Time for parsing: CPU = 3.061 ms, elapsed = 5.09 ms.
+Time accumulated: CPU = 779.915 ms, elapsed = 1.10549 s.
+Peak resident memory used = 74.6 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ns)
+*************************************************
+DC simulation time: CPU = 508 us, elapsed = 508.07 us.
+
+Opening the PSFXL file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ns
+    step = 100 ps
+    maxstep = 2 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   2       (current)
+                 save   3       (voltage)
+
+
+Notice from spectre at time = 623.143 ps during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+Notice from spectre at time = 1.11849 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+Notice from spectre at time = 2.10917 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+Notice from spectre at time = 3.55459 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+
+    tran: time = 3.555 ns    (3.55 %), step = 1.445 ns     (1.45 %)
+
+Notice from spectre at time = 5 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V1:p.
+        Further occurrences of this notice will be suppressed.
+
+    tran: time = 8.712 ns    (8.71 %), step = 1.288 ns     (1.29 %)
+    tran: time = 13.28 ns    (13.3 %), step = 1.576 ns     (1.58 %)
+    tran: time = 18.71 ns    (18.7 %), step = 1.288 ns     (1.29 %)
+    tran: time = 23.28 ns    (23.3 %), step = 1.576 ns     (1.58 %)
+    tran: time = 28.71 ns    (28.7 %), step = 1.288 ns     (1.29 %)
+    tran: time = 33.28 ns    (33.3 %), step = 1.576 ns     (1.58 %)
+    tran: time = 38.71 ns    (38.7 %), step = 1.288 ns     (1.29 %)
+    tran: time = 43.28 ns    (43.3 %), step = 1.576 ns     (1.58 %)
+    tran: time = 48.71 ns    (48.7 %), step = 1.288 ns     (1.29 %)
+    tran: time = 53.28 ns    (53.3 %), step = 1.576 ns     (1.58 %)
+    tran: time = 58.71 ns    (58.7 %), step = 1.288 ns     (1.29 %)
+    tran: time = 63.28 ns    (63.3 %), step = 1.576 ns     (1.58 %)
+    tran: time = 68.71 ns    (68.7 %), step = 1.288 ns     (1.29 %)
+    tran: time = 73.28 ns    (73.3 %), step = 1.576 ns     (1.58 %)
+    tran: time = 78.71 ns    (78.7 %), step = 1.288 ns     (1.29 %)
+    tran: time = 83.28 ns    (83.3 %), step = 1.576 ns     (1.58 %)
+    tran: time = 88.71 ns    (88.7 %), step = 1.288 ns     (1.29 %)
+    tran: time = 93.28 ns    (93.3 %), step = 1.576 ns     (1.58 %)
+    tran: time = 98.71 ns    (98.7 %), step = 1.288 ns     (1.29 %)
+Number of accepted tran steps =             544
+
+Notice from spectre during transient analysis `tran'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance.
+
+
+Maximum value achieved for any signal of each quantity: 
+V: V(PM0:int_d) = 1.017 V
+I: I(V1:p) = 20.16 uA
+If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (4.5 %)       1 (56.9 %)      4 (1.9 %)       9 (2.8 %)
+                12 (100.0 %)    20 (5.6 %)      22 (14.8 %)     23 (2.8 %)
+                44 (3.9 %)      
+        Other   
+Initial condition solution time: CPU = 565 us, elapsed = 581.026 us.
+Intrinsic tran analysis time:    CPU = 37.232 ms, elapsed = 45.2061 ms.
+Total time required for tran analysis `tran': CPU = 40.455 ms, elapsed = 51.651 ms.
+Time accumulated: CPU = 826.35 ms, elapsed = 1.17142 s.
+Peak resident memory used = 77.2 Mbytes.
+
+
+Notice from spectre.
+    57 notices suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+
+Aggregate audit (9:28:53 PM, Wed Dec 21, 2022):
+Time used: CPU = 846 ms, elapsed = 1.21 s, util. = 69.8%.
+Time spent in licensing: elapsed = 13.3 ms.
+Peak memory used = 78.9 Mbytes.
+Simulation started at: 9:28:52 PM, Wed Dec 21, 2022, ended at: 9:28:53 PM, Wed Dec 21, 2022, with elapsed time (wall clock): 1.21 s.
+spectre completes with 0 errors, 10 warnings, and 8 notices.
+
+
+********* LOG ENDS **************
+**                             **

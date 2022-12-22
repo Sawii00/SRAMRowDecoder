@@ -1,0 +1,247 @@
+
+/////////////////////////////////////////////////////////////////////////////
+// revision  date           who              changes                       //
+//========= ============ ========== =======================================// 
+//  A.B_PB   12/24/2008   C.C.Chang   New create from G-03-EDRAM65N-LL/LOW_//
+//                                  K-TLR                                  //
+//  B.A_PB_draft   02/17/2009   C.C.Chang   Based on request of CFAS: HSHI-7P7BK7//
+//                                  1. Remove: eDRAM_AW_CG.EN1, eDRAM_AW.R2,/
+//                                       eDRAM_WL.L__eDRAM_PWL.L,          //
+//                                       eDRAM_DF_DT.OL_URAM.              //  
+//                                  2. Update: eDRAM_MTL2.W, eDRAM_DF_DT.OL//
+//                                       eDRAM_AW.R5.                      //
+//                                  3. Waive PLY_G.R1 in Logic rule  by    //
+//                                       layer CAD_SD_SYMBOL.              //
+//  B.C_PB   10/14/2009   C.C.Chang 1. Add: eDRAM_DT.D, eDRAM_DT.DX,       //
+//                                  2. Update: eDRAM_AW_NW.S2, eDRAM_CG_TG.S,
+//                                       eDRAM_CG_TG.S, eDRAM_CG_GATE_E.S, //
+//                                       eDRAM_CG_GATE_C.S, eDRAM_AW_DNW.S3,/
+//                                       eDRAM_CG_GATE_E.EN.               //
+//                                  3. Rename: eDRAM_AW.R2, eDRAM_AW.R3,   //
+//                                       eDRAM_AW.R4.                      //
+/////////////////////////////////////////////////////////////////////////////
+//
+//
+// LOGIC rule excluded list: Commented by Ching Hsiang/ATD 1208.2008
+//
+//  DF.A 
+//  PLY_ICN.W3 
+//  PLY_DF.S3_.S4__PLY_F_DF.S7 
+//  PLY_DF.L1
+//  PLY_DF.OH1
+//  PLY_G.R1 
+//  PLY_G.R2__PLY.R3 
+//  CT.SZ1  
+//  CT_DF_PLY_G.S3 
+//  M1_CT.EN1__M1.R2
+//
+//  
+//=======================
+//==== DT layer RULE ====
+//=======================
+
+
+eDRAM_DT.S {@ Minimum spacing of DT to DT is 0.13um
+   EXT DT < 0.13 ABUT<90 SINGULAR REGION
+}
+
+eDRAM_DF_DT.OL {@ DIFFUSION overlap of DT should be 0.103 or >= 0.115um
+   X = INT (DT) DIFF == 0.103
+   INT X DIFF  < 0.115 ABUT<90  REGION
+   INT DT DIFF < 0.103 ABUT<90 SINGULAR REGION // to CHECK singular case.  
+}
+
+eDRAM_DT_DF.OH {@ Minimum DT overhang of DIFFUSION is 0.025 um
+   ENC DIFF DT < 0.025 ABUT<90 SINGULAR REGION
+}
+
+eDRAM_DF_DT.S {@ Minimum sapcing of DIFFUSION to adjacent DT is 0.085um
+   EXT DIFF DT < 0.085 ABUT<90 SINGULAR REGION
+}
+
+eDRAM_DT.D {@ Minimum density over whole chip area is 4 %
+   DENSITY DT INSIDE OF LAYER DRC:1  >0 < 0.04 
+}//  Base on the comment by rule owner (Yi Nan Su/ATD) (mailed 1013.2009)
+ // The case for DT == 0 will be waived.
+
+eDRAM_DT.DX {@ Maximum density over whole chip area is 10 %
+   DENSITY DT INSIDE OF LAYER DRC:1  >0.1
+}
+
+eDRAM_DT.R1 {@ DT must be within A_WELL
+   ( DT NOT AW ) AND URAMMK
+}
+
+
+//===========================
+//==== A_WELL layer RULE ====
+//===========================
+
+eDRAM_AW.W1 {@ Minimum A_WELL width is 0.9um
+   INT AW < 0.9 ABUT<90 SINGULAR REGION
+}
+
+eDRAM_AW.S1 {@ Minimum spacing of A_WELL is 0.9um
+   EXT AW < 0.9 ABUT<90 SINGULAR REGION
+}
+
+eDRAM_AW_NW.S2 {@ Minimum spacing of N_WELL to A_WELL is 0 or 3.0um
+   EXT NWEL AW < 3.0 ABUT>0<90 SINGULAR MEASURE ALL REGION
+}//   Base on the comment by rule owner (Yi Nan Su/ATD) (mailed 1013.2009)
+ // This rule extra check the shielding cases by MEASURE ALL.
+ 
+eDRAM_NW_AW.OH1 {@ N_WELL overhang of A_WELL is 1.0um
+   ENC AW NWEL < 1 ABUT<90 SINGULAR REGION
+}
+
+//
+//eDRAM_AW_CG.EN1 {@ Minimum A_WELL enclosure of CELLG is 0.4um
+//   ENC CELLG AW < 0.4 ABUT SINGULAR REGION
+//}
+//
+
+eDRAM_AW_P_DF.EN2 {@ Minimum A_WELL enclosure of P+ DIFFUSION is 0.2um
+   ENC PDIFF AW < 0.2 ABUT SINGULAR REGION
+}
+
+eDRAM_AW_DNW.S3 {@ Minimum spacing of AW to DNW outside AW is 5um
+   EXT AW DNW < 5 ABUT SINGULAR REGION
+   AND AW DNW
+} // DRC extra check the AW inside DNW.
+
+eDRAM_AW_N_DF.S4 {@ Minimum spacing of AW to N+DIFFUSION inside PW is 0.80um
+   EXT AW NDIF < 0.80 ABUT SINGULAR REGION
+}
+
+eDRAM_AW.R1 {@ AW shapes must be orthogonal rectangles and have no inside corners
+   VERTEX AW > 4
+   ANGLE AW >0<90
+}
+
+eDRAM_AW.R2 {@ DIFFUSION overhang AW is not allowed   
+   DIFF CUT AW
+}
+
+eDRAM_AW.R3 {@ P+ overhang AW is not allowed
+   PPLUS CUT AW
+} 
+
+eDRAM_AW.R4 {@ Only DRAM Cell can exist AW. The other devices are not allowed in AW
+             @ The DRC check if a gate diffusion without DT inside AW
+  ( ( DIFF INTERACT GATE ) AND AW ) OUTSIDE DT
+}
+
+//==============================
+//==== Cell Gate layer RULE ====
+//==============================
+
+eDRAM_CG.W {@ Minimum CELLG width is 0.4um
+   E = INT CELLG < 0.4 ABUT<90 SINGULAR REGION
+   E AND URAMMK  // To avoid the violation in eFALSH
+}  // Mialed by Kuei Sheng Wu // 0909.2010
+
+eDRAM_CG.S {@ Minimum and notch of CELLG to CELLG is 0.4um
+   E = EXT CELLG < 0.4 ABUT<90 SINGULAR REGION
+   E AND URAMMK  // To avoid the violation in eFALSH  
+}  // Mialed by Kuei Sheng Wu // 0909.2010
+
+eDRAM_CG_TG.S {@ Minimum spacing of CELLG to TG is 0 or >= 0.4um
+   AND CELLG TG
+   EXT CELLG TG < 0.4 ABUT>0<90 SINGULAR REGION
+}
+
+eDRAM_CG_GATE_E.S {@ Minimum spacing of CELLG to Gate edge is 0.3um
+   EXT CELLG GATE < 0.3 ABUT<90 SINGULAR REGION
+}
+
+eDRAM_CG_GATE_C.S {@ Minimum spacing of CELLG to gate channel is 0.34um
+   EXT ( CELLG INSIDE EDGE DIFF ) GATE_W < 0.34 ABUT REGION
+}
+
+eDRAM_CG_NW.OH {@ Minimum CELLG overhang of N_WELL is 0 or 0.4um
+   ENC NWEL CELLG < 0.4 ABUT>0<90 SINGULAR REGION
+}
+
+eDRAM_NW_CG.OH {@ Minimum NWEL overhang of CELLG is 0.4um
+   ENC CELLG NWEL < 0.4 ABUT<90 SINGULAR REGION
+}
+
+eDRAM_CG_NW.OL {@ Minimum CELLG overlap of N_WELL is 0.4um or less than 0.19um
+   INT CELLG NWEL > 0.19 < 0.4 ABUT<90 SINGULAR REGION
+}
+
+eDRAM_CG_GATE_E.EN {@ Minimum CELLG enclosure of gate edge is 0.27um
+   ENC GATE CELLG < 0.27 ABUT<90 SINGULAR REGION
+}
+
+eDRAM_CG_GATE_C.EN {@ Minimum CELLG enclosure of gate edge is 0.30um
+   ENC GATE_W CELLG < 0.30 ABUT<90 REGION
+}
+
+eDRAM_CG.R1 {@ CELLG over TG, SAB, NATIVE are not allowed
+   AND CELLG TG
+   AND CELLG SAB
+   AND CELLG NATIVE
+}
+
+eDRAM_CG.R2 {@ CELLG shapes must be orthogonal
+   E = ANGLE CELLG >0<90
+   E INSIDE EDGE URAMMK  // To avoid the violation in eFALSH   
+}  // Mialed by Kuei Sheng Wu // 0909.2010
+
+
+//
+//==============================
+//==== Bit Cell layout RULE ====
+//==============================
+// URAMMK / CAD_URAM_MARK 93(2)
+
+ URAM_DIFF = DIFF AND URAMMK
+ URAM_PO1  = PO1  AND URAMMK 
+ URAM_DT   = DT   INTERACT URAMMK
+ URAM_ME1  = ME1  AND URAMMK
+ URAM_ME2  = ME2  AND URAMMK 
+ URAM_CONT = CONT INTERACT URAMMK
+
+ URAM_BC   = NOT RECTANGLE URAM_CONT == 0.135 BY == 0.08
+ URAM_SC   = URAM_CONT NOT URAM_BC
+ 
+ URAM_WL  = INT URAM_PO1 == 0.13 ANGLED == 0 OPPOSITE REGION
+ URAM_PWL = INT URAM_PO1 == 0.05 ANGLED == 0 OPPOSITE REGION 
+ 
+eDRAM_DF.W {@ Exact DIFFUSION width is 0.09 um
+   A = INT URAM_DIFF == 0.09 REGION
+   URAM_DIFF NOT A 
+}
+
+eDRAM_BL_WL.S {@ Exact Bit Line CONTACT to Word Line space is 0.058 um
+   X = EXT [URAM_BC] PO1 == 0.058 
+   Y = LENGTH X == 0.09
+   URAM_BC NOT WITH EDGE Y
+}// DRC check if bit line CONTACT with the exact spacing from PO1 for one direction.
+
+eDRAM_WL_SC.S {@ Exact Word Line to SC space is 0.047 um
+   X = EXT [URAM_SC] PO1 == 0.047
+   Y = LENGTH X == 0.08
+   URAM_SC NOT WITH EDGE Y
+}
+
+eDRAM_SC.SZ {@ Exact SC SIZE is 0.135* 0.08 um
+             @ Exact BC SIZE is  0.09* 0.09 um 
+   NOT RECTANGLE URAM_BC == 0.09 BY == 0.09
+} // URAM_BC   = NOT RECTANGLE URAM_CONT == 0.135 BY = 0.08
+
+eDRAM_DT.SZ {@ Exact DT size is 0.153*0.14 um
+   NOT RECTANGLE URAM_DT == 0.153 BY == 0.14   
+}
+
+eDRAM_MTL1.SZ {@ Exact METAL1 island size is 0.34*0.13 um
+   NOT RECTANGLE URAM_ME1 == 0.34 BY == 0.13  
+}
+
+eDRAM_MTL2.W {@ Exact METAL2 width is 0.1 um or 0.3 um
+   A = INT URAM_ME2 == 0.1 REGION
+   B = INT URAM_ME2 == 0.3 REGION 
+   C = A OR B
+   XOR C URAM_ME2
+}

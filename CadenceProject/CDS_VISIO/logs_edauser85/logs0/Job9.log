@@ -1,0 +1,93 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = project_4x
+	Cell         = RowDecoder_256_4xP_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = project_4x:RowDecoder_256_4xP_TB:1_none_Interactive.85
+	Results DB   = /home/edauser85/2022_project/CDS_VISIO/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.85.rdb
+	Results Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.85/1/project_4x:RowDecoder_256_4xP_TB:1
+	Results Loc  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data
+	Project Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim
+	Setup DB loc = /home/edauser85/2022_project/CDS_VISIO/project_4x/RowDecoder_256_4xP_TB/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (4 1) on testbench [
+          project_4x:RowDecoder_256_4xP_TB:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var post_inv_gamma = "18"
+Setting var post_nand_gamma = "8"
+Setting var pre_inv1_gamma = "4"
+Setting var pre_inv2_gamma = "42"
+Setting var pre_nand1_gamma = "1"
+Setting var pre_nand2_gamma = "12"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.85/1/project_4x:RowDecoder_256_4xP_TB:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.85/1/project_4x:RowDecoder_256_4xP_TB:1
+
+
+*Info*    Creating Netlist for Point ID (4 1)
+
+generate netlist...
+Begin Incremental Netlisting Dec 22 11:01:10 2022
+End netlisting Dec 22 11:01:10 2022
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          project_4x:RowDecoder_256_4xP_TB:1 ] for Point ID (4 1).
+
+Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.85/1/project_4x:RowDecoder_256_4xP_TB:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (4 1) on testbench [
+          project_4x:RowDecoder_256_4xP_TB:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables8".
+To save future changes, copy variables to cellView before exiting.

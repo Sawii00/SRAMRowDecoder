@@ -1,0 +1,10 @@
+    I1\<7\> (A\<3\> AOut\<7\>) iprobe
+    I1\<6\> (A\<2\> AOut\<6\>) iprobe
+    I1\<5\> (A\<1\> AOut\<5\>) iprobe
+    I1\<4\> (ADDR\<0\> AOut\<4\>) iprobe
+    I1\<3\> (A\<3\> AOut\<3\>) iprobe
+    I1\<2\> (A\<2\> AOut\<2\>) iprobe
+    I1\<1\> (A\<1\> AOut\<1\>) iprobe
+    I1\<0\> (ADDRb\<0\> AOut\<0\>) iprobe
+ends Pre_L0_1t2
+// End of subcircuit definition.

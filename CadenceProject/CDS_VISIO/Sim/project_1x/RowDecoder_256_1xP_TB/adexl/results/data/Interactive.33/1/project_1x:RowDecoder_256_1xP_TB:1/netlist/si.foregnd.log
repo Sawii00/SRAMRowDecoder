@@ -1,0 +1,8 @@
+Begin Incremental Netlisting Dec 16 17:32:37 2021
+WARNING (OSSHNL-160): The primitive, 'umc65ll/RM3/spectre', was not used in the
+last netlisting session in this
+current run directory. Therefore, re-netlisting
+all cell views where this
+primitive is instantiated.
+
+End netlisting Dec 16 17:32:37 2021

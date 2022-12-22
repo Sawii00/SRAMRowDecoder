@@ -1,0 +1,7 @@
+HEADER
+"PSFversion" "1.00"
+"I1<1>n I1<0>n" "basic_cds_thru_spectre"
+"ADDR<0>v" ":1v"
+"ADDRb<0>v" ":2v"
+"AOut<1>v" ":3v"
+"AOut<0>v" ":4v"

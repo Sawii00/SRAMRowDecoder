@@ -1,0 +1,3720 @@
+// File: /home/edauser0/ayigit/RowDecoder_Project/CDS_VISIO/project_pex/Post_L2_256t2_Text/spectreText/spectre.scs.pex
+// Created: Tue Dec 21 12:19:14 2021
+// Program "Calibre xRC"
+// Version "v2020.1_17.9"
+// Nominal Temperature: 25C
+// Circuit Temperature: 25C
+// 
+simulator lang=spectre
+subckt PM_POST_L2_256T2_EX\%SEL1\<15\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.03629f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=9.04357
+ends PM_POST_L2_256T2_EX\%SEL1\<15\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<511\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0141479f
+r1 (  1 3 ) resistor r=0.102963
+ends PM_POST_L2_256T2_EX\%WLSEL\<511\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<15\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<15\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<510\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<510\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<509\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<509\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<14\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<14\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<508\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<508\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<507\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<507\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<13\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<13\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<506\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<506\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<505\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<505\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<12\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<12\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<504\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<504\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<503\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<503\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<11\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<11\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<502\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<502\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<501\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<501\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<10\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<10\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<500\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<500\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<499\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<499\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<9\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<9\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<498\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<498\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<497\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<497\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<8\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<8\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<496\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<496\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<495\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<495\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<7\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<7\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<494\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<494\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<493\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<493\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<6\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<6\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<492\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<492\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<491\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<491\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<5\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<5\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<490\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<490\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<489\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<489\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<4\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<4\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<488\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<488\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<487\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<487\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<3\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<3\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<486\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<486\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<485\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<485\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<2\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<2\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<484\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<484\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<483\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<483\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<1\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8425
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<1\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<482\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<482\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<481\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<481\>
+
+subckt PM_POST_L2_256T2_EX\%SEL0\<0\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.03629f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=9.03213
+r17 (  57 59 ) resistor r=11.8425
+r18 (  53 55 ) resistor r=11.8425
+r19 (  49 51 ) resistor r=11.8425
+r20 (  45 47 ) resistor r=11.8425
+r21 (  41 43 ) resistor r=11.8425
+r22 (  37 39 ) resistor r=11.8425
+r23 (  33 35 ) resistor r=11.8425
+r24 (  29 31 ) resistor r=11.8425
+r25 (  25 27 ) resistor r=11.8425
+r26 (  21 23 ) resistor r=11.8425
+r27 (  17 19 ) resistor r=11.8425
+r28 (  13 15 ) resistor r=11.8425
+r29 (  9 11 ) resistor r=11.8425
+r30 (  5 7 ) resistor r=11.8425
+r31 (  1 3 ) resistor r=11.8425
+ends PM_POST_L2_256T2_EX\%SEL0\<0\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<480\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<480\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<14\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<14\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<479\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<479\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<478\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<478\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<477\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<477\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<476\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<476\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<475\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<475\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<474\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<474\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<473\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<473\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<472\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<472\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<471\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<471\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<470\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<470\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<469\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<469\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<468\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<468\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<467\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<467\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<466\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<466\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<465\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<465\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<464\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<464\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<463\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<463\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<462\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<462\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<461\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<461\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<460\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<460\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<459\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<459\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<458\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<458\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<457\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<457\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<456\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<456\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<455\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<455\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<454\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<454\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<453\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<453\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<452\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<452\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<451\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<451\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<450\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<450\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<449\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<449\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<448\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<448\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<13\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<13\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<447\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<447\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<446\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<446\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<445\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<445\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<444\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<444\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<443\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<443\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<442\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<442\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<441\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<441\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<440\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<440\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<439\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<439\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<438\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<438\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<437\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<437\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<436\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<436\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<435\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<435\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<434\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<434\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<433\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<433\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<432\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<432\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<431\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<431\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<430\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<430\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<429\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<429\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<428\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<428\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<427\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<427\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<426\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<426\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<425\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<425\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<424\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<424\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<423\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<423\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<422\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<422\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<421\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<421\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<420\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<420\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<419\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<419\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<418\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<418\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<417\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<417\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<416\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<416\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<12\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<12\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<415\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<415\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<414\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<414\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<413\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<413\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<412\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<412\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<411\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<411\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<410\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<410\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<409\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<409\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<408\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<408\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<407\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<407\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<406\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<406\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<405\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<405\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<404\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<404\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<403\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<403\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<402\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<402\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<401\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<401\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<400\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<400\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<399\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<399\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<398\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<398\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<397\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<397\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<396\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<396\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<395\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<395\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<394\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<394\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<393\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<393\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<392\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<392\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<391\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<391\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<390\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<390\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<389\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<389\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<388\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<388\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<387\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<387\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<386\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<386\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<385\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<385\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<384\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<384\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<11\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<11\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<383\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<383\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<382\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<382\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<381\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<381\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<380\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<380\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<379\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<379\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<378\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<378\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<377\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<377\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<376\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<376\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<375\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<375\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<374\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<374\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<373\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<373\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<372\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<372\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<371\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<371\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<370\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<370\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<369\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<369\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<368\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<368\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<367\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<367\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<366\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<366\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<365\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<365\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<364\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<364\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<363\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<363\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<362\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<362\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<361\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<361\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<360\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<360\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<359\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<359\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<358\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<358\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<357\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<357\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<356\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<356\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<355\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<355\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<354\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<354\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<353\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<353\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<352\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<352\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<10\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<10\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<351\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<351\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<350\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<350\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<349\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<349\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<348\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<348\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<347\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<347\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<346\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<346\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<345\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<345\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<344\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<344\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<343\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<343\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<342\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<342\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<341\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<341\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<340\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<340\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<339\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<339\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<338\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<338\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<337\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<337\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<336\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<336\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<335\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<335\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<334\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<334\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<333\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<333\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<332\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<332\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<331\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<331\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<330\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<330\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<329\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<329\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<328\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<328\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<327\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<327\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<326\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<326\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<325\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<325\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<324\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<324\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<323\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<323\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<322\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<322\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<321\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<321\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<320\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<320\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<9\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<9\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<319\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<319\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<318\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<318\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<317\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<317\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<316\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<316\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<315\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<315\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<314\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<314\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<313\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<313\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<312\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<312\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<311\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<311\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<310\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<310\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<309\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<309\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<308\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<308\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<307\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<307\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<306\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<306\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<305\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<305\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<304\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<304\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<303\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<303\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<302\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<302\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<301\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<301\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<300\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<300\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<299\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<299\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<298\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<298\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<297\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<297\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<296\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<296\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<295\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<295\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<294\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<294\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<293\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<293\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<292\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<292\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<291\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<291\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<290\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<290\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<289\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<289\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<288\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<288\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<8\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<8\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<287\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<287\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<286\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<286\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<285\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<285\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<284\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<284\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<283\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<283\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<282\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<282\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<281\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<281\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<280\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<280\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<279\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<279\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<278\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<278\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<277\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<277\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<276\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<276\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<275\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<275\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<274\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<274\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<273\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<273\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<272\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<272\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<271\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<271\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<270\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<270\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<269\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<269\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<268\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<268\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<267\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<267\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<266\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<266\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<265\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<265\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<264\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<264\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<263\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<263\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<262\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<262\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<261\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<261\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<260\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<260\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<259\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<259\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<258\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<258\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<257\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<257\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<256\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<256\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<7\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<7\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<255\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<255\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<254\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<254\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<253\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<253\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<252\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<252\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<251\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<251\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<250\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<250\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<249\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<249\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<248\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<248\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<247\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<247\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<246\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<246\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<245\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<245\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<244\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<244\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<243\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<243\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<242\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<242\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<241\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<241\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<240\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<240\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<239\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<239\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<238\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<238\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<237\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<237\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<236\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<236\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<235\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<235\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<234\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<234\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<233\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<233\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<232\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<232\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<231\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<231\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<230\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<230\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<229\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<229\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<228\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<228\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<227\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<227\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<226\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<226\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<225\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<225\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<224\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<224\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<6\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<6\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<223\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<223\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<222\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<222\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<221\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<221\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<220\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<220\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<219\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<219\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<218\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<218\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<217\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<217\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<216\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<216\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<215\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<215\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<214\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<214\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<213\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<213\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<212\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<212\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<211\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<211\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<210\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<210\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<209\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<209\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<208\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<208\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<207\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<207\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<206\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<206\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<205\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<205\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<204\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<204\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<203\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<203\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<202\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<202\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<201\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<201\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<200\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<200\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<199\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<199\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<198\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<198\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<197\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<197\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<196\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<196\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<195\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<195\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<194\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<194\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<193\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<193\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<192\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<192\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<5\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<5\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<191\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<191\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<190\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<190\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<189\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<189\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<188\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<188\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<187\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<187\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<186\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<186\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<185\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<185\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<184\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<184\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<183\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<183\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<182\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<182\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<181\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<181\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<180\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<180\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<179\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<179\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<178\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<178\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<177\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<177\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<176\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<176\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<175\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<175\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<174\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<174\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<173\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<173\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<172\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<172\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<171\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<171\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<170\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<170\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<169\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<169\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<168\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<168\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<167\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<167\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<166\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<166\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<165\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<165\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<164\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<164\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<163\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<163\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<162\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<162\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<161\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<161\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<160\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<160\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<4\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<4\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<159\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<159\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<158\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<158\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<157\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<157\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<156\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<156\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<155\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<155\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<154\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<154\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<153\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<153\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<152\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<152\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<151\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<151\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<150\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<150\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<149\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<149\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<148\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<148\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<147\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<147\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<146\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<146\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<145\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<145\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<144\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<144\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<143\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<143\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<142\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<142\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<141\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<141\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<140\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<140\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<139\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<139\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<138\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<138\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<137\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<137\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<136\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<136\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<135\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<135\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<134\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<134\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<133\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<133\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<132\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<132\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<131\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<131\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<130\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<130\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<129\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<129\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<128\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<128\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<3\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<3\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<127\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<127\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<126\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<126\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<125\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<125\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<124\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<124\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<123\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<123\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<122\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<122\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<121\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<121\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<120\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<120\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<119\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<119\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<118\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<118\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<117\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<117\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<116\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<116\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<115\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<115\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<114\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<114\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<113\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<113\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<112\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<112\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<111\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<111\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<110\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<110\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<109\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<109\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<108\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<108\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<107\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<107\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<106\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<106\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<105\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<105\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<104\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<104\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<103\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<103\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<102\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<102\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<101\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<101\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<100\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<100\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<99\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<99\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<98\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<98\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<97\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<97\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<96\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<96\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<2\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<2\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<95\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<95\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<94\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<94\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<93\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<93\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<92\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<92\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<91\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<91\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<90\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<90\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<89\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<89\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<88\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<88\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<87\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<87\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<86\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<86\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<85\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<85\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<84\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<84\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<83\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<83\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<82\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<82\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<81\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<81\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<80\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<80\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<79\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<79\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<78\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<78\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<77\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<77\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<76\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<76\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<75\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<75\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<74\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<74\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<73\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<73\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<72\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<72\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<71\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<71\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<70\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<70\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<69\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<69\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<68\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<68\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<67\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<67\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<66\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<66\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<65\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<65\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<64\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<64\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<1\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<1\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<63\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<63\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<62\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<62\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<61\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<61\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<60\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<60\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<59\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<59\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<58\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<58\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<57\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<57\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<56\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<56\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<55\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<55\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<54\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<54\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<53\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<53\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<52\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<52\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<51\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<51\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<50\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<50\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<49\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<49\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<48\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<48\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<47\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<47\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<46\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<46\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<45\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<45\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<44\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<44\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<43\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<43\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<42\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<42\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<41\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<41\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<40\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<40\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<39\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<39\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<38\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<38\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<37\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<37\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<36\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<36\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<35\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<35\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<34\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<34\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<33\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<33\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<32\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<32\>
+
+subckt PM_POST_L2_256T2_EX\%SEL1\<0\> ( 1 3 5 7 9 11 13 15 17 19 21 23 25 27 \
+ 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 )
+c0 ( 63 0 ) capacitor c=1.57867f
+c1 ( 59 0 ) capacitor c=1.57867f
+c2 ( 55 0 ) capacitor c=1.57867f
+c3 ( 51 0 ) capacitor c=1.57867f
+c4 ( 47 0 ) capacitor c=1.57867f
+c5 ( 43 0 ) capacitor c=1.57867f
+c6 ( 39 0 ) capacitor c=1.57867f
+c7 ( 35 0 ) capacitor c=1.57867f
+c8 ( 31 0 ) capacitor c=1.57867f
+c9 ( 27 0 ) capacitor c=1.57867f
+c10 ( 23 0 ) capacitor c=1.57867f
+c11 ( 19 0 ) capacitor c=1.57867f
+c12 ( 15 0 ) capacitor c=1.57867f
+c13 ( 11 0 ) capacitor c=1.57867f
+c14 ( 7 0 ) capacitor c=1.57867f
+c15 ( 3 0 ) capacitor c=1.57867f
+r16 (  61 63 ) resistor r=11.8575
+r17 (  57 59 ) resistor r=11.8575
+r18 (  53 55 ) resistor r=11.8575
+r19 (  49 51 ) resistor r=11.8575
+r20 (  45 47 ) resistor r=11.8575
+r21 (  41 43 ) resistor r=11.8575
+r22 (  37 39 ) resistor r=11.8575
+r23 (  33 35 ) resistor r=11.8575
+r24 (  29 31 ) resistor r=11.8575
+r25 (  25 27 ) resistor r=11.8575
+r26 (  21 23 ) resistor r=11.8575
+r27 (  17 19 ) resistor r=11.8575
+r28 (  13 15 ) resistor r=11.8575
+r29 (  9 11 ) resistor r=11.8575
+r30 (  5 7 ) resistor r=11.8575
+r31 (  1 3 ) resistor r=11.8575
+ends PM_POST_L2_256T2_EX\%SEL1\<0\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<31\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<31\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<30\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<30\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<29\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<29\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<28\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<28\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<27\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<27\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<26\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<26\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<25\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<25\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<24\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<24\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<23\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<23\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<22\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<22\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<21\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<21\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<20\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<20\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<19\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<19\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<18\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<18\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<17\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<17\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<16\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<16\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<15\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<15\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<14\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<14\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<13\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<13\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<12\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<12\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<11\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<11\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<10\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<10\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<9\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<9\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<8\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<8\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<7\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<7\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<6\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<6\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<5\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<5\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<4\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<4\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<3\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<3\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<2\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<2\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<1\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0282959f
+r1 (  1 3 ) resistor r=0.135
+ends PM_POST_L2_256T2_EX\%WLSEL\<1\>
+
+subckt PM_POST_L2_256T2_EX\%WLSEL\<0\> ( 1 3 )
+c0 ( 3 0 ) capacitor c=0.0141479f
+r1 (  1 3 ) resistor r=0.102963
+ends PM_POST_L2_256T2_EX\%WLSEL\<0\>
+

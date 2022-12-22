@@ -1,0 +1,58 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "RowDecoder_256_1xP_TB"
+  repList "spectreText spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd! vdd! GND!"
+  hierDelim "."
+  netlistDir "/home/edauser0/ayigit/RowDecoder_Project/CDS_VISIO/Sim/project_1x/RowDecoder_256_1xP_TB/adexl/results/data/Interactive.41/1/project_1x:RowDecoder_256_1xP_TB:1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "project_common/INV/schematic" "INV" )
+( "project_1x/RowDecoder_256_1xP/schematic" "RowDecoder_256_1xP" )
+( "project_1x/Post_L3_8t8/schematic" "Post_L3_8t8" )
+( "project_1x/Post_L5_32t8/schematic" "Post_L5_32t8" )
+( "project_1x/AddrBuf/schematic" "AddrBuf" )
+( "project_1x/Post_L7_128t8/schematic" "Post_L7_128t8" )
+( "project_common/NAND2/schematic" "NAND2" )
+( "project_1x/Post_L6_64t8/schematic" "Post_L6_64t8" )
+( "project_1x/Post_L2_4t8/schematic" "Post_L2_4t8" )
+( "project_1x/Post_L0_1t8/schematic" "Post_L0_1t8" )
+( "project_1x/Post_L1_2t8/schematic" "Post_L1_2t8" )
+( "project_1x/Post_L8_256t8/schematic" "Post_L8_256t8" )
+( "project_common/BitCellArray/schematic" "BitCellArray" )
+( "project_common/BitCellLoad_L/schematic" "BitCellLoad_L" )
+( "project_1x/RowDecoder_256_1xP_TB/schematic" "RowDecoder_256_1xP_TB" )
+( "project_common/NOR2/schematic" "NOR2" )
+( "project_common/BUF/schematic" "BUF" )
+( "project_1x/Pre_L0_1t2_NAND/schematic" "Pre_L0_1t2_NAND" )
+( "project_1x/Post/schematic" "Post" )
+( "project_common/BitCellRow/schematic" "BitCellRow" )
+( "project_1x/Post_L4_16t8/schematic" "Post_L4_16t8" )
+ )
+( "AddrBuf" "ihnl/cds5/map" )
+( "Post_L6_64t8" "ihnl/cds38/map" )
+( "Post" "ihnl/cds3/map" )
+( "Post_L3_8t8" "ihnl/cds35/map" )
+( "INV" "ihnl/cds0/map" )
+( "BUF" "ihnl/cds4/map" )
+( "NOR2" "ihnl/cds2/map" )
+( "BitCellLoad_L" "ihnl/cds16/map" )
+( "Post_L8_256t8" "ihnl/cds40/map" )
+( "Post_L4_16t8" "ihnl/cds36/map" )
+( "BitCellArray" "ihnl/cds18/map" )
+( "Post_L1_2t8" "ihnl/cds33/map" )
+( "Post_L0_1t8" "ihnl/cds32/map" )
+( "NAND2" "ihnl/cds1/map" )
+( "Post_L5_32t8" "ihnl/cds37/map" )
+( "Pre_L0_1t2_NAND" "ihnl/cds15/map" )
+( "RowDecoder_256_1xP" "ihnl/cds19/map" )
+( "Post_L2_4t8" "ihnl/cds34/map" )
+( "RowDecoder_256_1xP_TB" "ihnl/cds20/map" )
+( "BitCellRow" "ihnl/cds17/map" )
+( "Post_L7_128t8" "ihnl/cds39/map" )
+ )

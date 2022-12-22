@@ -1,0 +1,5 @@
+
+// Library name: project_1x
+// Cell name: Pre_L0_1t2_NAND
+// View name: schematic
+subckt Pre_L0_1t2_NAND ADDR\<0\> ADDRb\<0\> AOut\<1\> AOut\<0\>

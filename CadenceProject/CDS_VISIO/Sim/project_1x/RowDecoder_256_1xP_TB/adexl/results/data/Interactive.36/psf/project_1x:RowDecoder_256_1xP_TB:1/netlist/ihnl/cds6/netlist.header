@@ -1,0 +1,7 @@
+
+// Library name: project_1x
+// Cell name: Post_L0_1t8
+// View name: schematic
+subckt Post_L0_1t8 Sel0 Sel1 SelOUT\<1\> SelOUT\<0\> Sel2 Sel3 Sel4 Sel5 \
+        Sel6 Sel7 SelOUT\<7\> SelOUT\<6\> SelOUT\<5\> SelOUT\<4\> \
+        SelOUT\<3\> SelOUT\<2\>

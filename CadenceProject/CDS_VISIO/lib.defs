@@ -1,0 +1,8 @@
+DEFINE cdsDefTechLib $CDS_HOME/tools/dfII/etc/cdsDefTechLib
+ASSIGN cdsDefTechLib libMode shared
+DEFINE basic $CDS_HOME/tools/dfII/etc/cdslib/basic
+ASSIGN basic libMode shared
+DEFINE analogLib $CDS_HOME/tools/dfII/etc/cdslib/artist/analogLib
+ASSIGN analogLib libMode shared
+DEFINE umc65ll ./umc65ll
+ASSIGN umc65ll libMode shared

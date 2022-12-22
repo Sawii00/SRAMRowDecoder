@@ -1,0 +1,1 @@
+spectre  input.scs  +escchars +log ../psf/spectre.out  -format psfxl -raw ../psf   ++aps +lqtimeout 900 -maxw 5 -maxn 5  -ahdllibdir /home/edauser0/ayigit/RowDecoder_Project/CDS_VISIO/Sim/project_1x/RowDecoder_256_1xP_TB/adexl/results/data/Interactive.33/sharedData/CDS/ahdl/input.ahdlSimDB +logstatus  

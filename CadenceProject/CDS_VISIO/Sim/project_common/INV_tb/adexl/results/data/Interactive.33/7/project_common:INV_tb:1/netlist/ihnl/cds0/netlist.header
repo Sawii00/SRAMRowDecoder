@@ -1,0 +1,6 @@
+
+// Library name: project_common
+// Cell name: INV
+// View name: schematic
+subckt INV A Z
+parameters gamma=1 beta=2

@@ -1,0 +1,69 @@
+\# Program start time:     UTC 2022.12.21 16:08:42.825
+\# Local time: CET (UTC+01:00) 2022.12.21 17:08:42.825
+\o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 08/21/2018 19:47 (sjfhw316) $
+\o Hierarchy:		/softs/cadence/ic/6.1.7/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.7-64b.500.22  (64-bit addresses)
+\# Command line:	/softs/cadence/ic/6.1.7/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso47035 -mpshost selsrv2.epfl.ch -davinciService DaVinciService_47035_1671637932 -log /home/edauser85/2022_project/CDS_VISIO/logs_edauser85/logs0/Job18.log -licenseLockFileName /home/edauser85/2022_project/CDS_VISIO/.tmp_edauser85/.selsrv2.epfl.ch_47035 -nograph -nostdin -axlChildIdFlag 18
+\# Host name (type):	selsrv2.epfl.ch (x86_64)
+\# Operating system:	Linux 3.10.0-1160.71.1.el7.x86_64 #1 SMP Wed Jun 15 08:55:08 UTC 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	selsrv2.epfl.ch:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 13801)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x1000000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        486 MB
+\# Available memory:	    127,055 MB
+\# System memory:	    149,151 MB
+\# Maximum memory size:	    148,731 MB
+\# Max mem available:	    127,120 MB
+\# Initial memory used:	         65 MB
+\#        process size:	      1,031 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 48.00/48.00
+\# Qt version:		4.8.5
+\# Window Manager:	other
+\# User Name:		edauser85
+\o Working Directory:	selsrv2.epfl.ch:/home/edauser85/2022_project/CDS_VISIO
+\# Process Id:		16130
+\o 
+\o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\# Memory report: using         226 MB, process size 1,216 MB at UTC 2022.12.21 16:08:44.144
+\o INFO (DB-170018): (dbPanic) dumping stack
+\o libvirtuos_sh.so:voStackTrace+73()
+\o virtuoso:dbPanic+843()
+\o libvirtuos_sh.so:voDoAbortFuncs+76()
+\o libvirtuos_sh.so:voSigAbortInfo+255()
+\o libpthread.so.0:__restore_rt+0()
+\o libil_sh.so:ilAddCntxtSym+77()
+\o libil_sh.so:ilAdjustPointers1+5471()
+\o libil_sh.so:iliLoadContext+5589()
+\o libil_sh.so:iliVcodeEval2C+5033()
+\o libil_sh.so:iliVcodeEval2+71()
+\o libil_sh.so:ilxSkillEval2+220()
+\o libil_sh.so:_ilTopLevelSet+167()
+\o libil_sh.so:ilxTopLevelCmd+227()
+\o libil_sh.so:ilLoadCapContext+1176()
+\o libil_sh.so:iliInitClients+1001()
+\o virtuoso:main+524()
+\o libc.so.6:__libc_start_main+245()
+\o virtuoso:_start+41()

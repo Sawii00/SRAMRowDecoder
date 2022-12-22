@@ -1,0 +1,150 @@
+Begin Incremental Netlisting Dec 16 17:17:21 2021
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal
+'WLSel<2047:0>' of instance 'I7' in
+cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound. Do Check and Save
+for a schematic cellview, and for
+other views, check and fix the design before
+trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel6<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel0<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel1<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel2<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel3<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel4<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel5<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel7<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+End netlisting Dec 16 17:17:22 2021
+Begin Incremental Netlisting Dec 16 17:17:22 2021
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal
+'WLSel<2047:0>' of instance 'I7' in
+cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound. Do Check and Save
+for a schematic cellview, and for
+other views, check and fix the design before
+trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel6<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel0<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel1<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel2<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel3<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel4<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel5<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+ERROR (OSSHNL-903): Failed to generate a netlist because terminal 'Sel7<1:0>' of
+instance 'I7' in cellview
+'project_1x/RowDecoder_256_1xP/schematic' is unbound.
+Do Check and Save for a schematic cellview, and for
+other views, check and fix
+the design before trying to generate the netlist
+again.
+
+End netlisting Dec 16 17:17:23 2021

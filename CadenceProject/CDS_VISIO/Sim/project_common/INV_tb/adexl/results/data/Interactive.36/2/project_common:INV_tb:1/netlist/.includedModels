@@ -1,0 +1,3 @@
+simulator lang=spectre
+include "n_12_llrvt.scs"
+include "p_12_llrvt.scs"

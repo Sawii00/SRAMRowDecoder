@@ -1,0 +1,10 @@
+Begin Incremental Netlisting Dec 17 14:51:14 2021
+ERROR (OSSHNL-116): Unable to descend into any of the views defined in the view
+list, 'spectre cmos_sch cmos.sch schematic veriloga', for the
+instance 'I0' in
+cell 'Post_L8_256t8_ex'. Add one of these views to the cell 'Pex_Out' in
+the
+library 'project_1x', or modify the view list so that it contains an
+existing view.
+
+End netlisting Dec 17 14:51:14 2021

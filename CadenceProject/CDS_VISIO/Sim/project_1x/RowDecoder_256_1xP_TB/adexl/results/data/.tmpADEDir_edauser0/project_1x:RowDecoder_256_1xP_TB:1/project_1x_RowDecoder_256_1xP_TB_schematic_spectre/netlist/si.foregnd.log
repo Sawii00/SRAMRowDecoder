@@ -1,0 +1,8 @@
+Begin Incremental Netlisting Dec 17 16:58:51 2021
+WARNING (OSSHNL-196): The value of the "nlAction" property of library
+'analogLib', cell 'gnd', view 'symbol'
+has changed since the last netlisting
+session in current run directory. Some
+cell views need to be re-netlisted.
+
+End netlisting Dec 17 16:58:51 2021

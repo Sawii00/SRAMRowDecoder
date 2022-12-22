@@ -1,0 +1,106 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Dec 21 21:28:53 2022"
+"date" "Dec 21 21:28:53 2022"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("cap_val")
+)
+"cap_val=1e-20" "runObject" (
+(
+"../../../1/project_common:INV_tb:1/psf/logFile"
+"../../../1/project_common:INV_tb:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+"netlistDir" "../../../1/project_common:INV_tb:1/netlist"
+"dataDir" "../../../1/project_common:INV_tb:1"
+ "cap_val" 1.000000e-20
+)
+
+"cap_val=1.0001e-16" "runObject" (
+(
+"../../../2/project_common:INV_tb:1/psf/logFile"
+"../../../2/project_common:INV_tb:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+"netlistDir" "../../../2/project_common:INV_tb:1/netlist"
+"dataDir" "../../../2/project_common:INV_tb:1"
+ "cap_val" 1.000100e-16
+)
+
+"cap_val=2.0001e-16" "runObject" (
+(
+"../../../3/project_common:INV_tb:1/psf/logFile"
+"../../../3/project_common:INV_tb:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+"netlistDir" "../../../3/project_common:INV_tb:1/netlist"
+"dataDir" "../../../3/project_common:INV_tb:1"
+ "cap_val" 2.000100e-16
+)
+
+"cap_val=3.0001e-16" "runObject" (
+(
+"../../../4/project_common:INV_tb:1/psf/logFile"
+"../../../4/project_common:INV_tb:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+"netlistDir" "../../../4/project_common:INV_tb:1/netlist"
+"dataDir" "../../../4/project_common:INV_tb:1"
+ "cap_val" 3.000100e-16
+)
+
+"cap_val=4.0001e-16" "runObject" (
+(
+"../../../5/project_common:INV_tb:1/psf/logFile"
+"../../../5/project_common:INV_tb:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+"netlistDir" "../../../5/project_common:INV_tb:1/netlist"
+"dataDir" "../../../5/project_common:INV_tb:1"
+ "cap_val" 4.000100e-16
+)
+
+"cap_val=5.0001e-16" "runObject" (
+(
+"../../../6/project_common:INV_tb:1/psf/logFile"
+"../../../6/project_common:INV_tb:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+"netlistDir" "../../../6/project_common:INV_tb:1/netlist"
+"dataDir" "../../../6/project_common:INV_tb:1"
+ "cap_val" 5.000100e-16
+)
+
+END

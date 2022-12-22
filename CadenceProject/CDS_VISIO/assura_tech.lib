@@ -1,0 +1,2 @@
+DEFINE umc65ll_DRC ./RuleDecks/Assura/DRC
+DEFINE umc65ll_LVS ./RuleDecks/Assura/LVS

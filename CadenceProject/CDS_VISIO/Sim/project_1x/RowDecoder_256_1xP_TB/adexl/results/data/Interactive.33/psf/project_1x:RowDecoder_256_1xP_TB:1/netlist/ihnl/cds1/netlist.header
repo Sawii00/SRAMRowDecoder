@@ -1,0 +1,7 @@
+
+// Library name: project_common
+// Cell name: NAND2
+// View name: schematic
+// Inherited view list: spectre cmos_sch schematic veriloga ahdl
+subckt NAND2 A B Z
+parameters gamma=2 beta=1

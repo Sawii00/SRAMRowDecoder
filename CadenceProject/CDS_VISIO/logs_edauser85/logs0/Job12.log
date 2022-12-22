@@ -1,0 +1,139 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = project_4x
+	Cell         = RowDecoder_256_4xP_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = project_4x:RowDecoder_256_4xP_TB:1_none_Interactive.42
+	Results DB   = /home/edauser85/2022_project/CDS_VISIO/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.42.rdb
+	Results Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.42/1/project_4x:RowDecoder_256_4xP_TB:1
+	Results Loc  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data
+	Project Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim
+	Setup DB loc = /home/edauser85/2022_project/CDS_VISIO/project_4x/RowDecoder_256_4xP_TB/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (7 1) on testbench [
+          project_4x:RowDecoder_256_4xP_TB:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var buf_gamma = "2"
+Setting var buf_inv1_gamma = "1"
+Setting var buf_inv2_gamma = "4"
+Setting var post_inv_gamma = "1"
+Setting var post_nand_gamma = "4"
+Setting var pre_inv1_gamma = "11"
+Setting var pre_inv2_gamma = "39"
+Setting var pre_nand1_gamma = "3"
+Setting var pre_nand2_gamma = "9"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.42/1/project_4x:RowDecoder_256_4xP_TB:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.42/1/project_4x:RowDecoder_256_4xP_TB:1
+
+
+*Info*    Creating Netlist for Point ID (7 1)
+
+generate netlist...
+Begin Incremental Netlisting Dec 14 17:41:48 2022
+ERROR (OSSHNL-109): The cellview 'project_4x/AddrBuf/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+ERROR (OSSHNL-109): The cellview 'project_4x/AddrBuf/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+ERROR (OSSHNL-109): The cellview 'project_4x/AddrBuf/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+ERROR (OSSHNL-109): The cellview 'project_4x/AddrBuf/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+End netlisting Dec 14 17:41:48 2022
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
+
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
+
+
+
+
+
+
+
+
+
+*Info*    Run start for Point ID (7 1) on testbench [
+          project_4x:RowDecoder_256_4xP_TB:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var buf_gamma = "2"
+Setting var buf_inv1_gamma = "1"
+Setting var buf_inv2_gamma = "4"
+Setting var post_inv_gamma = "1"
+Setting var post_nand_gamma = "4"
+Setting var pre_inv1_gamma = "11"
+Setting var pre_inv2_gamma = "39"
+Setting var pre_nand1_gamma = "3"
+Setting var pre_nand2_gamma = "9"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.42/1/project_4x:RowDecoder_256_4xP_TB:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.42/1/project_4x:RowDecoder_256_4xP_TB:1
+
+
+*Info*    Creating Netlist for Point ID (7 1)
+
+generate netlist...
+Begin Incremental Netlisting Dec 14 17:41:49 2022
+ERROR (OSSHNL-109): The cellview 'project_4x/AddrBuf/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+ERROR (OSSHNL-109): The cellview 'project_4x/AddrBuf/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+ERROR (OSSHNL-109): The cellview 'project_4x/AddrBuf/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+ERROR (OSSHNL-109): The cellview 'project_4x/AddrBuf/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+End netlisting Dec 14 17:41:49 2022
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
+
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
+
+
+
+

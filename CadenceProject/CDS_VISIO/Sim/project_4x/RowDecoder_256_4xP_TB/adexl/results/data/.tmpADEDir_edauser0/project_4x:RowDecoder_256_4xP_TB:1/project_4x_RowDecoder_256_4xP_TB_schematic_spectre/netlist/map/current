@@ -1,0 +1,46 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "RowDecoder_256_4xP_TB"
+  repList "spectreText spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/edauser0/ayigit/RowDecoder_Project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.29/1/project_4x:RowDecoder_256_4xP_TB:1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "project_common/INV/schematic" "INV" )
+( "project_4x/Pre_L1_2t4/schematic" "Pre_L1_2t4" )
+( "project_4x/RowDecoder_256_4xP_TB/schematic" "RowDecoder_256_4xP_TB" )
+( "project_4x/AddrBuf/schematic" "AddrBuf" )
+( "project_common/NAND2/schematic" "NAND2" )
+( "project_4x/Pre/schematic" "Pre" )
+( "project_pex/Post_L2_256t2_Pex/schematic" "Post_L2_256t2_Pex" )
+( "project_pex/BitCellArray_Pex/schematic" "BitCellArray_Pex" )
+( "project_4x/Pre_L3_4t16_NAND/schematic" "Pre_L3_4t16_NAND" )
+( "project_4x/Pre_L0_1t2/schematic" "Pre_L0_1t2" )
+( "project_common/NOR2/schematic" "NOR2" )
+( "project_4x/Post/schematic" "Post" )
+( "project_4x/RowDecoder_256_4xP/schematic" "RowDecoder_256_4xP" )
+( "project_common/BUF/schematic" "BUF" )
+( "project_4x/Pre_L2_3t8/schematic" "Pre_L2_3t8" )
+ )
+( "AddrBuf" "ihnl/cds16/map" )
+( "Post" "ihnl/cds5/map" )
+( "Pre_L0_1t2" "ihnl/cds11/map" )
+( "INV" "ihnl/cds3/map" )
+( "BUF" "ihnl/cds15/map" )
+( "BitCellArray_Pex" "ihnl/cds19/map" )
+( "RowDecoder_256_4xP_TB" "ihnl/cds18/map" )
+( "RowDecoder_256_4xP" "ihnl/cds17/map" )
+( "Post_L2_256t2_Pex" "ihnl/cds20/map" )
+( "NOR2" "ihnl/cds9/map" )
+( "Pre_L3_4t16_NAND" "ihnl/cds14/map" )
+( "Pre_L1_2t4" "ihnl/cds12/map" )
+( "Pre_L2_3t8" "ihnl/cds13/map" )
+( "NAND2" "ihnl/cds4/map" )
+( "Pre" "ihnl/cds10/map" )
+ )

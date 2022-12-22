@@ -1,0 +1,36 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Dec 17 15:54:05 2021"
+"date" "Dec 17 15:54:05 2021"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("Design_Point")
+)
+"Design_Point=1.0" "runObject" (
+(
+"../../../1/project_1x:RowDecoder_256_1xP_TB:1/psf/logFile"
+"../../../1/project_1x:RowDecoder_256_1xP_TB:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+"netlistDir" "../../../1/project_1x:RowDecoder_256_1xP_TB:1/netlist"
+"dataDir" "../../../1/project_1x:RowDecoder_256_1xP_TB:1"
+ "Design_Point" 1.000000e+00
+)
+
+END

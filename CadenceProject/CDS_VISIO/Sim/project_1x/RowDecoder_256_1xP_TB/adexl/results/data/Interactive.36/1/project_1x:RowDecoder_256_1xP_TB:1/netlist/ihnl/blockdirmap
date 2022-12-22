@@ -1,0 +1,23 @@
+CADENCE IHNL111431
+
+project_common INV schematic cds0
+project_common NAND2 schematic cds1
+project_common NOR2 schematic cds2
+project_1x Post schematic cds3
+project_common BUF schematic cds4
+project_1x AddrBuf schematic cds5
+project_1x Pre_L0_1t2_NAND schematic cds15
+project_common BitCellLoad_L schematic cds16
+project_common BitCellRow schematic cds17
+project_common BitCellArray schematic cds18
+project_1x RowDecoder_256_1xP schematic cds19
+project_1x RowDecoder_256_1xP_TB schematic cds20
+project_1x Post_L0_1t8 schematic cds22
+project_1x Post_L1_2t8 schematic cds23
+project_1x Post_L2_4t8 schematic cds24
+project_1x Post_L3_8t8 schematic cds25
+project_1x Post_L4_16t8 schematic cds26
+project_1x Post_L5_32t8 schematic cds27
+project_1x Post_L6_64t8 schematic cds28
+project_1x Post_L7_128t8 schematic cds29
+project_1x Post_L8_256t8 schematic cds30

@@ -1,0 +1,346 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "18.1.0.556.isr13"
+"date" "9:36:12 PM, Wed Dec 21, 2022"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.00100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+"subckt_instances" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"pcap_18_ll" "subckt" (
+""
+""
+""
+)
+"rnhr_llrf" "subckt" (
+""
+""
+""
+)
+"rnnpo_llrf" "subckt" (
+""
+""
+""
+)
+"rnnpo_nw_llrf" "subckt" (
+""
+""
+""
+)
+"n_bpw_33_llrf" "subckt" (
+""
+""
+""
+)
+"n_33_llrf" "subckt" (
+""
+""
+""
+)
+"n_bpw_12_lllvtrf" "subckt" (
+""
+""
+""
+)
+"rsnwell_ll" "subckt" (
+""
+""
+""
+)
+"momcaps_array_vp4_rfvcl" "subckt" (
+""
+""
+""
+)
+"ncap_18_ll" "subckt" (
+""
+""
+""
+)
+"rnnpo_ll" "subckt" (
+""
+""
+""
+)
+"rnppo_nw_llrf" "subckt" (
+""
+""
+""
+)
+"varmis_33_llrf" "subckt" (
+""
+""
+""
+)
+"rnppo_ll" "subckt" (
+""
+""
+""
+)
+"diop_ll" "subckt" (
+""
+""
+""
+)
+"mimcaps_20f_nwell_rfkf" "subckt" (
+""
+""
+""
+)
+"n_bpw_12_llhvtrf" "subckt" (
+""
+""
+""
+)
+"pcap_33_ll" "subckt" (
+""
+""
+""
+)
+"mimcaps_20f_m1_rfkf" "subckt" (
+""
+""
+""
+)
+"p_12_llrvtrf" "subckt" (
+""
+""
+""
+)
+"n_bpw_12_llrvtrf" "subckt" (
+""
+""
+""
+)
+"varmis_25_llrf" "subckt" (
+""
+""
+""
+)
+"momcaps_symesh_mmkf" "subckt" (
+""
+""
+""
+)
+"pad_rf" "subckt" (
+""
+""
+""
+)
+"rnpd_ll" "subckt" (
+""
+""
+""
+)
+"momcaps_asmesh_mmkf" "subckt" (
+""
+""
+""
+)
+"n_18_llrf" "subckt" (
+""
+""
+""
+)
+"ncap_33_ll" "subckt" (
+""
+""
+""
+)
+"r_4x_ll" "subckt" (
+""
+""
+""
+)
+"rnhr_ll" "subckt" (
+""
+""
+""
+)
+"n_12_lllvtrf" "subckt" (
+""
+""
+""
+)
+"r_m1_ll" "subckt" (
+""
+""
+""
+)
+"varmis_18_llrf" "subckt" (
+""
+""
+""
+)
+"p_12_lllvtrf" "subckt" (
+""
+""
+""
+)
+"dion_ll" "subckt" (
+""
+""
+""
+)
+"n_bpw_18_llrf" "subckt" (
+""
+""
+""
+)
+"p_33_llrf" "subckt" (
+""
+""
+""
+)
+"p_18_llrf" "subckt" (
+""
+""
+""
+)
+"r_2x_ll" "subckt" (
+""
+""
+""
+)
+"rspd_ll" "subckt" (
+""
+""
+""
+)
+"n_12_llhvtrf" "subckt" (
+""
+""
+""
+)
+"r_6x_ll" "subckt" (
+""
+""
+""
+)
+"n_bpw_25_llrf" "subckt" (
+""
+""
+""
+)
+"r_1x_ll" "subckt" (
+""
+""
+""
+)
+"rsnpo_ll" "subckt" (
+""
+""
+""
+)
+"mimcaps_20f_psub_rfkf" "subckt" (
+""
+""
+""
+)
+"momcaps_sy_mmkf" "subckt" (
+""
+""
+""
+)
+"pcap_12_ll" "subckt" (
+""
+""
+""
+)
+"vardiop_llrf" "subckt" (
+""
+""
+""
+)
+"momcaps_array_vp3_rfvcl" "subckt" (
+""
+""
+""
+)
+"momcaps_as_mmkf" "subckt" (
+""
+""
+""
+)
+"ncap_12_ll" "subckt" (
+""
+""
+""
+)
+"pcap_25_ll" "subckt" (
+""
+""
+""
+)
+"rnppo_llrf" "subckt" (
+""
+""
+""
+)
+"p_12_llhvtrf" "subckt" (
+""
+""
+""
+)
+"varmis_12_llrf" "subckt" (
+""
+""
+""
+)
+"n_25_llrf" "subckt" (
+""
+""
+""
+)
+"rnhr_nw_llrf" "subckt" (
+""
+""
+""
+)
+"momcaps_array_vp5_rfvcl" "subckt" (
+""
+""
+""
+)
+"rsppo_ll" "subckt" (
+""
+""
+""
+)
+"n_12_llrvtrf" "subckt" (
+""
+""
+""
+)
+"ncap_25_ll" "subckt" (
+""
+""
+""
+)
+"p_25_llrf" "subckt" (
+""
+""
+""
+)
+"rsnd_ll" "subckt" (
+""
+""
+""
+)
+"rnnd_ll" "subckt" (
+""
+""
+""
+)
+END

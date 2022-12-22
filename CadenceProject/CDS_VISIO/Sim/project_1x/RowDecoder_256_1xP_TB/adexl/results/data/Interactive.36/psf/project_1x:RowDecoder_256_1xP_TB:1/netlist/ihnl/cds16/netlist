@@ -1,0 +1,8 @@
+    NM0 (vdd! WL 0 0) n_12_llrvt l=60n w=80n sa=175n sb=175n nf=1 \
+        mis_flag=1 sd=0 as=24.8f ad=24.8f ps=690n pd=690n sca=115.942 \
+        scb=36.4681m scc=14.1857m m=1 mf=1
+    NM1 (0 WL 0 0) n_12_llrvt l=60n w=80n sa=175n sb=175n nf=1 mis_flag=1 \
+        sd=0 as=24.8f ad=24.8f ps=690n pd=690n sca=115.942 scb=36.4681m \
+        scc=14.1857m m=1 mf=1
+ends BitCellLoad_L
+// End of subcircuit definition.

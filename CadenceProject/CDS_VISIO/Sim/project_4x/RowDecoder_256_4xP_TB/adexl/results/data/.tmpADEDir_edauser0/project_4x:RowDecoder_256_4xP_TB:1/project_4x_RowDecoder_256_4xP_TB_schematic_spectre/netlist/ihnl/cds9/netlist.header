@@ -1,0 +1,6 @@
+
+// Library name: project_common
+// Cell name: NOR2
+// View name: schematic
+subckt NOR2 A B Z
+parameters gamma=1 beta=2

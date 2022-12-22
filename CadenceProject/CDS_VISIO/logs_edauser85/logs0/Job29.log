@@ -1,0 +1,2754 @@
+\# Program start time:     UTC 2022.12.21 16:13:18.353
+\# Local time: CET (UTC+01:00) 2022.12.21 17:13:18.353
+\o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 08/21/2018 19:47 (sjfhw316) $
+\o Hierarchy:		/softs/cadence/ic/6.1.7/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.7-64b.500.22  (64-bit addresses)
+\# Command line:	/softs/cadence/ic/6.1.7/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso47035 -mpshost selsrv2.epfl.ch -davinciService DaVinciService_47035_1671637932 -log /home/edauser85/2022_project/CDS_VISIO/logs_edauser85/logs0/Job29.log -licenseLockFileName /home/edauser85/2022_project/CDS_VISIO/.tmp_edauser85/.selsrv2.epfl.ch_47035 -nograph -nostdin -axlChildIdFlag 29
+\# Host name (type):	selsrv2.epfl.ch (x86_64)
+\# Operating system:	Linux 3.10.0-1160.71.1.el7.x86_64 #1 SMP Wed Jun 15 08:55:08 UTC 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	selsrv2.epfl.ch:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 13801)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        456 MB
+\# Available memory:	    126,887 MB
+\# System memory:	    149,151 MB
+\# Maximum memory size:	    148,760 MB
+\# Max mem available:	    126,952 MB
+\# Initial memory used:	         65 MB
+\#        process size:	      1,031 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 48.00/48.00
+\# Qt version:		4.8.5
+\# Window Manager:	other
+\# User Name:		edauser85
+\o Working Directory:	selsrv2.epfl.ch:/home/edauser85/2022_project/CDS_VISIO
+\# Process Id:		21872
+\o 
+\o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o *INFO* (icLic-303) virtuoso: PID=21872, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/Seevinck_SNM_tb' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'Seevinck_SNM_tb'.
+\# Memory report: using         188 MB, process size 1,278 MB at UTC 2022.12.21 16:13:20.556
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/ex3' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'ex3'.
+\o -----------------------------------------------------------------
+\o ## BEGIN USER CUSTOMIZATION
+\o -> Site-wide ($CDSHOME/tools/dfII/local/.cdsinit)...
+\o Text editor: gedit
+\o MGC CALIBRE CONFIGURATION
+\o //
+\o //  Calibre Skill Interface * (v2020.1_17.9) *
+\o //
+\o //                 Copyright Mentor Graphics Corporation 2005
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o END OF MGC CALIBRE CONFIGURATION
+\o ## END USER CUSTOMIZATION
+\o -----------------------------------------------------------------
+\o *Info*    Client has finished starting ... 
+\o 
+\p Ready>
+\o Loading pe.cxt 
+\a _treeSetOpcGUI(t)
+\r t
+\o Loading vqp.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = project_common
+\o 	Cell         = INV_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = project_common:INV_tb:1_none_Interactive.16
+\o 	Results DB   = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl/results/data/Interactive.16.rdb
+\o 	Results Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/1/project_common:INV_tb:1
+\o 	Results Loc  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data
+\o 	Project Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim
+\o 	Setup DB loc = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o *INFO* (icLic-304) Start to connect to parent process (session=virtuoso47035, host=selsrv2.epfl.ch). Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o *INFO* (icLic-305) Step 1: Connecting to parent. Spent time is 0 seconds.
+\o *INFO* (icLic-309) The registration of the child 21872 within 90 seconds is being processed ...
+\o *INFO* (icLic-310) The result of registration is true. Spend time is 0 seconds.
+\o *INFO* (icLic-308) The end of connection. Result is true. Total spent time is 0 seconds.
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/Seevinck_SNM_tb' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'Seevinck_SNM_tb'.
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/ex3' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'ex3'.
+\o Loading umc65ll/libInit.il ...
+\o 	Loading umc65ll/loadCxt.ile ... done!
+\o 	Loading context 'umc65ll' from library 'umc65ll' ... done!
+\o 	Loading context 'pdkUtils' from library 'umc65ll' ... done!
+\o 	Loading context 'Util' from library 'umc65ll' ... done!
+\o 	Loading umc65ll/display.drf ... done!
+\o 	Loading umc65ll/libInitCustomExit.il ... 	Loading context 'oxf_cb' from library 'umc65ll' ... done!
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o done!
+\o Loaded umc65ll/libInit.il successfully!
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 1) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "500a"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/1/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/1/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting Dec 21 17:13:23 2022
+\o End netlisting Dec 21 17:13:23 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Memory report: using         305 MB, process size 1,394 MB at UTC 2022.12.21 16:13:24.124
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (7 1).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/1/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 1) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 2) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "600a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/2/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/2/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:13:26 2022
+\o End netlisting Dec 21 17:13:26 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (7 2).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/2/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 2) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 3) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "700a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/3/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/3/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 3)
+\o 
+\o generate netlist...
+\# Available memory:        126,636 MB at UTC 2022.12.21 16:13:28.032
+\# Memory report: Maximum memory size now 126,953 MB at UTC 2022.12.21 16:13:28.032
+\# Thread usage report: 49 active threads, active load 1.00 at UTC 2022.12.21 16:13:28.032
+\o Begin Incremental Netlisting Dec 21 17:13:28 2022
+\o End netlisting Dec 21 17:13:28 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (7 3).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/3/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 3) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 4) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "800a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/4/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/4/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:13:29 2022
+\o End netlisting Dec 21 17:13:29 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (7 4).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/4/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 4) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 5) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "900a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/5/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/5/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:13:31 2022
+\o End netlisting Dec 21 17:13:31 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (7 5).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/5/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 5) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 6) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "1f"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/6/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/6/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:13:33 2022
+\o End netlisting Dec 21 17:13:33 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (7 6).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.16/6/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 6) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables8".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = project_common
+\o 	Cell         = INV_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = project_common:INV_tb:1_none_Interactive.17
+\o 	Results DB   = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl/results/data/Interactive.17.rdb
+\o 	Results Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/1/project_common:INV_tb:1
+\o 	Results Loc  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data
+\o 	Project Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim
+\o 	Setup DB loc = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 1) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "500a"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/1/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/1/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:14:46 2022
+\o WARNING (OSSHNL-160): The primitive, 'umc65ll/N_12_LLLVT/spectre', was not used in the last netlisting session in this
+\o current run directory. Therefore, re-netlisting all cell views where this
+\o primitive is instantiated.
+\o 
+\o WARNING (OSSHNL-160): The primitive, 'umc65ll/P_12_LLLVT/spectre', was not used in the last netlisting session in this
+\o current run directory. Therefore, re-netlisting all cell views where this
+\o primitive is instantiated.
+\o 
+\o End netlisting Dec 21 17:14:46 2022
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    5
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (8 1).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/1/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 1) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 2) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "600a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/2/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/2/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:14:49 2022
+\o End netlisting Dec 21 17:14:49 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (8 2).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/2/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 2) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 3) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "700a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/3/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/3/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:14:50 2022
+\o End netlisting Dec 21 17:14:50 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (8 3).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/3/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 3) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 4) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "800a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/4/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/4/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:14:52 2022
+\o End netlisting Dec 21 17:14:52 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (8 4).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/4/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 4) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 5) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "900a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/5/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/5/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:14:54 2022
+\o End netlisting Dec 21 17:14:54 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (8 5).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/5/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 5) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 6) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "1f"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/6/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/6/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:14:56 2022
+\o End netlisting Dec 21 17:14:56 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (8 6).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.17/6/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 6) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables8".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = project_common
+\o 	Cell         = INV_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = project_common:INV_tb:1_none_Interactive.18
+\o 	Results DB   = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl/results/data/Interactive.18.rdb
+\o 	Results Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/1/project_common:INV_tb:1
+\o 	Results Loc  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data
+\o 	Project Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim
+\o 	Setup DB loc = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 1) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "100a"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/1/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/1/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:15:26 2022
+\o End netlisting Dec 21 17:15:26 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (9 1).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/1/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 1) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 2) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "200a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/2/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/2/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:15:28 2022
+\o End netlisting Dec 21 17:15:28 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (9 2).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/2/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 2) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 3) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "300a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/3/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/3/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:15:30 2022
+\o End netlisting Dec 21 17:15:30 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (9 3).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/3/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 3) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 4) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "400a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/4/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/4/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:15:32 2022
+\o End netlisting Dec 21 17:15:32 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (9 4).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/4/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 4) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 5) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "500a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/5/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/5/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:15:34 2022
+\o End netlisting Dec 21 17:15:35 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (9 5).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/5/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 5) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 6) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "600a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/6/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/6/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:15:36 2022
+\o End netlisting Dec 21 17:15:36 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (9 6).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/6/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 6) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 7) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "700a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/7/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/7/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:15:38 2022
+\o End netlisting Dec 21 17:15:38 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (9 7).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/7/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 7) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 8) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "800a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/8/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/8/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:15:40 2022
+\o End netlisting Dec 21 17:15:40 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (9 8).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/8/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 8) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 9) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "900a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/9/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/9/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:15:42 2022
+\o End netlisting Dec 21 17:15:42 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (9 9).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/9/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 9) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 10) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "1f"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/10/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/10/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:15:44 2022
+\o End netlisting Dec 21 17:15:44 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (9 10).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.18/10/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 10) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables8".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = project_common
+\o 	Cell         = INV_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = project_common:INV_tb:1_none_Interactive.21
+\o 	Results DB   = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl/results/data/Interactive.21.rdb
+\o 	Results Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/1/project_common:INV_tb:1
+\o 	Results Loc  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data
+\o 	Project Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim
+\o 	Setup DB loc = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 1) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "100a"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/1/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/1/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:18:48 2022
+\o End netlisting Dec 21 17:18:48 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (12 1).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/1/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 1) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 2) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "200a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/2/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/2/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:18:51 2022
+\o End netlisting Dec 21 17:18:51 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (12 2).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/2/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 2) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 3) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "300a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/3/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/3/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:18:53 2022
+\o End netlisting Dec 21 17:18:53 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (12 3).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/3/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 3) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 4) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "400a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/4/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/4/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:18:54 2022
+\o End netlisting Dec 21 17:18:54 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (12 4).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/4/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 4) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 5) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "500a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/5/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/5/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:18:56 2022
+\o End netlisting Dec 21 17:18:56 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (12 5).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/5/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 5) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 6) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "600a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/6/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/6/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:18:58 2022
+\o End netlisting Dec 21 17:18:58 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (12 6).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/6/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 6) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 7) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "700a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/7/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/7/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:00 2022
+\o End netlisting Dec 21 17:19:00 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (12 7).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/7/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 7) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 8) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "800a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/8/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/8/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:02 2022
+\o End netlisting Dec 21 17:19:02 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (12 8).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/8/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 8) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 9) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "900a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/9/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/9/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:04 2022
+\o End netlisting Dec 21 17:19:04 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (12 9).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/9/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 9) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 10) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "1f"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/10/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/10/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:05 2022
+\o End netlisting Dec 21 17:19:05 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (12 10).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.21/10/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 10) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables8".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = project_common
+\o 	Cell         = INV_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = project_common:INV_tb:1_none_Interactive.22
+\o 	Results DB   = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl/results/data/Interactive.22.rdb
+\o 	Results Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/1/project_common:INV_tb:1
+\o 	Results Loc  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data
+\o 	Project Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim
+\o 	Setup DB loc = /home/edauser85/2022_project/CDS_VISIO/project_common/INV_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 1) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "100a"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/1/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/1/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:09 2022
+\o End netlisting Dec 21 17:19:09 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (13 1).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/1/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 1) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 2) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "200a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/2/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/2/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:11 2022
+\o End netlisting Dec 21 17:19:11 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (13 2).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/2/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 2) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 3) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "300a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/3/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/3/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:13 2022
+\o End netlisting Dec 21 17:19:13 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (13 3).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/3/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 3) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 4) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "400a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/4/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/4/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:15 2022
+\o End netlisting Dec 21 17:19:15 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (13 4).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/4/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 4) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 5) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "500a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/5/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/5/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:17 2022
+\o End netlisting Dec 21 17:19:17 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (13 5).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/5/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 5) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 6) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "600a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/6/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/6/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:18 2022
+\o End netlisting Dec 21 17:19:18 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (13 6).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/6/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 6) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 7) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "700a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/7/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/7/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:20 2022
+\o End netlisting Dec 21 17:19:20 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (13 7).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/7/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 7) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 8) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "800a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/8/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/8/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:22 2022
+\o End netlisting Dec 21 17:19:22 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (13 8).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/8/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 8) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 9) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "900a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/9/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/9/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:24 2022
+\o End netlisting Dec 21 17:19:24 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (13 9).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/9/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 9) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 10) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "1f"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/10/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/10/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 17:19:26 2022
+\o End netlisting Dec 21 17:19:26 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (13 10).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.22/10/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 10) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Job 29 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables8".
+\o To save future changes, copy variables to cellView before exiting.
+\# Memory report: on exit            332 MB, process size 1,436 MB at UTC 2022.12.21 16:24:28.736
+\# Memory report: peak usage         332 MB, process size 1,436 MB

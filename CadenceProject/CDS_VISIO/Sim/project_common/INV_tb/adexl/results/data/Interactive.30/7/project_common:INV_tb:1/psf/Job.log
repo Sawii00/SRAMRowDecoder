@@ -1,0 +1,70 @@
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (4 7) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var cap_val = "600.01a"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/7/project_common:INV_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/7/project_common:INV_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (4 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Dec 21 21:28:54 2022
+\o End netlisting Dec 21 21:28:54 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ project_common:INV_tb:1 ]
+\o           for Point ID (4 7).
+\o 
+\o Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.30/7/project_common:INV_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o *Info*    (ADE-3072): Simulation stopped because you selected the
+\o           'Stop Simulation' command in ADE.
+\o 
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: unbound variable" nil1))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'fall_time' failed for point:'7' test:'project_common:INV_tb:1'
+\o 	Expression:'riseTime(VT("/O") 0 nil1 nil 10 90 nil "time")'
+\o 	because of the following error(s)
+\o 	*Error* eval: unbound variable.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (4 7) on testbench [
+\o           project_common:INV_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 

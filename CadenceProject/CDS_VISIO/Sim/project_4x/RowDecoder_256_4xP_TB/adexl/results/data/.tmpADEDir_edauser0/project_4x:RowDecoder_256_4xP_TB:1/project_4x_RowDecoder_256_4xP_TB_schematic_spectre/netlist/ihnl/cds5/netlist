@@ -1,0 +1,4 @@
+    I1 (net7 WL) INV gamma=1 beta=2
+    I0 (A\<0\> A\<1\> net7) NAND2 gamma=1 beta=2
+ends Post
+// End of subcircuit definition.

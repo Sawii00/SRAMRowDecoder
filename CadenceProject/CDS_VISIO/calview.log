@@ -1,0 +1,17 @@
+//
+//  CalibreView Settings:
+//	  Netlist File: /home/edauser0/levisse/edalabs_65_2021_2022/class/edalab2021_test/CDS_VISO/PEX_Calibre/Post_L8_256t8.pex.netlist
+//	  Output Library: project_1x
+//	  Schematic Library: project_1x
+//	  Cellmap File: /home/edauser0/ayigit/RowDecoder_Project/CDS_VISIO/calibre_refDirs/PEX_rundir/calibre_pex_rules
+//	  Log File: ./calview.log
+//	  Calibre View Name: calibre
+//	  Calibre View Type: schematic
+//	  Magnify Devices by: 1.000000
+//	  Magnify Parasitics by: 1.000000
+//	  Create Terminals: Create all terminals
+//	  Reset Properties: ("m=1")
+//	  Generate SPECTRE Netlist: off
+//
+ERROR: Fatal error in icellmap file conversion: Mixed synatx
+

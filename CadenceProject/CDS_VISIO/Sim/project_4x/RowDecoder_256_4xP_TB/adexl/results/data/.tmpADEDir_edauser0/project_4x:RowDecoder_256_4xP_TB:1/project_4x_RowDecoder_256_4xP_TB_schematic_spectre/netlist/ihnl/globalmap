@@ -1,0 +1,30 @@
+CADENCE IHNL11140
+$model
+project_pex/Post_L2_256t2_Pex/schematic Post_L2_256t2_Pex
+project_pex/BitCellArray_Pex/schematic BitCellArray_Pex
+project_4x/Pre_L2_3t8/schematic Pre_L2_3t8
+project_4x/Pre_L3_4t16_NAND/schematic Pre_L3_4t16_NAND
+project_4x/Post/schematic Post
+project_4x/Pre/schematic Pre
+project_common/NAND2/schematic NAND2
+project_common/BUF/schematic BUF
+project_common/BitCellArray/schematic BitCellArray
+project_common/INV/schematic INV
+project_common/NOR2/schematic NOR2
+project_4x/Pre_L1_2t4/schematic Pre_L1_2t4
+project_common/BitCellRow/schematic BitCellRow
+project_4x/Post_L0_1t2/schematic Post_L0_1t2
+project_4x/Post_L2_256t2/schematic Post_L2_256t2
+project_4x/RowDecoder_256_4xP/schematic RowDecoder_256_4xP
+project_4x/RowDecoder_256_4xP_TB/schematic RowDecoder_256_4xP_TB
+project_4x/Pre_L0_1t2/schematic Pre_L0_1t2
+project_4x/AddrBuf/schematic AddrBuf
+project_4x/Post_L1_16t2/schematic Post_L1_16t2
+project_common/BitCellLoad_L/schematic BitCellLoad_L
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam

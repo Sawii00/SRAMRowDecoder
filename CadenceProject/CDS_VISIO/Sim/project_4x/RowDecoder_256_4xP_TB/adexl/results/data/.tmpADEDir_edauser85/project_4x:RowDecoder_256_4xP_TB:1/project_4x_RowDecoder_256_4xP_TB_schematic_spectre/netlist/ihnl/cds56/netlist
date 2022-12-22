@@ -1,0 +1,18 @@
+    I2\<15\> (Sel0\<15\> Sel1 WL\<31\> WL\<30\>) Post_L0_1t2
+    I2\<14\> (Sel0\<14\> Sel1 WL\<29\> WL\<28\>) Post_L0_1t2
+    I2\<13\> (Sel0\<13\> Sel1 WL\<27\> WL\<26\>) Post_L0_1t2
+    I2\<12\> (Sel0\<12\> Sel1 WL\<25\> WL\<24\>) Post_L0_1t2
+    I2\<11\> (Sel0\<11\> Sel1 WL\<23\> WL\<22\>) Post_L0_1t2
+    I2\<10\> (Sel0\<10\> Sel1 WL\<21\> WL\<20\>) Post_L0_1t2
+    I2\<9\> (Sel0\<9\> Sel1 WL\<19\> WL\<18\>) Post_L0_1t2
+    I2\<8\> (Sel0\<8\> Sel1 WL\<17\> WL\<16\>) Post_L0_1t2
+    I2\<7\> (Sel0\<7\> Sel1 WL\<15\> WL\<14\>) Post_L0_1t2
+    I2\<6\> (Sel0\<6\> Sel1 WL\<13\> WL\<12\>) Post_L0_1t2
+    I2\<5\> (Sel0\<5\> Sel1 WL\<11\> WL\<10\>) Post_L0_1t2
+    I2\<4\> (Sel0\<4\> Sel1 WL\<9\> WL\<8\>) Post_L0_1t2
+    I2\<3\> (Sel0\<3\> Sel1 WL\<7\> WL\<6\>) Post_L0_1t2
+    I2\<2\> (Sel0\<2\> Sel1 WL\<5\> WL\<4\>) Post_L0_1t2
+    I2\<1\> (Sel0\<1\> Sel1 WL\<3\> WL\<2\>) Post_L0_1t2
+    I2\<0\> (Sel0\<0\> Sel1 WL\<1\> WL\<0\>) Post_L0_1t2
+ends Post_L1_16t2
+// End of subcircuit definition.

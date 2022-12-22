@@ -1,0 +1,1043 @@
+\# Program start time:     UTC 2022.12.22 11:21:02.788
+\# Local time: CET (UTC+01:00) 2022.12.22 12:21:02.788
+\o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 08/21/2018 19:47 (sjfhw316) $
+\o Hierarchy:		/softs/cadence/ic/6.1.7/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.7-64b.500.22  (64-bit addresses)
+\# Command line:	/softs/cadence/ic/6.1.7/tools/dfII/bin/64bit/virtuoso
+\# Host name (type):	selsrv2.epfl.ch (x86_64)
+\# Operating system:	Linux 3.10.0-1160.71.1.el7.x86_64 #1 SMP Wed Jun 15 08:55:08 UTC 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	localhost:17.0 (1920x1080)
+\# Available geometry:			TL(0:0) BR(1919:1047)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x2e00000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        467 MB
+\# Available memory:	    130,269 MB
+\# System memory:	    149,151 MB
+\# Maximum memory size:	    148,750 MB
+\# Max mem available:	    130,334 MB
+\# Initial memory used:	         65 MB
+\#        process size:	      1,031 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 48.00/48.00
+\# Qt version:		4.8.5
+\# Window Manager:	other
+\# User Name:		edauser85
+\o Working Directory:	selsrv2.epfl.ch:/home/edauser85/2022_project/CDS_VISIO
+\# Process Id:		41460
+\o 
+\o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/Seevinck_SNM_tb' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'Seevinck_SNM_tb'.
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/ex3' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'ex3'.
+\o -----------------------------------------------------------------
+\o ## BEGIN USER CUSTOMIZATION
+\o -> Site-wide ($CDSHOME/tools/dfII/local/.cdsinit)...
+\o Text editor: gedit
+\o MGC CALIBRE CONFIGURATION
+\o //
+\o //  Calibre Skill Interface * (v2020.1_17.9) *
+\o //
+\o //                 Copyright Mentor Graphics Corporation 2005
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o END OF MGC CALIBRE CONFIGURATION
+\o ## END USER CUSTOMIZATION
+\o -----------------------------------------------------------------
+\p Ready>
+\o Loading pe.cxt 
+\a _treeSetOpcGUI(t)
+\r t
+\a hiQuit()
+\# Displaying modal dbox "hiQuitDBox", title "Quit"
+\p >
+\a hiDBoxCancel(hiQuitDBox)
+\r t
+\r nil
+\# Available memory:        130,147 MB at UTC 2022.12.22 11:21:13.390
+\# Memory report: Maximum memory size now 130,301 MB at UTC 2022.12.22 11:21:13.390
+\# Thread usage report: 49 active threads, active load 1.00 at UTC 2022.12.22 11:21:13.390
+\a ddsOpenLibManager()
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/Seevinck_SNM_tb' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'Seevinck_SNM_tb'.
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/ex3' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'ex3'.
+\r t
+\i ddsServOpen("project_4x" "RowDecoder_256_4xP_TB" "adexl" "edit" nil)
+\o Loading oasis.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o Loading lx.cxt 
+\o Loading lce.cxt 
+\o Loading le.cxt 
+\# Memory report: using         207 MB, process size 1,299 MB at UTC 2022.12.22 11:21:19.306
+\o Loading rte.cxt 
+\o Loading te.cxt 
+\o Loading schHDL.cxt 
+\w *WARNING* (icLic-214) Failed to check out license Analog_Design_Environment_XL ("95210") or Analog_Design_Environment_GXL ("95220") to run ADE XL because of status code -5 and -949 respectively.
+\o INFO (adeLic-1000): Successfully checked out an 'ADE Assembler' license to open ADE XL as no ADE ones were available.
+\o Loading elec.cxt 
+\o Loading vqp.cxt 
+\# ADE XL session 'session0' started on Thu Dec 22 12:21:19 2022 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/Seevinck_SNM_tb' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'Seevinck_SNM_tb'.
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/ex3' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'ex3'.
+\o Loading umc65ll/libInit.il ...
+\o 	Loading umc65ll/loadCxt.ile ... done!
+\o 	Loading context 'umc65ll' from library 'umc65ll' ... done!
+\o 	Loading context 'pdkUtils' from library 'umc65ll' ... done!
+\o 	Loading context 'Util' from library 'umc65ll' ... done!
+\o 	Loading umc65ll/display.drf ... done!
+\o 	Loading umc65ll/libInitCustomExit.il ... 	Loading context 'oxf_cb' from library 'umc65ll' ... done!
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o done!
+\o Loaded umc65ll/libInit.il successfully!
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o WARNING (ADE-7002): The Spectre run mode needs to be 'batch' when Spectre high-performance mode is enabled. Automatically
+\o             setting the run mode to 'batch'.
+\o WARNING (ADEXL-1945): Could not get edit lock for the unique number file /home/edauser85/2022_project/CDS_VISIO/.tmp_edauser85/.unique_number_0_file, for ICRP command and logs.
+\o Reason : File is already locked by some other process..
+\o Trying the next index.
+\o 
+\# Memory report: using         393 MB, process size 1,489 MB at UTC 2022.12.22 11:21:22.333
+\o Loading mtv.cxt 
+\o Loading leToolbox.cxt 
+\o Loading cdf.cxt 
+\o Loading mpt.cxt 
+\a when(dwindow('axlDataViewessWindow0) hiMapWindow(dwindow('axlDataViewessWindow0)))
+\# Thread usage report: 50 active threads, active load 1.00 at UTC 2022.12.22 11:21:23.586
+\r t
+\a when(dwindow('axlRunSummaryessWindow0) hiMapWindow(dwindow('axlRunSummaryessWindow0)))
+\r t
+\a hiResizeWindow(swindow(1) list(-10:22 1910:1033))
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 8)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 7)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 6)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 5)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 4)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 2 6)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 2 6)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 2)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 1)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 1 0)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 1 0)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 2)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 3)
+\r t
+\a _axlOutputsSetupAddOutputByType(axlOutputsForm0->axlOutputsWidget0 "" "")
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 0)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 1)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 2)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 4)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 5)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 6)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 8)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 9)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 10)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 11)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 12)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 13)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 8 2)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 8)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 9)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 10)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 11)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 12)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 13)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 0)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 1)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 4)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 5)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 6)
+\r t
+\a _axlOutputsSetupSelectItem(axlOutputsForm0->axlOutputsWidget0 "'( (8 2))")
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 0 0)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 0 0)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 0 0)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 2)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 8 2)
+\r t
+\a _axlToolSetOutputType("session0" "project_4x:RowDecoder_256_4xP_TB:1" 9 "signal")
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 8 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 2)
+\r t
+\a _axlOutputsSetupSelectItem(axlOutputsForm0->axlOutputsWidget0 "'( (8 3))")
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 0 0)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 0 0)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 0 0)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 3)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 8 3)
+\r t
+\a _axlToolSetOutputExpr("session0" "project_4x:RowDecoder_256_4xP_TB:1" 9 "/A<1:0>")
+\r t
+\a _axlUpdateSpecResultName((axlGetMainSetupDB "session0") "project_4x:RowDecoder_256_4xP_TB:1" "" "\"/A<1:0>\"")
+\r 0
+\a _axlUpdateWaveSpecResultName((axlGetMainSetupDB "session0") "project_4x:RowDecoder_256_4xP_TB:1" "" "/A<1:0>")
+\r 0
+\a _axlUpdateOutputID((axlGetMainSetupDB "session0") "project_4x:RowDecoder_256_4xP_TB:1" "" "\"/A<1:0>\"")
+\r nil
+\a (_axlUpdateUserDefinedColumnOutputName (axlGetMainSetupDB "session0") "session0" "project_4x:RowDecoder_256_4xP_TB:1" "" 9)
+\r 1
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 3)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 -1 -1)
+\r t
+\a _axlOutputsSetupAddOutputByType(axlOutputsForm0->axlOutputsWidget0 "" "")
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 0)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 1)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 2)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 4)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 5)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 6)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 8)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 9)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 10)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 11)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 12)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 13)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 9 2)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 8)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 9)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 10)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 11)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 12)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 13)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 0)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 1)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 4)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 5)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 6)
+\r t
+\a _axlOutputsSetupSelectItem(axlOutputsForm0->axlOutputsWidget0 "'( (9 2))")
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 0 0)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 0 0)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 0 0)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 2)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 9 2)
+\r t
+\a _axlToolSetOutputType("session0" "project_4x:RowDecoder_256_4xP_TB:1" 10 "signal")
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 9 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 2)
+\r t
+\a _axlOutputsSetupSelectItem(axlOutputsForm0->axlOutputsWidget0 "'( (9 3))")
+\r t
+\a _axlToolSetOutputExpr("session0" "project_4x:RowDecoder_256_4xP_TB:1" 10 "/WL<")
+\w *WARNING* (DB-270000): dbFindNetByName: Input name (or member): WL< has improper bus syntax.
+\w *WARNING* (DB-220828): 'dbGetNameNumBit' was given an invalid input name. Input name (or member): WL< has improper bus syntax.
+\w *WARNING* (DB-270000): dbFindSigByName: Input name (or member): WL< has improper bus syntax.
+\w *WARNING* (DB-270004): Illegal name syntax - WL<
+\r t
+\a _axlUpdateSpecResultName((axlGetMainSetupDB "session0") "project_4x:RowDecoder_256_4xP_TB:1" "" "\"/WL<\"")
+\r 0
+\a _axlUpdateWaveSpecResultName((axlGetMainSetupDB "session0") "project_4x:RowDecoder_256_4xP_TB:1" "" "/WL<")
+\r 0
+\a _axlUpdateOutputID((axlGetMainSetupDB "session0") "project_4x:RowDecoder_256_4xP_TB:1" "" "\"/WL<\"")
+\r nil
+\a (_axlUpdateUserDefinedColumnOutputName (axlGetMainSetupDB "session0") "session0" "project_4x:RowDecoder_256_4xP_TB:1" "" 10)
+\r 1
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 4)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 9 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 3)
+\r t
+\a _axlOutputsSetupSelectItem(axlOutputsForm0->axlOutputsWidget0 "'( (9 3))")
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 0 0)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 0 0)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 0 0)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 3)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 9 3)
+\r t
+\a _axlToolSetOutputExpr("session0" "project_4x:RowDecoder_256_4xP_TB:1" 10 "/WL<2:0>")
+\r t
+\a _axlUpdateSpecResultName((axlGetMainSetupDB "session0") "project_4x:RowDecoder_256_4xP_TB:1" "/WL<" "\"/WL<2:0>\"")
+\r 0
+\a _axlUpdateWaveSpecResultName((axlGetMainSetupDB "session0") "project_4x:RowDecoder_256_4xP_TB:1" "/WL<" "/WL<2:0>")
+\r 0
+\a _axlUpdateOutputID((axlGetMainSetupDB "session0") "project_4x:RowDecoder_256_4xP_TB:1" "/WL<" "\"/WL<2:0>\"")
+\r t
+\a (_axlUpdateUserDefinedColumnOutputName (axlGetMainSetupDB "session0") "session0" "project_4x:RowDecoder_256_4xP_TB:1" "/WL<" 10)
+\r 1
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 3)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 -1 -1)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 4)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 9)
+\r t
+\a axlToolTogglePlotOutput("session0" "project_4x:RowDecoder_256_4xP_TB:1" 10)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 9 6)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 9 6)
+\r t
+\a (axlRunSimulation)
+\o Loading paraplot.cxt 
+\o Loading adpServer.cxt 
+\o WARNING (ADE-7002): The Spectre run mode needs to be 'batch' when Spectre high-performance mode is enabled. Automatically
+\o             setting the run mode to 'batch'.
+\a _axlSelectResultsTab(axlOutputsForm0->axlOutputsWidget0 0)
+\r t
+\r 0
+\o _axlToolDisplayTestPointOutputLog("session0" "project_4x:RowDecoder_256_4xP_TB:1" "/home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.92/1/project_4x:RowDecoder_256_4xP_TB:1/psf/spectre.out")
+\a hiSetCurrentWindow(window(2))
+\r t
+\a _axlPlot(axlOutputsForm0->axlOutputsWidget0)
+\r t
+\a rdbLoadResults("session0" "./Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.92/1/project_4x:RowDecoder_256_4xP_TB:1/psf")
+\r t
+\o Loading stats.cxt 
+\# Memory report: using       3,974 MB, process size 5,089 MB at UTC 2022.12.22 11:22:37.443
+\a hiResizeWindow(swindow(2) list(-10:22 1910:1033))
+\r t
+\a hiSetCurrentWindow(window(4))
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "splitAllStrips")
+\r t
+\# Memory report: Maximum memory size now 133,715 MB at UTC 2022.12.22 11:22:43.170
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createMarker")
+\r t
+\a _deUpdateWindowMenu('__vvWindowMenu4 4)
+\r t
+\a swindow(2)->hiToolbars->markerToolbar->\"traceCursor\"->checked=nil
+\r nil
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "undo")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "stopPreparedMeasurementSignalListener")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "undo")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "createDeltaMarker")
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a hiSetCurrentWindow(window(4))
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "graphSaveImage")
+\r t
+\a hiCloseWindow(swindow(2))
+\r t
+\a _hiSetCurrentWinNum(3)
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 9 6)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 -1 -1)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 8 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 3)
+\r t
+\a _axlOutputsSetupSelectItem(axlOutputsForm0->axlOutputsWidget0 "'( (8 3))")
+\r t
+\a (_axlToolUpdateOutputExprByType "session0" "project_4x:RowDecoder_256_4xP_TB:1" "signal" 9)
+\o Loading schematic.cxt 
+\o Loading ddui.cxt 
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 4)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 3)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 8 4)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "add" 8 3)
+\r t
+\a _axlOutputSetupSelect(axlOutputsForm0->axlOutputsWidget0 0 "remove" 8 4)
+\r t
+\a _axlOutputSetupCurrentChanged(axlOutputsForm0->axlOutputsWidget0 8 3)
+\r t
+\o Loading vb.cxt 
+\o Loading nt.cxt 
+\o Loading oi.cxt 
+\o Loading see.cxt 
+\o Loading treeAssistant.cxt 
+\o Loading asst.cxt 
+\a _treeNavActivateOpc(dwindow('treeAssistant1) "Objects/Instances")
+\r t
+\o Loading hsm.cxt 
+\o Loading cpf.cxt 
+\a _axlTestFilterChanged(axlOutputsForm0->axlOutputsWidget0 "'(\"project_4x:RowDecoder_256_4xP_TB:1\")")
+\r t
+\a _axlOutputsSetupTestFilterChanged(axlOutputsForm0->axlOutputsWidget0 "'(\"project_4x:RowDecoder_256_4xP_TB:1\")")
+\r t
+\a _ciAssistantReplay_newAssistantByName(dwindow('ciProspector1) "Rapid Analog Prototype")
+\r t
+\a _axlTestFilterChanged(axlOutputsForm0->axlOutputsWidget0 "'(\"project_4x:RowDecoder_256_4xP_TB:1\")")
+\r t
+\a _axlOutputsSetupTestFilterChanged(axlOutputsForm0->axlOutputsWidget0 "'(\"project_4x:RowDecoder_256_4xP_TB:1\")")
+\r t
+\r nil
+\a hiRaiseWindow(6 t)
+\r t
+\a hiRaiseWindow(2 t)
+\r t
+\a hiRaiseWindow(6 t)
+\r t
+\a schSingleSelectPt()
+\i -0.6875:1
+\i -0.6875:1
+\o *Warning* object selected is not a valid selection object
+\r t
+\a schHiDescendEdit()
+\i -0.6875:1
+\p Ready>
+\a hiiSetCurrentForm('schDescendForm)
+\r t
+\a hiFormDone(schDescendForm)
+\o *INFO* (icLic-302) License Virtuoso_Schematic_Editor_XL ("95115") was used to run Schematics L.
+\r t
+\r t
+\a schSingleSelectPt()
+\i 1.625:2.0625
+\i 1.625:2.0625
+\o *Warning* object selected is not a valid selection object
+\r t
+\a schHiObjectProperty()
+\o Loading layers.cxt 
+\i 1.5:2.125
+\i 1.5:2.125
+\o *Warning* object selected is not a valid selection object
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\# Thread usage report: 52 active threads, active load 1.00 at UTC 2022.12.22 11:29:14.205
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a hiZoomInAtMouse()
+\i 1.5625:1.875
+\r t
+\a schSingleSelectPt()
+\i 1.375:2.125
+\i 1.375:2.125
+\o *Warning* object selected is not a valid selection object
+\r t
+\a schHiObjectProperty()
+\i 1.375:2.125
+\i 1.375:2.125
+\o *Warning* object selected is not a valid selection object
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a schSingleSelectPt()
+\i 1.3125:2.0625
+\i 1.3125:2.0625
+\o *Warning* object selected is not a valid selection object
+\r t
+\a schSingleSelectPt()
+\i 1.3125:2.0625
+\i 1.3125:2.0625
+\o *Warning* object selected is not a valid selection object
+\r t
+\a schHiDefaultAction()
+\i 1.3125:2.0625
+\i 1.3125:2.0625
+\i 1.3125:2.0625
+\o *Warning* object selected is not a valid selection object
+\i 1.3125:2.0625
+\p Ready>
+\a hiiSetCurrentForm('schDescendForm)
+\r t
+\a hiFormCancel(schDescendForm) 
+\r t
+\r t
+\a schHiObjectProperty()
+\i 1.375:2.5625
+\i 1.375:2.5625
+\o *Warning* object selected is not a valid selection object
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a hiFormCancel(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i -0.125:1.4375
+\r nil
+\a hiDynamicPanGrabbing()
+\i -0.5:1.55625
+\p Ready>
+\a addPoint(hiGetCommandPoint())
+\i -0.5:1.55625
+\a hiZoomIn(window(6) list(-2.15625:-1.0875 7.225:3.53125))
+\r t
+\r t
+\r t
+\a schSingleSelectPt()
+\i 1.4375:2.25
+\i 1.4375:2.25
+\o *Warning* object selected is not a valid selection object
+\r t
+\a schSingleSelectPt()
+\i 3.375:1.8125
+\r t
+\a schSingleSelectPt()
+\i 3.5:2
+\i 3.5:2
+\p Ready>
+\a schSingleSelectPt()
+\i 1.6875:1.9375
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->libraryName->value="project_pex"
+\r "project_pex"
+\a schObjPropForm->cellName->value="Post_L2_256t2_Pex"
+\r "Post_L2_256t2_Pex"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 5.6875:2
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->libraryName->value="project_pex"
+\r "project_pex"
+\a schObjPropForm->cellName->value="BitCellArray_Pex"
+\r "BitCellArray_Pex"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 4.3125:0.5625
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "RowDecoder_256_4xP schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\o INFO (SCH-1181): "project_4x RowDecoder_256_4xP schematic" saved.
+\r t
+\a hiRaiseWindow(2 t)
+\r t
+\a (axlRunSimulation)
+\a _axlSelectResultsTab(axlOutputsForm0->axlOutputsWidget0 1)
+\r t
+\r 1
+\o _axlToolCloseTestPointOutputLog("/home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.92/1/project_4x:RowDecoder_256_4xP_TB:1/psf/spectre.out")
+\o _axlToolDisplayTestPointOutputLog("session0" "project_4x:RowDecoder_256_4xP_TB:1" "/home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.93/1/project_4x:RowDecoder_256_4xP_TB:1/psf/spectre.out")
+\# Memory report: Maximum memory size now 131,037 MB at UTC 2022.12.22 11:30:44.606
+\a hiSetCurrentWindow(window(2))
+\r t
+\a _axlPlot(axlOutputsForm0->axlOutputsWidget0)
+\r t
+\a rdbLoadResults("session0" "./Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.93/1/project_4x:RowDecoder_256_4xP_TB:1/psf")
+\r t
+\# Memory report: using       4,287 MB, process size 5,405 MB at UTC 2022.12.22 11:34:01.903
+\a hiResizeWindow(swindow(3) list(-10:22 1910:1033))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "splitAllStrips")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "stopPreparedMeasurementSignalListener")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "graphSaveImage")
+\# Memory report: using       4,448 MB, process size 5,566 MB at UTC 2022.12.22 11:36:13.429
+\r t
+\# Memory report: Maximum memory size now 133,623 MB at UTC 2022.12.22 11:36:14.603
+\a hiCloseWindow(swindow(3))
+\r t
+\a _hiSetCurrentWinNum(7)
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a hiRaiseWindow(6 t)
+\a _treeNavActivateOpc(dwindow('treeAssistant1) "Objects/Instances")
+\r t
+\r t
+\a schSingleSelectPt()
+\i 1.1875:2.125
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->Rwire->value="134.3 Ohms"
+\r "134.3 Ohms"
+\a schObjPropForm->Cwire->value="38.12f F"
+\r "38.12f F"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 5.625:1.875
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->Rwire->value="33.6 Ohms"
+\r "33.6 Ohms"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 6:1.8125
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->Cwire->value="9.325f F"
+\r "9.325f F"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 4.75:0.1875
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "RowDecoder_256_4xP schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\o INFO (SCH-1181): "project_4x RowDecoder_256_4xP schematic" saved.
+\r t
+\a hiRaiseWindow(2 t)
+\r t
+\a (axlRunSimulation)
+\a _axlSelectResultsTab(axlOutputsForm0->axlOutputsWidget0 2)
+\r t
+\r 2
+\o _axlToolCloseTestPointOutputLog("/home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.93/1/project_4x:RowDecoder_256_4xP_TB:1/psf/spectre.out")
+\o _axlToolDisplayTestPointOutputLog("session0" "project_4x:RowDecoder_256_4xP_TB:1" "/home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.94/1/project_4x:RowDecoder_256_4xP_TB:1/psf/spectre.out")
+\a hiSetCurrentWindow(window(2))
+\r t
+\a (_axlStopSimulation)
+\r t
+\o *Warning* AXL Context Manager : Trying to get context for an invalid
+\o           job with id 5. The job was either not created or has
+\o           completed 
+\o 
+\o *Warning* AXL Context Manager : Tried to set context to nil. Leaving
+\o           context unchanged.
+\o 
+\a hiRaiseWindow(6 t)
+\r t
+\a schSingleSelectPt()
+\i 1:2
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->libraryName->value="project_common"
+\r "project_common"
+\a schObjPropForm->libraryName->value="project_2x"
+\r "project_2x"
+\a schObjPropForm->libraryName->value="project_4x"
+\r "project_4x"
+\a schObjPropForm->cellName->value="Post_L2_256t2"
+\r "Post_L2_256t2"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 5.5625:1.75
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->libraryName->value="project_common"
+\r "project_common"
+\a schObjPropForm->cellName->value="BitCellArray"
+\r "BitCellArray"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 4.625:0.375
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "RowDecoder_256_4xP schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\o INFO (SCH-1181): "project_4x RowDecoder_256_4xP schematic" saved.
+\r t
+\a hiRaiseWindow(2 t)
+\r t
+\a (axlRunSimulation)
+\a _axlSelectResultsTab(axlOutputsForm0->axlOutputsWidget0 3)
+\r t
+\r 3
+\o _axlToolCloseTestPointOutputLog("/home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.94/1/project_4x:RowDecoder_256_4xP_TB:1/psf/spectre.out")
+\o _axlToolDisplayTestPointOutputLog("session0" "project_4x:RowDecoder_256_4xP_TB:1" "/home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.95/1/project_4x:RowDecoder_256_4xP_TB:1/psf/spectre.out")
+\a hiSetCurrentWindow(window(2))
+\r t
+\a _axlPlot(axlOutputsForm0->axlOutputsWidget0)
+\r t
+\a rdbLoadResults("session0" "./Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.95/1/project_4x:RowDecoder_256_4xP_TB:1/psf")
+\r t
+\a hiResizeWindow(swindow(4) list(-10:22 1910:1033))
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "splitAllStrips")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "pointMarker")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "graphSaveImage")
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a hiCloseWindow(swindow(1))
+\o Loading cph.cxt 
+\# ADE XL session 'session0' closed on Thu Dec 22 12:42:31 2022 
+\r t
+\a hiiSetCurrentForm('astiSelectItemForm)
+\r t
+\a hiFormCancel(astiSelectItemForm)
+\r t
+\e *Error* eval: unbound variable - ASTSELFORM
+\r t
+\a hiQuit()
+\# Displaying modal dbox "hiQuitDBox", title "Quit"
+\p Ready>
+\a hiDBoxOK(hiQuitDBox)
+\r t
+\o 
+\# Memory report: on exit          4,100 MB, process size 5,218 MB at UTC 2022.12.22 11:43:04.559
+\# Memory report: peak usage       4,448 MB, process size 5,566 MB
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          \# Memory report: Maximum memory size now 132,338 MB at UTC 2022.12.22 11:34:55.981
+\e IO Error 11 (Resource temporarily unavailable) on Display "localhost:12.0"
+\e Aborting due to fatal X IO error.
+\w *WARNING* Process was terminated with SIGABRT signal
+\o Local time (crash) Thursday 22 December 2022, 12:34:55 PM
+\o INFO (DB-170018): (dbPanic) dumping stack
+\o libvirtuos_sh.so:voStackTrace+73()
+\o virtuoso:dbPanic+843()
+\o libvirtuos_sh.so:voDoAbortFuncs+76()
+\o libvirtuos_sh.so:voSigAbortInfo+255()
+\o libpthread.so.0:__restore_rt+0()
+\o libc.so.6:gsignal+55()
+\o libc.so.6:abort+328()
+\o virtuoso:gliXIOErrorHandler+440()
+\o libX11.so.6:_XIOError+78()
+\o libX11.so.6:_XReply+987()
+\o libX11.so.6:XTranslateCoordinates+137()
+\o libcdsQtGui.so.4:_ZNK14QWidgetPrivate13mapFromGlobalERK6QPoint+242()
+\o libcdsQtGui.so.4:_ZNK14QWidgetPrivate13mapFromGlobalERK6QPoint+121()
+\o libcdsQtGui.so.4:_ZNK14QWidgetPrivate13mapFromGlobalERK6QPoint+121()
+\o libcdsQtGui.so.4:_ZNK14QWidgetPrivate13mapFromGlobalERK6QPoint+121()
+\o libcdsQtGui.so.4:_ZNK14QWidgetPrivate13mapFromGlobalERK6QPoint+121()
+\o libcdsQtGui.so.4:_ZNK14QWidgetPrivate13mapFromGlobalERK6QPoint+121()
+\o libcdsQtGui.so.4:_ZNK14QWidgetPrivate13mapFromGlobalERK6QPoint+121()
+\o libcdsQtGui.so.4:_ZNK14QWidgetPrivate13mapFromGlobalERK6QPoint+121()
+\o libcdsQtGui.so.4:_ZNK14QWidgetPrivate13mapFromGlobalERK6QPoint+121()
+\o libcdsQtGui.so.4:_ZNK14QWidgetPrivate13mapFromGlobalERK6QPoint+121()
+\o libcdsQtGui.so.4:_ZNK7QWidget13mapFromGlobalERK6QPoint+13()
+\o libcdsQtGui.so.4:_ZN19QApplicationPrivate17pickMouseReceiverEP7QWidgetRK6QPointRS2_N6QEvent4TypeE6QFlagsIN2Qt11MouseButtonEES1_S1_+162()
+\o libcdsQtGui.so.4:_ZN9QETWidget19translateMouseEventEPK7_XEvent+2528()
+\o libcdsQtGui.so.4:_ZN12QApplication15x11ProcessEventEP7_XEvent+1934()
+\o virtuoso:_ZL25hiqmotif_event_dispatcherP7_XEvent+2548()
+\o libXt.so.6:XtDispatchEvent+201()
+\o virtuoso:hiiProcessEvent+1633()
+\o virtuoso:_ZN12cdsHiqtMotif13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+160()
+\o libcdsQtCore.so.4:_ZN16QCoreApplication13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+47()
+\o virtuoso:hiiFillCIWInPortCB+1231()
+\o libil_sh.so:iliBGetc+67()
+\o libil_sh.so:ilGetCharPort+112()
+\o libil_sh.so:_Z12ilFillBufferPcPmiPv+268()
+\o libil_sh.so:_Z7ilyylexP9ILYYSTYPEP9ILYYLTYPEPv+20146()
+\o libil_sh.so:_Z9ilyyparsePvP18iltLocalParserData+2578()
+\o libil_sh.so:ilParserReent+49()
+\o libil_sh.so:ilReadport+537()
+\o libil_sh.so:iliTopLevel+351()
+\o virtuoso:hiMainLoop+1120()
+\o virtuoso:_ZN3rde15startHiMainLoopEv+5323()
+\o virtuoso:Tcl_Main+377()
+\o virtuoso:_ZN17TclCommandAdaptor8mainLoopEiPPcPKcRKSt6vectorI9ctuStringSaIS5_EEPFvvE+528()
+\o virtuoso:_Z11finaleEntryiPPcPKcbP16finaleAppHarness+3483()
+\o virtuoso:_Z12rdeStartMainiPPc+43()
+\o virtuoso:main+992()
+\o libc.so.6:__libc_start_main+245()
+\o virtuoso:_start+41()
+\w *WARNING* (DB-320012): (dbPanic) Error while saving panic files; may not have processed all edited cellViews:
+\w Unable to lock database file for project_4x/RowDecoder_256_4xP/schematic..

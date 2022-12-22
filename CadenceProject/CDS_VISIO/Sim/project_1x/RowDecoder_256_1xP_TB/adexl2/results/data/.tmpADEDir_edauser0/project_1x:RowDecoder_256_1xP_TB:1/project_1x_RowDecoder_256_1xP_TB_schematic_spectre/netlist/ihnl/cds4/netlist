@@ -1,0 +1,10 @@
+    R0 (SelOUT\<0\> Sel0) R_1X_LL l=100n w=100n m=1
+    R7 (SelOUT\<5\> Sel5) R_1X_LL l=100n w=100n m=1
+    R6 (SelOUT\<6\> Sel6) R_1X_LL l=100n w=100n m=1
+    R5 (SelOUT\<7\> Sel7) R_1X_LL l=100n w=100n m=1
+    R4 (SelOUT\<4\> Sel4) R_1X_LL l=100n w=100n m=1
+    R3 (SelOUT\<3\> Sel3) R_1X_LL l=100n w=100n m=1
+    R1 (SelOUT\<1\> Sel1) R_1X_LL l=100n w=100n m=1
+    R2 (SelOUT\<2\> Sel2) R_1X_LL l=100n w=100n m=1
+ends Post_L0_1t8
+// End of subcircuit definition.

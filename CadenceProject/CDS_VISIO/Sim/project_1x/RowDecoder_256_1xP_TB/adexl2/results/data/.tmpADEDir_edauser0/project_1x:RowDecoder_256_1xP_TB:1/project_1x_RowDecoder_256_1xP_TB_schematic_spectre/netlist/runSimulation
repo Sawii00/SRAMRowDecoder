@@ -1,0 +1,1 @@
+spectre  input.scs  +escchars +log ../../simulation/RowDecoder_256_1xP_TB/spectre/schematic/psf/spectre.out  -format psfxl -raw ../../simulation/RowDecoder_256_1xP_TB/spectre/schematic/psf   ++aps +lqtimeout 900 -maxw 5 -maxn 5   

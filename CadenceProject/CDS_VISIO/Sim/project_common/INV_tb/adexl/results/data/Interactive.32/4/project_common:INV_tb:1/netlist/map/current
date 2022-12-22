@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "INV_tb"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/edauser85/2022_project/CDS_VISIO/Sim/project_common/INV_tb/adexl/results/data/Interactive.32/4/project_common:INV_tb:1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "project_common/INV_tb/schematic" "INV_tb" )
+ )
+( "INV_tb" "ihnl/cds1/map" )
+ )

@@ -1,0 +1,103 @@
+ahdlcmicompile: Compiling ahdlcmi in input.ahdlSimDB//8cb218ffd3fc22079a7ca7de5c353ce6.res_va.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Fri Dec 17 15:59:34 CET 2021 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /softs/cadence/spectre/18.10/bin:/softs/cadence/spectre/18.10/tools/bin/64bit:/softs/cadence/spectre/18.10/tools/bin:/softs/cadence/ic/6.1.7/bin:/softs/cadence/ic/6.1.7/tools/bin:/softs/cadence/ic/6.1.7/tools/bin/64bit:/softs/cadence/ic/6.1.7/share/oa/bin:/dkits/umc/lms65ll_memaker_/EXE:/dkits/umc/site/bin:/softs/mentor/site/bin:/softs/mentor/mgc_clbre/2020.1/bin:/softs/cadence/site/bin:/softs/cadence/spectre/18.10/tools/dfII/bin:/softs/cadence/liberate/13.14/bin:/softs/cadence/ius/8.2/tools/dfII/bin:/softs/cadence/ius/8.2/tools/bin:/softs/cadence/ext/18.12/bin:/softs/cadence/edi/14.14/tools/dfII/bin:/softs/cadence/edi/14.14/tools/bin:/softs/cadence/assura/617_4.15/tools/dfII/bin:/softs/cadence/assura/617_4.15/tools/assura/bin:/softs/cadence/assura/617_4.15/tools/bin:/softs/cadence/ic/6.1.7/tools/dfII/bin:/edadk/bin:/edadk/bin:/usr/lib64/qt-3.3/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/puppetlabs/bin:/opt/puppetlabs/bin
+LD_LIBRARY_PATH:  /softs/cadence/spectre/18.10/tools/giganta/lib/64bit:/softs/cadence/spectre/18.10/tools/mdl/lib/64bit:/softs/cadence/spectre/18.10/tools/mmsim/lib/64bit:/softs/cadence/spectre/18.10/tools/tcltk-8.4.20/lib/64bit:/softs/cadence/spectre/18.10/tools/inca/lib/64bit:/softs/cadence/spectre/18.10/tools/spectre/lib/64bit:/softs/cadence/spectre/18.10/tools/dfII/lib/64bit:/softs/cadence/spectre/18.10/tools/lib/64bit:/softs/cadence/spectre/18.10/tools/lib/64bit:/softs/cadence/spectre/18.10/tools/lib:/softs/cadence/spectre/18.10/tools/lib/64bit/RHEL/RHEL7:/softs/cadence/ic/6.1.7/tools/lib:/softs/cadence/ic/6.1.7/tools/lib/RHEL/RHEL7:/softs/cadence/ic/6.1.7/share/oa/lib/linux_rhel50_gcc48x_64/opt:/softs/cadence/ic/6.1.7/tools/Qt/64bit/lib:/softs/cadence/ic/6.1.7/tools/dfII/lib/64bit:/softs/cadence/ic/6.1.7/tools/sev/lib/64bit:/softs/cadence/ic/6.1.7/tools/lib/64bit:/softs/cadence/ic/6.1.7/tools/hdf5/lib/64bit:/softs/cadence/ic/6.1.7/tools/lz4/lib/64bit:/softs/cadence/ius/8.2/tools.lnx86/lib/64bit:/softs/cadence/ic/6.1.7/tools/lib/64bit/RHEL/RHEL7:${AMSHOME}/tools/lib:${CDSHOME}/tools/lib
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j48 -f GNUmakefile
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+Compiling C file res_va_func.c (optimize)
+Compiling C file res_va_DcFuncDerLoad.c (optimize)
+Compiling C file res_va_DcFuncLoad.c (optimize)
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /softs/cadence/spectre/18.10/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include -c res_va_func.c -o obj/optimize/5.0/res_va_func.o || rm -f -f obj/optimize/5.0/res_va_func.o
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /softs/cadence/spectre/18.10/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include -c res_va_DcFuncDerLoad.c -o obj/optimize/5.0/res_va_DcFuncDerLoad.o || rm -f -f obj/optimize/5.0/res_va_DcFuncDerLoad.o
+Compiling C file res_va_TranFuncDerLoad.c (optimize)
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /softs/cadence/spectre/18.10/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include -c res_va_DcFuncLoad.c -o obj/optimize/5.0/res_va_DcFuncLoad.o || rm -f -f obj/optimize/5.0/res_va_DcFuncLoad.o
+Compiling C file res_va_TranFuncLoad.c (optimize)
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /softs/cadence/spectre/18.10/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include -c res_va_TranFuncDerLoad.c -o obj/optimize/5.0/res_va_TranFuncDerLoad.o || rm -f -f obj/optimize/5.0/res_va_TranFuncDerLoad.o
+Compiling C file res_va_OpPointCalc.c (optimize)
+Compiling C file res_va_cmi_c.c (optimize)
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /softs/cadence/spectre/18.10/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include -c res_va_TranFuncLoad.c -o obj/optimize/5.0/res_va_TranFuncLoad.o || rm -f -f obj/optimize/5.0/res_va_TranFuncLoad.o
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /softs/cadence/spectre/18.10/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include -c res_va_OpPointCalc.c -o obj/optimize/5.0/res_va_OpPointCalc.o || rm -f -f obj/optimize/5.0/res_va_OpPointCalc.o
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /softs/cadence/spectre/18.10/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include -I/softs/cadence/spectre/18.10/tools.lnx86/cmi/include -c res_va_cmi_c.c -o obj/optimize/5.0/res_va_cmi_c.o || rm -f -f obj/optimize/5.0/res_va_cmi_c.o
+<stdin>: In function 'res_va_pGetInstanceParams':
+<stdin>:799:1333: warning: implicit declaration of function 'devGetInstKnotStatus' [-Wimplicit-function-declaration]
+<stdin>: In function 'res_va_pDC_Load':
+<stdin>:819:2867: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:0:
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2692:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'res_va_pCompare':
+<stdin>:866:887: warning: implicit declaration of function 'spReplaceMatrixPointer' [-Wimplicit-function-declaration]
+<stdin>:866:1357: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:866:1437: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:42:14: note: expected 'void * restrict' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+              ^~~~~~
+<stdin>:866:1472: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:42:14: note: expected 'const void * restrict' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+              ^~~~~~
+<stdin>:866:1599: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'res_va_pGetMatrixPointers':
+<stdin>:872:2343: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:872:2485: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'res_va_pAnalTranLoad':
+<stdin>:914:3841: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:0:
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2692:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<stdin>:915:74: warning: passing argument 1 of 'aslDevFillZeroDiagQuartet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:0:
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2694:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeroDiagQuartet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'res_va_pNoiseBindSrcs':
+<stdin>:941:1442: warning: passing argument 3 of 'aslDevNoiseBindStartModel' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+In file included from <stdin>:24:0:
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1092:33: note: expected 'char *' but argument is of type 'devModelID {aka const char *}'
+ ASL_FUNC_DECL_START extern void aslDevNoiseBindStartModel( struct noiseData *, devInstKnot *, char *, char * );
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'res_va_pNoiseNameSrcs':
+<stdin>:944:1437: warning: passing argument 3 of 'aslDevNoiseNameModel' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+In file included from <stdin>:24:0:
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1100:40: note: expected 'char *' but argument is of type 'devModelID {aka const char *}'
+ ASL_FUNC_DECL_START extern msgSeverity aslDevNoiseNameModel( struct noiseData *, devInstKnot *, char *, char * );
+                                        ^~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'res_va_pSaveRestart':
+<stdin>:950:1912: warning: implicit declaration of function 'pklAccessDouble' [-Wimplicit-function-declaration]
+<stdin>:950:1990: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+In file included from <stdin>:24:0:
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1217:39: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                       ^~~~~~~~~~~~
+<stdin>: In function 'res_va_pSaveRestartInst':
+<stdin>:953:1906: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+In file included from <stdin>:24:0:
+/softs/cadence/spectre/18.10/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1217:39: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                       ^~~~~~~~~~~~
+<stdin>: In function 'ahdlres_vaDescInstall':
+<stdin>:990:1734: warning: implicit declaration of function 'descSetDeviceType' [-Wimplicit-function-declaration]
+<stdin>:990:1846: warning: implicit declaration of function 'descSetSetContrInfoPtr' [-Wimplicit-function-declaration]
+<stdin>:990:2185: warning: implicit declaration of function 'descSetCopySignals' [-Wimplicit-function-declaration]
+<stdin>:990:3442: warning: implicit declaration of function 'descSetNoiseLoadFreqDep' [-Wimplicit-function-declaration]
+<stdin>:990:3560: warning: implicit declaration of function 'descSetNoiseBindSrcs' [-Wimplicit-function-declaration]
+<stdin>:990:3613: warning: implicit declaration of function 'descSetNoiseNameSrcs' [-Wimplicit-function-declaration]
+<stdin>:990:3864: warning: implicit declaration of function 'descSetGetNodeNamesForBranch' [-Wimplicit-function-declaration]
+rm -f -rf res_va_DcFuncLoad.c
+rm -f -rf res_va_TranFuncLoad.c
+rm -f -rf res_va_OpPointCalc.c
+rm -f -rf res_va_TranFuncDerLoad.c
+rm -f -rf res_va_DcFuncDerLoad.c
+rm -f -rf res_va_func.c
+rm -f -rf res_va_cmi_c.c
+/softs/cadence/spectre/18.10/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_res_va.so ./obj/optimize/5.0/res_va_func.o ./obj/optimize/5.0/res_va_DcFuncDerLoad.o ./obj/optimize/5.0/res_va_DcFuncLoad.o ./obj/optimize/5.0/res_va_TranFuncDerLoad.o ./obj/optimize/5.0/res_va_TranFuncLoad.o ./obj/optimize/5.0/res_va_OpPointCalc.o ./obj/optimize/5.0/res_va_cmi_c.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -s 
+rm -f -f ./obj/optimize/5.0/res_va_func.o ./obj/optimize/5.0/res_va_DcFuncDerLoad.o ./obj/optimize/5.0/res_va_DcFuncLoad.o ./obj/optimize/5.0/res_va_TranFuncDerLoad.o ./obj/optimize/5.0/res_va_TranFuncLoad.o ./obj/optimize/5.0/res_va_OpPointCalc.o ./obj/optimize/5.0/res_va_cmi_c.o 

@@ -1,0 +1,10 @@
+    I3 (A\<3\> ADDRb\<2\> ADDR\<1\> ADDR\<0\> ADDRb\<1\> ADDRb\<0\> \
+        AOut\<15\> AOut\<14\> AOut\<13\> AOut\<12\> AOut\<11\> AOut\<10\> \
+        AOut\<9\> AOut\<8\> AOut\<7\> AOut\<6\> AOut\<5\> AOut\<4\> \
+        AOut\<3\> AOut\<2\> AOut\<1\> AOut\<0\>) Pre_L1_2t4
+    I2 (A\<3\> ADDR\<2\> ADDR\<1\> ADDR\<0\> ADDRb\<1\> ADDRb\<0\> \
+        AOut\<31\> AOut\<30\> AOut\<29\> AOut\<28\> AOut\<27\> AOut\<26\> \
+        AOut\<25\> AOut\<24\> AOut\<23\> AOut\<22\> AOut\<21\> AOut\<20\> \
+        AOut\<19\> AOut\<18\> AOut\<17\> AOut\<16\>) Pre_L1_2t4
+ends Pre_L2_3t8
+// End of subcircuit definition.

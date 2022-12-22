@@ -1,0 +1,2 @@
+parameters post_inv_gamma=18 post_nand_gamma=8 pre_inv1_gamma=4 \
+    pre_inv2_gamma=42 pre_nand1_gamma=1 pre_nand2_gamma=12

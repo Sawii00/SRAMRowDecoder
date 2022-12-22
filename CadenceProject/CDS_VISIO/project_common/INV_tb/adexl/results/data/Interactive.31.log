@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Dec 21 21:29:30 2022 
+Best design point: 1
+Design specs: 
+	project_common:INV_tb:1	corner	Nominal - 
+	50-50		17.92p
+	fall_time		22.39p
+	rise_time		26.12p
+Design parameters: 
+	cap_val		10z
+
+Interactive.31
+Number of points completed: 10
+Number of simulation errors: 0
+Interactive.31 completed. 
+Current time: Wed Dec 21 21:30:05 2022 

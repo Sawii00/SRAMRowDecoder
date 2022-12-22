@@ -1,0 +1,7 @@
+HEADER
+"PSFversion" "1.00"
+"R1n R0n" "umc65ll_RM2_spectre"
+"Sel0v" ":1v"
+"Sel1v" ":2v"
+"SelOUT<1>v" ":3v"
+"SelOUT<0>v" ":4v"

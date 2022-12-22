@@ -1,0 +1,6 @@
+    I2\<1\> (Sel0\<1\> Sel1 WL\<9\> WL\<8\> Sel2 Sel3 Sel4 Sel5 Sel6 Sel7 \
+        WL\<15\> WL\<14\> WL\<13\> WL\<12\> WL\<11\> WL\<10\>) Post_L0_1t8
+    I2\<0\> (Sel0\<0\> Sel1 WL\<1\> WL\<0\> Sel2 Sel3 Sel4 Sel5 Sel6 Sel7 \
+        WL\<7\> WL\<6\> WL\<5\> WL\<4\> WL\<3\> WL\<2\>) Post_L0_1t8
+ends Post_L1_2t8
+// End of subcircuit definition.

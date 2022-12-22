@@ -1,0 +1,36 @@
+    R0 (WL net3) resistor r=Rwire
+    Cwire (net3 0) capacitor c=Cwire
+    I0\<31\> (net3 0 vdd!) BitCellLoad_L
+    I0\<30\> (net3 0 vdd!) BitCellLoad_L
+    I0\<29\> (net3 0 vdd!) BitCellLoad_L
+    I0\<28\> (net3 0 vdd!) BitCellLoad_L
+    I0\<27\> (net3 0 vdd!) BitCellLoad_L
+    I0\<26\> (net3 0 vdd!) BitCellLoad_L
+    I0\<25\> (net3 0 vdd!) BitCellLoad_L
+    I0\<24\> (net3 0 vdd!) BitCellLoad_L
+    I0\<23\> (net3 0 vdd!) BitCellLoad_L
+    I0\<22\> (net3 0 vdd!) BitCellLoad_L
+    I0\<21\> (net3 0 vdd!) BitCellLoad_L
+    I0\<20\> (net3 0 vdd!) BitCellLoad_L
+    I0\<19\> (net3 0 vdd!) BitCellLoad_L
+    I0\<18\> (net3 0 vdd!) BitCellLoad_L
+    I0\<17\> (net3 0 vdd!) BitCellLoad_L
+    I0\<16\> (net3 0 vdd!) BitCellLoad_L
+    I0\<15\> (net3 0 vdd!) BitCellLoad_L
+    I0\<14\> (net3 0 vdd!) BitCellLoad_L
+    I0\<13\> (net3 0 vdd!) BitCellLoad_L
+    I0\<12\> (net3 0 vdd!) BitCellLoad_L
+    I0\<11\> (net3 0 vdd!) BitCellLoad_L
+    I0\<10\> (net3 0 vdd!) BitCellLoad_L
+    I0\<9\> (net3 0 vdd!) BitCellLoad_L
+    I0\<8\> (net3 0 vdd!) BitCellLoad_L
+    I0\<7\> (net3 0 vdd!) BitCellLoad_L
+    I0\<6\> (net3 0 vdd!) BitCellLoad_L
+    I0\<5\> (net3 0 vdd!) BitCellLoad_L
+    I0\<4\> (net3 0 vdd!) BitCellLoad_L
+    I0\<3\> (net3 0 vdd!) BitCellLoad_L
+    I0\<2\> (net3 0 vdd!) BitCellLoad_L
+    I0\<1\> (net3 0 vdd!) BitCellLoad_L
+    I0\<0\> (net3 0 vdd!) BitCellLoad_L
+ends BitCellRow
+// End of subcircuit definition.

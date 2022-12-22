@@ -1,0 +1,37 @@
+--
+-- cds.lib
+--
+-- UMC 65nm logic/mixed-signal standard process
+--
+
+-- Note: There are three analogLib and three basic libraries. (Un)comment the
+-- proper DEFINE lines depending on the tool actually used.
+
+------------------------------------------------------------------------------
+-- The following three Libraries are for Cadence Environment
+
+DEFINE cdsDefTechLib $CDS_HOME/tools/dfII/etc/cdsDefTechLib
+DEFINE basic $CDS_HOME/tools/dfII/etc/cdslib/basic
+DEFINE analogLib $CDS_HOME/tools/dfII/etc/cdslib/artist/analogLib
+
+------------------------------------------------------------------------------
+-- The following is for Mentor Artist Link
+
+--INCLUDE $MGC_AMS_HOME/etc/cds/cds.lib
+
+------------------------------------------------------------------------------
+-- This is the Foundry Design Kit library
+
+DEFINE umc65ll ./umc65ll
+
+------------------------------------------------------------------------------
+-- Cell libraries
+
+DEFINE UMC65LL_UMK65LSCLLMVBBR__B03PB $EDADK_DKITS/umc/site/lib/cds6/UMC65LL_UMK65LSCLLMVBBR__B03PB
+
+------------------------------------------------------------------------------
+-- Your libraries
+
+DEFINE ex3 ex3
+DEFINE Seevinck_SNM_tb Seevinck_SNM_tb
+DEFINE project_pex project_pex

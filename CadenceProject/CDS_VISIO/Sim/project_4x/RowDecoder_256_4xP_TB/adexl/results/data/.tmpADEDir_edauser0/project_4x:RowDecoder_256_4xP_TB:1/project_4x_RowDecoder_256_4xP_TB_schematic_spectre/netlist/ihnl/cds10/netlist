@@ -1,0 +1,5 @@
+    I2 (net6 net7 SelOUT) NOR2 gamma=1 beta=2
+    I1 (A\<1\> A\<0\> net7) NAND2 gamma=1 beta=2
+    I0 (A\<3\> A\<2\> net6) NAND2 gamma=1 beta=2
+ends Pre
+// End of subcircuit definition.

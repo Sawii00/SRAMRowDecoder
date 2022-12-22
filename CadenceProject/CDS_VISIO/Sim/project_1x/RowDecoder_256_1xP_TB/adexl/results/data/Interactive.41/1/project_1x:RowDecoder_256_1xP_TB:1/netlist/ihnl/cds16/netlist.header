@@ -1,0 +1,5 @@
+
+// Library name: project_common
+// Cell name: BitCellLoad_L
+// View name: schematic
+subckt BitCellLoad_L WL

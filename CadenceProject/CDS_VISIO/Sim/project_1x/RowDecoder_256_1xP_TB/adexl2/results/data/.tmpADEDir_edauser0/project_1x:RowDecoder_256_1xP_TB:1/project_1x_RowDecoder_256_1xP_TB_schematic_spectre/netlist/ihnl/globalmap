@@ -1,0 +1,31 @@
+CADENCE IHNL11140
+$model
+project_1x/Pre_L0_1t2_NAND/schematic Pre_L0_1t2_NAND
+project_1x/AddrBuf/schematic AddrBuf
+project_1x/Post_L4_16t8/schematic Post_L4_16t8
+project_1x/Post_L2_4t8/schematic Post_L2_4t8
+project_1x/Post_L0_1t8/schematic Post_L0_1t8
+project_1x/Post_L6_64t8/schematic Post_L6_64t8
+project_1x/Post_L3_8t8/schematic Post_L3_8t8
+project_common/NAND2/schematic NAND2
+project_common/BUF/schematic BUF
+project_1x/Post_L5_32t8/schematic Post_L5_32t8
+project_1x/RowDecoder_256_1xP_TB/schematic RowDecoder_256_1xP_TB
+project_common/BitCellArray/schematic BitCellArray
+project_common/INV/schematic INV
+project_common/NOR2/schematic NOR2
+project_common/BitCellRow/schematic BitCellRow
+project_1x/Post_L7_128t8/schematic Post_L7_128t8
+project_1x/Post_L8_256t8_ex/schematic Post_L8_256t8_ex
+project_1x/Post_L1_2t8/schematic Post_L1_2t8
+project_1x/Post_L8_256t8_Pex/schematic Post_L8_256t8_Pex
+project_1x/RowDecoder_256_1xP/schematic RowDecoder_256_1xP
+project_1x/Post/schematic Post
+project_common/BitCellLoad_L/schematic BitCellLoad_L
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam

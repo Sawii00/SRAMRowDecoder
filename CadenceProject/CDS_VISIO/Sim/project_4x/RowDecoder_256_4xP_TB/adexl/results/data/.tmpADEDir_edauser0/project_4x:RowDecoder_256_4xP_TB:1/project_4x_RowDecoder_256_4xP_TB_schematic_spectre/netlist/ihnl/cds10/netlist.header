@@ -1,0 +1,5 @@
+
+// Library name: project_4x
+// Cell name: Pre
+// View name: schematic
+subckt Pre A\<3\> A\<2\> A\<1\> A\<0\> SelOUT

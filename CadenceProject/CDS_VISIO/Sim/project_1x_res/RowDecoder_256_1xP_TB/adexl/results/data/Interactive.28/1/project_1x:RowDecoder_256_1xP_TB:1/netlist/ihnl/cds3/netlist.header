@@ -1,0 +1,5 @@
+
+// Library name: project_1x
+// Cell name: Post
+// View name: schematic
+subckt Post A\<7\> A\<6\> A\<5\> A\<4\> A\<3\> A\<2\> A\<1\> A\<0\> WL

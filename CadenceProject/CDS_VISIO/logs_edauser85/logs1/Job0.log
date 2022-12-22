@@ -1,0 +1,107 @@
+\# Program start time:     UTC 2022.12.22 11:21:28.091
+\# Local time: CET (UTC+01:00) 2022.12.22 12:21:28.091
+\o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 08/21/2018 19:47 (sjfhw316) $
+\o Hierarchy:		/softs/cadence/ic/6.1.7/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.7-64b.500.22  (64-bit addresses)
+\# Command line:	/softs/cadence/ic/6.1.7/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso41460 -mpshost selsrv2.epfl.ch -davinciService DaVinciService_41460_1671708081 -log /home/edauser85/2022_project/CDS_VISIO/logs_edauser85/logs1/Job0.log -licenseLockFileName /home/edauser85/2022_project/CDS_VISIO/.tmp_edauser85/.selsrv2.epfl.ch_41460 -nograph -nostdin -axlChildIdFlag 0
+\# Host name (type):	selsrv2.epfl.ch (x86_64)
+\# Operating system:	Linux 3.10.0-1160.71.1.el7.x86_64 #1 SMP Wed Jun 15 08:55:08 UTC 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	selsrv2.epfl.ch:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 43446)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        459 MB
+\# Available memory:	    129,920 MB
+\# System memory:	    149,151 MB
+\# Maximum memory size:	    148,757 MB
+\# Max mem available:	    129,985 MB
+\# Initial memory used:	         65 MB
+\#        process size:	      1,031 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 48.00/48.00
+\# Qt version:		4.8.5
+\# Window Manager:	other
+\# User Name:		edauser85
+\o Working Directory:	selsrv2.epfl.ch:/home/edauser85/2022_project/CDS_VISIO
+\# Process Id:		43466
+\o 
+\o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o *INFO* (icLic-303) virtuoso: PID=43466, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/Seevinck_SNM_tb' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'Seevinck_SNM_tb'.
+\w *WARNING* The directory: '/home/edauser85/2022_project/CDS_VISIO/ex3' does not exist
+\w 	but was defined in libFile '/home/edauser85/2022_project/CDS_VISIO/environment.lib' for Lib 'ex3'.
+\o -----------------------------------------------------------------
+\o ## BEGIN USER CUSTOMIZATION
+\o -> Site-wide ($CDSHOME/tools/dfII/local/.cdsinit)...
+\o Text editor: gedit
+\o MGC CALIBRE CONFIGURATION
+\o //
+\o //  Calibre Skill Interface * (v2020.1_17.9) *
+\o //
+\o //                 Copyright Mentor Graphics Corporation 2005
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\# Memory report: using         190 MB, process size 1,280 MB at UTC 2022.12.22 11:21:30.425
+\o END OF MGC CALIBRE CONFIGURATION
+\o ## END USER CUSTOMIZATION
+\o -----------------------------------------------------------------
+\o *Info*    Client has finished starting ... 
+\o 
+\p Ready>
+\o Loading pe.cxt 
+\a _treeSetOpcGUI(t)
+\r t
+\# Available memory:        129,795 MB at UTC 2022.12.22 11:21:38.461
+\# Memory report: Maximum memory size now 129,989 MB at UTC 2022.12.22 11:21:38.461
+\# Thread usage report: 49 active threads, active load 1.00 at UTC 2022.12.22 11:21:38.461
+\o Job 0 timed out after no activity in 300 seconds.
+\o Loading simui.cxt 
+\# Memory report: on exit            198 MB, process size 1,288 MB at UTC 2022.12.22 11:26:30.909
+\# Memory report: peak usage         198 MB, process size 1,288 MB

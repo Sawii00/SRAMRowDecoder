@@ -1,0 +1,7 @@
+
+// Library name: project_common
+// Cell name: NOR2
+// View name: schematic
+// Inherited view list: spectre cmos_sch schematic veriloga ahdl
+subckt NOR2 A B Z
+parameters gamma=1 beta=2

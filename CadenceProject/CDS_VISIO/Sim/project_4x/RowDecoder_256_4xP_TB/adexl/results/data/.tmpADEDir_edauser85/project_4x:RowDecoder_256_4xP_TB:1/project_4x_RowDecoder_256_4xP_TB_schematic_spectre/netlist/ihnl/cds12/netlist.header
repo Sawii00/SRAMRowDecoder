@@ -1,0 +1,5 @@
+
+// Library name: project_4x
+// Cell name: AddrBuf
+// View name: schematic
+subckt AddrBuf A Z

@@ -1,0 +1,1906 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = project_4x
+	Cell         = RowDecoder_256_4xP_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = project_4x:RowDecoder_256_4xP_TB:1_none_Interactive.52
+	Results DB   = /home/edauser85/2022_project/CDS_VISIO/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.52.rdb
+	Results Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.52/1/project_4x:RowDecoder_256_4xP_TB:1
+	Results Loc  = /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data
+	Project Dir  = /home/edauser85/2022_project/CDS_VISIO/Sim
+	Setup DB loc = /home/edauser85/2022_project/CDS_VISIO/project_4x/RowDecoder_256_4xP_TB/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (17 1) on testbench [
+          project_4x:RowDecoder_256_4xP_TB:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var buf_gamma = "2"
+Setting var buf_inv1_gamma = "1"
+Setting var buf_inv2_gamma = "4"
+Setting var post_inv_gamma = "18"
+Setting var post_nand_gamma = "9"
+Setting var pre_inv1_gamma = "4"
+Setting var pre_inv2_gamma = "39"
+Setting var pre_nand1_gamma = "1"
+Setting var pre_nand2_gamma = "11"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.52/1/project_4x:RowDecoder_256_4xP_TB:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.52/1/project_4x:RowDecoder_256_4xP_TB:1
+
+
+*Info*    Creating Netlist for Point ID (17 1)
+
+generate netlist...
+Begin Incremental Netlisting Dec 14 19:25:47 2022
+WARNING (OSSHNL-160): The primitive, 'project_pex/BitCellArray_Text/spectreText', was not used in the last netlisting session in this
+current run directory. Therefore, re-netlisting all cell views where this
+primitive is instantiated.
+
+WARNING (OSSHNL-160): The primitive, 'project_pex/Post_L2_256t2_Text/spectreText', was not used in the last netlisting session in this
+current run directory. Therefore, re-netlisting all cell views where this
+primitive is instantiated.
+
+WARNING (ADE-6003): Terminal "Sel0<15>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<14>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<13>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<12>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<11>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<10>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<9>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<8>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<7>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<6>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<5>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<4>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<3>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<2>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<1>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<0>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<15>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<14>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<13>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<12>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<11>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<10>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<9>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<8>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<7>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<6>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<5>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<4>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<3>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<2>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<1>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<0>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<511>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<510>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<509>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<508>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<507>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<506>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<505>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<504>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<503>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<502>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<501>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<500>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<499>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<498>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<497>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<496>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<495>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<494>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<493>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<492>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<491>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<490>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<489>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<488>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<487>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<486>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<485>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<484>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<483>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<482>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<481>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<480>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<479>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<478>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<477>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<476>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<475>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<474>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<473>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<472>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<471>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<470>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<469>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<468>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<467>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<466>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<465>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<464>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<463>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<462>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<461>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<460>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<459>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<458>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<457>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<456>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<455>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<454>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<453>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<452>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<451>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<450>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<449>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<448>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<447>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<446>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<445>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<444>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<443>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<442>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<441>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<440>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<439>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<438>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<437>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<436>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<435>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<434>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<433>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<432>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<431>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<430>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<429>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<428>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<427>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<426>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<425>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<424>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<423>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<422>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<421>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<420>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<419>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<418>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<417>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<416>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<415>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<414>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<413>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<412>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<411>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<410>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<409>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<408>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<407>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<406>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<405>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<404>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<403>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<402>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<401>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<400>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<399>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<398>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<397>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<396>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<395>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<394>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<393>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<392>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<391>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<390>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<389>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<388>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<387>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<386>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<385>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<384>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<383>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<382>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<381>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<380>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<379>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<378>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<377>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<376>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<375>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<374>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<373>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<372>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<371>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<370>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<369>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<368>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<367>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<366>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<365>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<364>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<363>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<362>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<361>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<360>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<359>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<358>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<357>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<356>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<355>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<354>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<353>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<352>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<351>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<350>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<349>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<348>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<347>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<346>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<345>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<344>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<343>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<342>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<341>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<340>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<339>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<338>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<337>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<336>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<335>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<334>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<333>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<332>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<331>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<330>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<329>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<328>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<327>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<326>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<325>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<324>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<323>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<322>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<321>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<320>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<319>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<318>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<317>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<316>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<315>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<314>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<313>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<312>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<311>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<310>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<309>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<308>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<307>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<306>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<305>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<304>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<303>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<302>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<301>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<300>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<299>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<298>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<297>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<296>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<295>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<294>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<293>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<292>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<291>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<290>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<289>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<288>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<287>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<286>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<285>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<284>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<283>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<282>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<281>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<280>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<279>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<278>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<277>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<276>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<275>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<274>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<273>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<272>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<271>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<270>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<269>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<268>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<267>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<266>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<265>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<264>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<263>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<262>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<261>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<260>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<259>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<258>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<257>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<256>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "BitCellArray_Pex" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+WARNING (ADE-6034): Mismatch between the no. of signals in cellview "project_pex"\"BitCellArray_Pex"\"schematic" and
+           the no. of terminals in it. Some terminals of this cellview may not be plotted.
+WARNING (ADE-6034): Mismatch between the no. of signals in cellview "project_pex"\"BitCellArray_Pex"\"schematic" and
+           the no. of terminals in it. Some terminals of this cellview may not be plotted.
+WARNING (ADE-6034): Mismatch between the no. of signals in cellview "project_pex"\"BitCellArray_Pex"\"schematic" and
+           the no. of terminals in it. Some terminals of this cellview may not be plotted.
+WARNING (ADE-6003): Terminal "Sel0<15>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<14>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<13>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<12>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<11>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<10>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<9>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<8>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<7>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<6>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<5>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<4>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<3>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<2>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<1>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel0<0>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<15>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<14>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<13>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<12>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<11>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<10>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<9>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<8>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<7>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<6>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<5>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<4>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<3>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<2>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<1>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "Sel1<0>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<511>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<510>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<509>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<508>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<507>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<506>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<505>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<504>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<503>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<502>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<501>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<500>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<499>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<498>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<497>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<496>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<495>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<494>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<493>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<492>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<491>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<490>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<489>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<488>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<487>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<486>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<485>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<484>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<483>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<482>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<481>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<480>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<479>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<478>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<477>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<476>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<475>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<474>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<473>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<472>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<471>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<470>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<469>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<468>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<467>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<466>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<465>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<464>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<463>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<462>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<461>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<460>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<459>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<458>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<457>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<456>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<455>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<454>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<453>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<452>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<451>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<450>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<449>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<448>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<447>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<446>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<445>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<444>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<443>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<442>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<441>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<440>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<439>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<438>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<437>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<436>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<435>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<434>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<433>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<432>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<431>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<430>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<429>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<428>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<427>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<426>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<425>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<424>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<423>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<422>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<421>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<420>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<419>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<418>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<417>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<416>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<415>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<414>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<413>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<412>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<411>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<410>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<409>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<408>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<407>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<406>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<405>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<404>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<403>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<402>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<401>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<400>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<399>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<398>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<397>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<396>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<395>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<394>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<393>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<392>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<391>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<390>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<389>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<388>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<387>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<386>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<385>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<384>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<383>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<382>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<381>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<380>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<379>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<378>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<377>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<376>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<375>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<374>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<373>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<372>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<371>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<370>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<369>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<368>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<367>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<366>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<365>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<364>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<363>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<362>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<361>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<360>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<359>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<358>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<357>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<356>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<355>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<354>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<353>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<352>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<351>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<350>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<349>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<348>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<347>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<346>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<345>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<344>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<343>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<342>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<341>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<340>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<339>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<338>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<337>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<336>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<335>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<334>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<333>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<332>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<331>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<330>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<329>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<328>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<327>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<326>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<325>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<324>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<323>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<322>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<321>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<320>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<319>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<318>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<317>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<316>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<315>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<314>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<313>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<312>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<311>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<310>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<309>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<308>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<307>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<306>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<305>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<304>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<303>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<302>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<301>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<300>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<299>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<298>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<297>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<296>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<295>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<294>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<293>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<292>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<291>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<290>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<289>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<288>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<287>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<286>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<285>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<284>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<283>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<282>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<281>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<280>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<279>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<278>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<277>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<276>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<275>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<274>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<273>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<272>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<271>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<270>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<269>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<268>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<267>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<266>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<265>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<264>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<263>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<262>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<261>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<260>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<259>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<258>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<257>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<256>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<255>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<254>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<253>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<252>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<251>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<250>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<249>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<248>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<247>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<246>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<245>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<244>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<243>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<242>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<241>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<240>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<239>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<238>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<237>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<236>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<235>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<234>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<233>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<232>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<231>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<230>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<229>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<228>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<227>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<226>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<225>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<224>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<223>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<222>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<221>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<220>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<219>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<218>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<217>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<216>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<215>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<214>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<213>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<212>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<211>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<210>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<209>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<208>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<207>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<206>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<205>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<204>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<203>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<202>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<201>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<200>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<199>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<198>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<197>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<196>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<195>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<194>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<193>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<192>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<191>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<190>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<189>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<188>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<187>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<186>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<185>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<184>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<183>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<182>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<181>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<180>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<179>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<178>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<177>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<176>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<175>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<174>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<173>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<172>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<171>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<170>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<169>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<168>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<167>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<166>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<165>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<164>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<163>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<162>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<161>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<160>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<159>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<158>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<157>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<156>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<155>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<154>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<153>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<152>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<151>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<150>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<149>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<148>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<147>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<146>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<145>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<144>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<143>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<142>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<141>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<140>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<139>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<138>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<137>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<136>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<135>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<134>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<133>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<132>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<131>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<130>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<129>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<128>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<127>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<126>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<125>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<124>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<123>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<122>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<121>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<120>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<119>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<118>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<117>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<116>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<115>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<114>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<113>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<112>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<111>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<110>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<109>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<108>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<107>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<106>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<105>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<104>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<103>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<102>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<101>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<100>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<99>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<98>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<97>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<96>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<95>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<94>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<93>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<92>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<91>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<90>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<89>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<88>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<87>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<86>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<85>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<84>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<83>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<82>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<81>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<80>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<79>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<78>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<77>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<76>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<75>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<74>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<73>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<72>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<71>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<70>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<69>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<68>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<67>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<66>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<65>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<64>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<63>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<62>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<61>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<60>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<59>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<58>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<57>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<56>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<55>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<54>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<53>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<52>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<51>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<50>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<49>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<48>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<47>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<46>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<45>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<44>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<43>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<42>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<41>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<40>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<39>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<38>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<37>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<36>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<35>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<34>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<33>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<32>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<31>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<30>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<29>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<28>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<27>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<26>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<25>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<24>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<23>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<22>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<21>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<20>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<19>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<18>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<17>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<16>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<15>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<14>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<13>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<12>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<11>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<10>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<9>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<8>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<7>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<6>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<5>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<4>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<3>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<2>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<1>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6003): Terminal "WL<0>", specified in the CDF termOrder, does not exist
+           in the cell-view "project_pex" "Post_L2_256t2_Pex" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting Dec 14 19:25:47 2022
+
+Netlisting Statistics:
+	Number of components:  326
+
+	Elapsed time:          1.0s (326.00/s)
+Errors: 0	Warnings: 837
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          project_4x:RowDecoder_256_4xP_TB:1 ] for Point ID (17 1).
+
+Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.52/1/project_4x:RowDecoder_256_4xP_TB:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre during circuit read-in.
+Error found
+          by spectre during circuit read-in.
+ERROR (SFE-868):
+          "/home/edauser85/2022_project/CDS_VISIO/project_pex/BitCellArray_Text/spectreText/spectre.scs" 7: Can not open input file `/home/edau
+ser0/ayigit/RowDecoder_Project/CDS_VISIO/project_pex/BitCellArray_Text/spectreText/spectre.scs.pex'. Permission denied. Ensure that the file exists an
+d the path to the file is correct. Otherwise, use the -I<path> command-line option to specify the path to the file.
+Error found by spectre in `BitCellArray_Text', during circuit read-in.
+Error found by spectre in `BitCellArray_Text', during circuit read-in.
+ERROR (SFE-868): "/home/edauser85/2022_project/CDS_VISIO/project_pex/BitCellArray_Text/spectreText/spectre.scs" 96167: Can not open input file `/home/
+edauser0/ayigit/RowDecoder_Project/CDS_VISIO/project_pex/BitCellArray_Text/spectreText/spectre.scs.BITCELLARRAY_PEX.pxi'. Permission denied. Ensure th
+at the file exists and the path to the file is correct. Otherwise, use the -I<path> command-line option to specify the path to the file.
+Error found by spectre during circuit read-in.
+Error found by spectre during circuit read-in.
+ERROR (SFE-868): "/home/edauser85/2022_project/CDS_VISIO/project_pex/Post_L2_256t2_Text/spectreText/spectre.scs" 7: Can not open input file `/home/eda
+user0/ayigit/RowDecoder_Project/CDS_VISIO/project_pex/Post_L2_256t2_Text/spectreText/spectre.scs.pex'. Permission denied. Ensure that the file exists 
+and the path to the file is correct. Otherwise, use the -I<path> command-line option to specify the path to the file.
+Error found by spectre in `Post_L2_256t2_Text', during circuit read-in.
+Error found by spectre in `Post_L2_256t2_Text', during circuit read-in.
+ERROR (SFE-868): "/home/edauser85/2022_project/CDS_VISIO/project_pex/Post_L2_256t2_Text/spectreText/spectre.scs" 2181: Can not open input file `/home/
+edauser0/ayigit/RowDecoder_Project/CDS_VISIO/project_pex/Post_L2_256t2_Text/spectreText/spectre.scs.POST_L2_256T2_EX.pxi'. Permission denied. Ensure t
+hat the file exists and the path to the file is correct. Otherwise, use the -I<path> command-line option to specify the path to the
+           file.
+
+
+
+
+
+
+
+
+
+
+*Info*    Run start for Point ID (17 1) on testbench [
+          project_4x:RowDecoder_256_4xP_TB:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var buf_gamma = "2"
+Setting var buf_inv1_gamma = "1"
+Setting var buf_inv2_gamma = "4"
+Setting var post_inv_gamma = "18"
+Setting var post_nand_gamma = "9"
+Setting var pre_inv1_gamma = "4"
+Setting var pre_inv2_gamma = "39"
+Setting var pre_nand1_gamma = "1"
+Setting var pre_nand2_gamma = "11"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.52/1/project_4x:RowDecoder_256_4xP_TB:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.52/1/project_4x:RowDecoder_256_4xP_TB:1
+
+
+*Info*    Creating Netlist for Point ID (17 1)
+
+generate netlist...
+Begin Incremental Netlisting Dec 14 19:25:51 2022
+End netlisting Dec 14 19:25:52 2022
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   1.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          project_4x:RowDecoder_256_4xP_TB:1 ] for Point ID (17 1).
+
+Delete psf data in /home/edauser85/2022_project/CDS_VISIO/Sim/project_4x/RowDecoder_256_4xP_TB/adexl/results/data/Interactive.52/1/project_4x:RowDecoder_256_4xP_TB:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre during circuit read-in.
+Error found
+          by spectre during circuit read-in.
+ERROR (SFE-868):
+          "/home/edauser85/2022_project/CDS_VISIO/project_pex/BitCellArray_Text/spectreText/spectre.scs" 7: Can not open input file `/home/edau
+ser0/ayigit/RowDecoder_Project/CDS_VISIO/project_pex/BitCellArray_Text/spectreText/spectre.scs.pex'. Permission denied. Ensure that the file exists an
+d the path to the file is correct. Otherwise, use the -I<path> command-line option to specify the path to the file.
+Error found by spectre in `BitCellArray_Text', during circuit read-in.
+Error found by spectre in `BitCellArray_Text', during circuit read-in.
+ERROR (SFE-868): "/home/edauser85/2022_project/CDS_VISIO/project_pex/BitCellArray_Text/spectreText/spectre.scs" 96167: Can not open input file `/home/
+edauser0/ayigit/RowDecoder_Project/CDS_VISIO/project_pex/BitCellArray_Text/spectreText/spectre.scs.BITCELLARRAY_PEX.pxi'. Permission denied. Ensure th
+at the file exists and the path to the file is correct. Otherwise, use the -I<path> command-line option to specify the path to the file.
+Error found by spectre during circuit read-in.
+Error found by spectre during circuit read-in.
+ERROR (SFE-868): "/home/edauser85/2022_project/CDS_VISIO/project_pex/Post_L2_256t2_Text/spectreText/spectre.scs" 7: Can not open input file `/home/eda
+user0/ayigit/RowDecoder_Project/CDS_VISIO/project_pex/Post_L2_256t2_Text/spectreText/spectre.scs.pex'. Permission denied. Ensure that the file exists 
+and the path to the file is correct. Otherwise, use the -I<path> command-line option to specify the path to the file.
+Error found by spectre in `Post_L2_256t2_Text', during circuit read-in.
+Error found by spectre in `Post_L2_256t2_Text', during circuit read-in.
+ERROR (SFE-868): "/home/edauser85/2022_project/CDS_VISIO/project_pex/Post_L2_256t2_Text/spectreText/spectre.scs" 2181: Can not open input file `/home/
+edauser0/ayigit/RowDecoder_Project/CDS_VISIO/project_pex/Post_L2_256t2_Text/spectreText/spectre.scs.POST_L2_256T2_EX.pxi'. Permission denied. Ensure t
+hat the file exists and the path to the file is correct. Otherwise, use the -I<path> command-line option to specify the path to the
+           file.
+
+
+
+
+
